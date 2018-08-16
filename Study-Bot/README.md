@@ -8,6 +8,6 @@ This sample is the full version of all combined Cognitive Services. It contains 
   
     `<WebView x:Name="studyBot" Source="https://webchat.botframework.com/embed/<ADD YOUR BOT NAME HERE>?s=<ADD YOUR SECRET KEY HERE>" HorizontalAlignment="Center" Height="300" Width="1100" Margin="0,20,0,0" VerticalAlignment="Top" />`
     
-    To find the key, go to your LUIS bot in the [Azure portal](https://ms.portal.azure.com) under the Channels menu item and copy your secret key.
+    To find the key, go to your LUIS bot in the [Azure portal](https://ms.portal.azure.com) under the Channels menu item, then select `Edit` to the right of your bot. You'll see your secret key that you can show and copy to paste into the above URL.
     
     <img src="/Assets/bot-secret-key.png">
