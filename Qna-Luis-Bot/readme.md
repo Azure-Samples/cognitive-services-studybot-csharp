@@ -41,7 +41,7 @@ There are two ways to run and test this sample. One is in Visual Studio with a d
 ### Visual Studio
 1. Download the [Bot Framework Emulator](https://github.com/microsoft/botframework-emulator) or [download here](https://github.com/Microsoft/BotFramework-Emulator/releases), so you can run the sample in Visual Studio and, while your app is running, use the chat client emulator. Running the sample will show a localhost web browser page. If you see text (see below), it was a success. You then use that port number in the URL in your emulator.
 
-    <img src="/Assets/local-host.PNG">
+    <img src="/Assets/local-host.png">
     
 1. Once your emulator is open and ready, be sure to add the URL: `http://localhost:{YOUR PORT NUMBER}/api/messages` to the top blue field (see below). Add your LUIS web app bot Microsoft App ID and password, then locale (ex: USWest) and choose "Connect". It takes 15-20 seconds to get a `POST 200` confirmation, but once you see it, you can begin typing in keywords(s) to access the knowledge bases. The app in Visual Studio must be running for the emulator to work, otherwise you will see a `POST net::ERR_CONNECTION_REFUSED` error in the emulator. You will also see this error if you have the wrong Microsoft App ID and Password. A successful knowledge base retrieval will return the definition(s) of the word(s) you entered.
 
@@ -61,7 +61,7 @@ Before you test your modified local bot in Azure, it needs to be published from 
 
     <img src="/Assets/open-kudu-console.png">
 
-1. Once built, you can return to the Azure portal and choose "Test in Web Chat" under "Bot Management". This adds another testing option of either testing locally in Visual Studio with the Bot Emulator or testing in the Azure portal. 
+1. Once built, you can return to the Azure portal and choose "Test in Web Chat" under "Bot Management". The chat bot will open for you to start entering queries.
 
 
 
