@@ -61,7 +61,7 @@ Before you test your modified local bot in Azure, it needs to be published from 
 
     <img src="/Assets/open-kudu-console.png">
 
-1. Once built, you can return to the Azure portal and choose "Test in Web Chat" under "Bot Management". This adds another testing option of either testing locally in Visual Studio with the Bot Emulator or testing in the Azure portal. 
+1. Once built, you can return to the Azure portal and choose "Test in Web Chat" under "Bot Management". The chat bot will open for you to start entering queries.
 
 
 
