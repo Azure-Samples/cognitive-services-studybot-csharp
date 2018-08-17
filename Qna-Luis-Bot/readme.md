@@ -1,3 +1,7 @@
+# QnA Maker with LUIS bot in C#
+
+This sample is a LUIS-based web app bot that integrates a QnA Maker chat client. There are three knowledge bases from the QnA Maker that are accessed when a user inputs a query into the chat engine. Since there is more than one knowledge base, LUIS is used to manage them. Entities are created with LUIS to define each knowledge base and then each entity has a list of utterances that will be used to return valid answers to the user's questions from the appropriate knowledge base.
+
 ## Prerequisites
 
 1. [Create, train, and publish](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/create-publish-knowledge-base) three knowledge bases in [qnamaker.ai](https://www.qnamaker.ai). Name your knowledge bases according to the content in your FAQs. Or for the purposes of this sample, name them "Biology", "Sociology", and "Geology". You will want to add alternative keywords to your knowledge base questions in qnamaker.ai. 

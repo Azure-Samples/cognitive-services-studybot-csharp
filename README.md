@@ -1,4 +1,4 @@
-# Study Bot
+# Study Bot Sample in C#
 
 Samples to create a Study Bot chat client using [QnA Maker](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/index), [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/), [Bing Spell Check](https://docs.microsoft.com/en-us/azure/cognitive-services/bing-spell-check/), and Bing News Analytics. Each query into the chat bot will be accompanied by relevant search results in an Encyclopedia, Microsoft Academic, and News/Blogs sections as a study aid.
 
