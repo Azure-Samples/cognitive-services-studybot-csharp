@@ -1,8 +1,10 @@
+# Study Bot
+
 This sample is the full version of all combined Cognitive Services. It contains the other samples in the `cognitive-services-studybot-csharp` repository into a UWP, C# app.
 
 ## Prerequisites
 
-1. Before you can run this comprehesive sample, make sure to follow the prerequisites for all other samples first.
+1. Before you can run this comprehensive sample, make sure to follow the prerequisites for all other samples first.
 
 1. For this project, in `MainPage.xaml`, add your bot's name and secret key inside of the `WebView` URL. 
   

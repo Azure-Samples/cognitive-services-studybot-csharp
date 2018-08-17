@@ -4,7 +4,7 @@ This sample is a LUIS-based web app bot that integrates a QnA Maker chat client.
 
 ## Prerequisites
 
-1. [Create, train, and publish](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/create-publish-knowledge-base) three knowledge bases in [qnamaker.ai](https://www.qnamaker.ai). Name your knowledge bases according to the content in your FAQs. Or for the purposes of this sample, name them "Biology", "Sociology", and "Geology". You will want to add alternative keywords to your knowledge base questions in qnamaker.ai. 
+1. For the QnA Maker part, you will need to [Create, train, and publish](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/create-publish-knowledge-base) three knowledge bases in [qnamaker.ai](https://www.qnamaker.ai). Refer to the text files in this sample named QA Biology, QA Sociology, and QA Geology for FAQs you can use. Name your knowledge bases according to the content in your FAQs. Or for the purposes of this sample, name them "Biology", "Sociology", and "Geology". You will want to add alternative keywords to your knowledge base questions in qnamaker.ai. 
 
     <img src="/Assets/alt-question-kb.png">
 
