@@ -106,9 +106,8 @@ namespace Microsoft.Bot.Sample.LuisBot
             }
             else if (result.Intents[0].Intent == "Help")
             {
-                await context.PostAsync($"To start studying, type a topic you want to study: {biology}, {sociology}, or {geology}. " +
-                "Or if you know your topic's definition list, you can just start typing a word. For example, typing 'virus' will show a definition of 'virus' from biology." +
-                " Typing 'lava' will show a definition of 'magma' from geology.");
+                await context.PostAsync($"How to use Study Bot: type a topic you want to study, like {biology}, {sociology}, or {geology}. " +
+                "Or, start typing a study term. For isntance, typing 'lava' will show a definition of 'magma' from geology.");
             }
             else if (result.Intents[0].Intent == "Cancel")
             {

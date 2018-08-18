@@ -80,7 +80,7 @@ namespace LuisBot.Models
                 return sb.ToString();
             }
             else
-                return "No good match found in Study Bot.";
+                return "No good match found in Study Bot. Perhaps it is misspelled?";
         }
     }
 
