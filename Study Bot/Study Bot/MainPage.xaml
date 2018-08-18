@@ -14,7 +14,7 @@
             <ColumnDefinition Width="5*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="0.9*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Border Background="#2f5cb6"/>
@@ -22,7 +22,7 @@
         <Border Grid.Row="1" Grid.ColumnSpan="2" Background="#152951"/>
 
         <StackPanel Grid.Column="1" >
-            <WebView x:Name="studyBot" Source="https://webchat.botframework.com/embed/<ADD YOUR BOT NAME HERE>?s=<ADD YOUR SECRET KEY HERE>" HorizontalAlignment="Center" Height="300" Width="900" Margin="20,25,15,0" VerticalAlignment="Center" />
+            <WebView x:Name="studyBot" Source="https://webchat.botframework.com/embed/<ADD YOUR BOT NAME HERE>?s=<ADD YOUR SECRET KEY HERE>" HorizontalAlignment="Center" Height="400" Width="900" Margin="20,25,15,0" VerticalAlignment="Center" />
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20,20,20,20">
             <Pivot x:Name="rootPivot" HorizontalAlignment="Center" VerticalAlignment="Top" Height="Auto" Width="1150">
@@ -55,7 +55,7 @@
                 </PivotItem>
             </Pivot>
         </StackPanel>
-        <Image Width="160" Source="Assets/robot-face.png" HorizontalAlignment="Center" Margin="15,40,10,10" VerticalAlignment="Center" Height="160" />
-        <TextBlock Foreground="White" FontSize="38" HorizontalAlignment="Center" Margin="15,50,10,10" Text="Study Bot"/>
+        <Image Width="160" Source="Assets/robot-face.png" HorizontalAlignment="Center" Margin="15,60,10,10" VerticalAlignment="Center" Height="160" />
+        <TextBlock Foreground="White" FontSize="38" HorizontalAlignment="Center" Margin="15,70,10,10" Text="Study Bot"/>
     </Grid>
 </Page>
