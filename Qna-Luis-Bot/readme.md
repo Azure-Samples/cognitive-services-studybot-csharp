@@ -4,15 +4,9 @@ This sample is a LUIS-based web app bot that integrates a QnA Maker chat client.
 
 ## Prerequisites
 
-1. For the QnA Maker part, you will need to [Create, train, and publish](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/create-publish-knowledge-base) three knowledge bases in [qnamaker.ai](https://www.qnamaker.ai). Refer to the text files in this sample named QA Biology, QA Sociology, and QA Geology for FAQs you can use. Name your knowledge bases according to the content in your FAQs. Or for the purposes of this sample, name them "Biology", "Sociology", and "Geology". You will want to add alternative keywords to your knowledge base questions in qnamaker.ai. 
+1. For the QnA Maker part, you will need to [Create, train, and publish](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/create-publish-knowledge-base) three knowledge bases in [qnamaker.ai](https://www.qnamaker.ai). Refer to the text files in this sample in the `FAQs` folder named QA Biology, QA Sociology, and QA Geology for FAQs you can upload for use. Name your knowledge bases "Biology", "Sociology", and "Geology". You will want to add alternative keywords to your knowledge base questions in qnamaker.ai. These are found in the `Alt questions` folder in the `FAQs` folder. To add them to your knowledge bases, go to `My knowledge bases` in [qnamaker.ai](https://www.qnamaker.ai) and in each knowledge base click the "+" sign near each question (after your knowledge bases have been created).
 
     <img src="/Assets/alt-question-kb.png">
-
-    For example, if you have "What is a parasite?" as a Biology knowledge base question, you could add alternative words like the stand-    alone term "parasite" or slang term "bug". Whichever words you think a user might enter that would return the answer of the             definition of a parasite. When providing a FAQ as a file or URL, use this formatting (note location of punctuation and spacing) to     list your questions and answers for optimal results:
-
-    Question: What is a virus?
-    
-    Answer: A virus is an infective agent that typically consists of a nucleic acid molecule in a protein coat, is too small to be seen     by light microscopy, and is able to multiply only within the living cells of a host.
 
 1. Create a [basic LUIS web app bot](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart?view=azure-bot-service-3.0) in the [Azure portal](https://ms.portal.azure.com), but instead of using the `Basic, C#` template, use the `Language Understanding, C#` template in the "Create" panel. This will automatically create a LUIS app (with the same name as your LUIS web app bot in Azure) in [luis.ai](https://www.luis.ai), where you will create intents later. From this Azure portal app, your LUIS keys (including your web app bot's Microsoft App ID and password) are generated.
 
