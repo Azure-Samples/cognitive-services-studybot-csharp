@@ -41,14 +41,13 @@ namespace Microsoft.Bot.Sample.LuisBot
         public QnAMakerService sociologyQnAService = new QnAMakerService(sociologyHostName, sociologyKB, sociologyAuthKey);
         public QnAMakerService geologyQnAService = new QnAMakerService(geologyHostName, geologyKB, geologyAuthKey);
 
+        // Default intents (None, Greeting, Cancel, Help)
         [LuisIntent("None")]
         public async Task NoneIntent(IDialogContext context, LuisResult result)
         {
             await this.ShowLuisResult(context, result);
         }
-
-        // Go to https://luis.ai and create a new intent, then train/publish your luis app.
-        // Finally replace "Greeting" with the name of your newly created intent in the following handler
+        
         [LuisIntent("Greeting")]
         public async Task GreetingIntent(IDialogContext context, LuisResult result)
         {
@@ -67,6 +66,7 @@ namespace Microsoft.Bot.Sample.LuisBot
             await this.ShowLuisResult(context, result);
         }
 
+        // Custom-made intents (StudyBiology, StudySociology, StudyGeology)
         [LuisIntent("StudyBiology")]
         public async Task StudyBiologyIntent(IDialogContext context, LuisResult result)
         {
@@ -85,12 +85,13 @@ namespace Microsoft.Bot.Sample.LuisBot
             await context.PostAsync(geologyQnAService.GetAnswer(GetCorrectQuery(result)));
         }
 
+        // Chooses the right query if misspelled or not
         private static string GetCorrectQuery(LuisResult result)
         {
             return result.AlteredQuery ?? result.Query;
         }
 
-
+        // Default intents get some customization
         private async Task ShowLuisResult(IDialogContext context, LuisResult result)
         {
             string endResult = GetCorrectQuery(result);
