@@ -12,13 +12,6 @@ namespace Microsoft.Bot.Sample.LuisBot
     [Serializable]
     public class BasicLuisDialog : LuisDialog<object>
     {
-        //public BasicLuisDialog() : base(new LuisService(new LuisModelAttribute(
-        //    ConfigurationManager.AppSettings["LuisAppId"],
-        //    ConfigurationManager.AppSettings["LuisAPIKey"],
-        //    domain: ConfigurationManager.AppSettings["LuisAPIHostName"])))
-        //{
-        //}
-
         public BasicLuisDialog() : base(new LuisService(new LuisModelAttribute(
             ConfigurationManager.AppSettings["LuisAppId"],
             ConfigurationManager.AppSettings["LuisAPIKey"],
@@ -77,24 +70,54 @@ namespace Microsoft.Bot.Sample.LuisBot
         [LuisIntent("StudyBiology")]
         public async Task StudyBiologyIntent(IDialogContext context, LuisResult result)
         {
-            await context.PostAsync(biologyQnAService.GetAnswer(result.Query));
+            await context.PostAsync(biologyQnAService.GetAnswer(GetCorrectQuery(result)));
         }
 
         [LuisIntent("StudySociology")]
         public async Task StudySociologyIntent(IDialogContext context, LuisResult result)
         {
-            await context.PostAsync(sociologyQnAService.GetAnswer(result.Query));
+            await context.PostAsync(sociologyQnAService.GetAnswer(GetCorrectQuery(result)));
         }
 
         [LuisIntent("StudyGeology")]
         public async Task StudyGeologyIntent(IDialogContext context, LuisResult result)
         {
-            await context.PostAsync(geologyQnAService.GetAnswer(result.Query));
+            await context.PostAsync(geologyQnAService.GetAnswer(GetCorrectQuery(result)));
         }
+
+        private static string GetCorrectQuery(LuisResult result)
+        {
+            return result.AlteredQuery ?? result.Query;
+        }
+
 
         private async Task ShowLuisResult(IDialogContext context, LuisResult result)
         {
-            await context.PostAsync($"You have reached {result.Intents[0].Intent}. You said: {result.Query}");
+            string endResult = GetCorrectQuery(result);
+
+            string biology = "biology";
+            string sociology = "sociology";
+            string geology = "geology";
+
+            if (result.Intents[0].Intent == "Greeting")
+            {
+                await context.PostAsync($"Hello, welcome to Study Bot! Which subject would you like to study: {biology}, {sociology}, or {geology}?");
+            }
+            else if (result.Intents[0].Intent == "Help")
+            {
+                await context.PostAsync($"To start studying, type a topic you want to study: {biology}, {sociology}, or {geology}. " +
+                "Or if you know your topic's definition list, you can just start typing a word. For example, typing 'virus' will show a definition of 'virus' from biology." +
+                " Typing 'lava' will show a definition of 'magma' from geology.");
+            }
+            else if (result.Intents[0].Intent == "Cancel")
+            {
+                await context.PostAsync("Thanks for studying with Study Bot! Goodbye.");
+            }
+            else if (result.Intents[0].Intent == "None")
+            {
+                await context.PostAsync("Your entry \"" + endResult + "\" is not in the study list. Perhaps it is misspelled?");
+            }
+
             context.Wait(MessageReceived);
         }
     }

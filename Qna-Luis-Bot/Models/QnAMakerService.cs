@@ -56,14 +56,31 @@ namespace LuisBot.Models
             if (answer.answers.Count > 0)
             {
                 StringBuilder sb = new StringBuilder();
+                // Overrides QnA Maker default knowledge base response
+                if ((answer.answers[0].answer.ToString() == "No good match found in KB."))
+                {
+                    return "No good match found in Study Bot.";
+                }
+                // If only one valid answer
+                if (answer.answers.Count == 1)
+                {
+                    sb.Append((answer.answers[0]).answer.ToString());
+                    return sb.ToString();
+                }
+                
+                // If there are multiple answers
                 for (int i = 0; i < answer.answers.Count; i++)
                 {
+                    if (i == 0)
+                    {
+                        sb.Append("Several definitions may apply: \n\n");
+                    }
                     sb.Append((answer.answers[i]).answer.ToString() + "\n\n");
                 }
                 return sb.ToString();
             }
             else
-                return "No good match found.";
+                return "No good match found in Study Bot.";
         }
     }
 
