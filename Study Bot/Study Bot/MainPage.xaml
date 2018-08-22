@@ -8,6 +8,16 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <Page.Resources>
+        <DataTemplate x:Key="MessagesListDataTemplate">
+            <Grid x:Name="TextB" Background="White" VerticalAlignment="Center" Margin="5, 5, 5, 5">
+                <Border BorderThickness="2" BorderBrush="DarkTurquoise" CornerRadius="7">
+                    <TextBlock Text="{Binding Text}" TextWrapping="Wrap" Margin="5, 5, 5, 5"/>
+                </Border>
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+
     <Grid HorizontalAlignment="Center" VerticalAlignment="Stretch" >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1.3*"/>
@@ -22,7 +32,17 @@
         <Border Grid.Row="1" Grid.ColumnSpan="2" Background="#152951"/>
 
         <StackPanel Grid.Column="1" >
-            <WebView x:Name="studyBot" Source="https://webchat.botframework.com/embed/<ADD YOUR BOT NAME HERE>?s=<ADD YOUR SECRET KEY HERE>" HorizontalAlignment="Center" Height="400" Width="900" Margin="20,25,15,0" VerticalAlignment="Center" />
+            <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" HorizontalAlignment="Center" Height="380" Width="900" Margin="20,25,15,0" VerticalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="300*"/>
+                    <RowDefinition Height="50*"/>
+                    <RowDefinition Height="60*"/>
+                </Grid.RowDefinitions>
+                <ListView x:Name="MessagesList" Grid.Row="1" ItemTemplate="{StaticResource MessagesListDataTemplate}"/>
+                <TextBox x:Name="NewMessageTextBox" Grid.Row="2" KeyUp="NewMessageTextBox_KeyUp" VerticalAlignment="Center" />
+                <Button x:Name="button" Content="SEND" Foreground="#2f5cb6" Margin="15,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Click="button_Click" Grid.Row="3" />
+            </Grid>
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20,20,20,20">
             <Pivot x:Name="rootPivot" HorizontalAlignment="Center" VerticalAlignment="Top" Height="Auto" Width="1150">
@@ -41,16 +61,13 @@
                     </CommandBar>
                 </Pivot.RightHeader>
                 <PivotItem Header="Encyclopedia">
-                    <!--Pivot content goes here-->
-                    <WebView x:Name="encyclopedia" Source="https://en.wikipedia.org/wiki/Virus" HorizontalAlignment="Center" VerticalAlignment="Stretch" Width="1150" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5" Height="500" UseLayoutRounding="False" d:LayoutRounding="Auto" >
+                    <WebView x:Name="Encyclopedia" HorizontalAlignment="Center" VerticalAlignment="Stretch" Width="1150" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5" Height="500" UseLayoutRounding="False" d:LayoutRounding="Auto" >
                     </WebView>
                 </PivotItem>
                 <PivotItem Header="Microsoft Academic">
-                    <!--Pivot content goes here-->
-                    <WebView x:Name="microsoftAcademic" Source="https://academic.microsoft.com/#/search?iq=@virus%20biology@&amp;q=virus%20biology&amp;filters=&amp;from=0&amp;sort=0" Width="1150" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" LoadCompleted="journals_LoadCompleted" />
+                    <WebView x:Name="MicrosoftAcademic" Width="1150" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" LoadCompleted="journals_LoadCompleted" />
                 </PivotItem>
                 <PivotItem Header="News / Blogs">
-                    <!--Pivot content goes here-->
                     <WebView x:Name="newsBlogs" />
                 </PivotItem>
             </Pivot>
