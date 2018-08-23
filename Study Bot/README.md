@@ -28,4 +28,4 @@ This sample is a UWP app that combines a LUIS-based web app bot (with Bing Spell
 
 1. The search query also shows the term in the encyclopedia and Microsoft Academic.
 
-1. Experiment by adding or removing your QnA Maker knowledge base question and answers (in qnamaker.ai) and your LUIS intents/utterances (luis.ai).
+1. Experiment by adding or removing your QnA Maker knowledge base question and answers (in qnamaker.ai) and your LUIS intents/utterances (in luis.ai) and try new queries based on these changes.
