@@ -13,9 +13,13 @@ This sample is a UWP app that combines a LUIS-based web app bot (with Bing Spell
     <img src="/Assets/bot-secret-key.png">
     
 1. NuGet packages needed: 
+
     Microsoft.Bot.Connector.DirectLine
+    
     Microsoft.NETCore.UniversalWindowsPlatform
+    
     Microsoft.Rest.ClientRuntime
+    
     Newtonsoft.Json
     
 ## Run and Test the sample
