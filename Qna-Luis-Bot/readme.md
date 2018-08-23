@@ -2,7 +2,7 @@
 
 This sample is a LUIS-based web app bot that integrates a QnA Maker chat client. It is a stand-alone web app bot that you run/test in a desktop chat client emulator or in the Azure portal only. It is not meant to be used with the main Study Bot sample. The Study Bot sample has its own integrated web app bot. This app is best embedded into a website (optional) if you put the endpoint URL found in the Azure portal in a `WebView`, but that is not pursued in this sample.
 
-With this bot sample, there are three knowledge bases from QnA Maker that are accessed when a user inputs a query into the chat engine. Since there is more than one knowledge base, LUIS is used to manage them. Entities are created with LUIS to define each knowledge base and then each entity has a list of utterances that will be used to return valid answers to the user's questions from the appropriate knowledge base.
+With this bot sample, there are three knowledge bases from QnA Maker that are accessed when a user inputs a query into the chat engine. Since there is more than one knowledge base, LUIS is used to manage them. Intents are created with LUIS to define each knowledge base and then each intent has a list of utterances that will be used to return valid answers to the user's questions from the appropriate knowledge base.
 
 ## Prerequisites
 
