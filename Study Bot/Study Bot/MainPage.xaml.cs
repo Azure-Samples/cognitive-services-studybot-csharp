@@ -116,6 +116,9 @@ namespace Study_Bot
                             _messagesFromBot.Add(message);
                         }
                         MessagesList.ItemsSource = _messagesFromBot;
+
+                        // Auto-scrolls to last item in chat
+                        MessagesList?.ScrollIntoView(MessagesList.Items[_messagesFromBot.Count - 1], ScrollIntoViewAlignment.Leading);
                     });
                 }
 
