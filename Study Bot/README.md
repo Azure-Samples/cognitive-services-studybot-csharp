@@ -12,7 +12,7 @@ This sample is a UWP app that combines a LUIS-based web app bot (with Bing Spell
 
 1. Open this Study Bot solution file in Visual Studio 2017+.
 
-1. In `MainPage.xaml.cs`, add your Qna-Luis-Bot's bot's name (verbatum) and secret key to `botHandle` and `botSecretkey`, respectively. To find the key, go to your bot in the [Azure portal](https://ms.portal.azure.com) under the Channels menu item, then select `Edit` to the right of your bot. You'll see your secret key that you can show and copy, then paste into `MainPage.xaml.cs'. 
+1. In `MainPage.xaml.cs`, add your Qna-Luis-Bot's bot's name (verbatum) and secret key to `botHandle` and `botSecretkey`, respectively. To find the key, go to your bot in the [Azure portal](https://ms.portal.azure.com) under the Channels menu item, then select `Edit` to the right of your bot. You'll see your secret key that you can show and copy, then paste into `MainPage.xaml.cs`. 
     
     <img src="/Assets/bot-secret-key.png">
     
