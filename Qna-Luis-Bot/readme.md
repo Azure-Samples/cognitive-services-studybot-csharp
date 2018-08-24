@@ -1,8 +1,8 @@
 # QnA Maker with LUIS bot in C#
 
-This sample is a LUIS-based web app bot that integrates a QnA Maker chat client. It is a stand-alone web app bot that you run/test in a desktop chat client emulator or in the Azure portal only. It is not meant to be used with the main Study Bot sample. The Study Bot sample has its own integrated web app bot. This app is best embedded into a website (optional) if you put the endpoint URL found in the Azure portal in a `WebView`, but that is not pursued in this sample.
+This sample is a LUIS-based web app bot that integrates a QnA Maker chat client. It can be either a stand-alone web app bot that you run/test in a desktop chat client emulator or in the Azure portal, or you can build this bot to be your main bot for the Study Bot sample. If you want to integrate this sample into a website (optional), it can be embedded if you put the endpoint URL found in the Azure portal in a `WebView`, but that is not pursued in this sample.
 
-With this bot sample, there are three knowledge bases from QnA Maker, that you will create, so a user can input a query into the chat client and get back an answer. Since there is more than one knowledge base, LUIS is used to manage them. You will create intents with LUIS to define each knowledge base and then each intent has a list of utterances that will be used to return valid answers to the user's questions from the appropriate knowledge base.
+With this bot sample, there are three knowledge bases from QnA Maker, that you will create, so a user can input a query into the chat client and get back an answer. Since there is more than one knowledge base, LUIS is used to manage them. You will create intents with LUIS to define the user intent for accessing each knowledge base. Each intent has a list of utterances that will be used to return valid answers to the user's questions from the appropriate knowledge base. How [intents](https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-concept-intent) and [utterances](https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-concept-utterance) work is explained more in the LUIS documentation.
 
 ## Prerequisites
 
