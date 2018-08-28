@@ -8,7 +8,7 @@ This sample is a UWP app that combines a LUIS-based web app bot (with Bing Spell
 
 1. Follow the [prerequisites for the Qna-Luis-Bot](https://github.com/Azure-Samples/cognitive-services-studybot-csharp/blob/master/Qna-Luis-Bot/readme.md) that will help you create three knowledge bases (qnamaker.ai) with some accompanied LUIS intents/utterances (luis.ai), and a LUIS-based web app bot (Azure portal). 
 
-1. Once your Qna-Luis-Bot sample is ready, will need its bot name and secret key for this sample (detailed below).
+1. Once your Qna-Luis-Bot sample is ready, you'll need its bot name and secret key for this sample (detailed below).
 
 1. Open this Study Bot solution file in Visual Studio 2017+.
 
