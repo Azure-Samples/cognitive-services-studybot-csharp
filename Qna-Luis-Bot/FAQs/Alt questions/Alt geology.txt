@@ -2,16 +2,16 @@ Question: Geology
 Alt questions: geology, let's study geology, time for geology, i want to study geology, study geology, geo
 
 Question: What is magnitude?
-Alt question: magnitude
+Alt questions: magnitude
 
 Question: What is magma?
-Alt question: rising lava, lava, hot lava
+Alt questions: rising lava, lava, hot lava
 
 Question: What is a metamorphic rock?
-Alt question: metamorphic rock, metamorphic, pressured rock
+Alt questions: metamorphic rock, metamorphic, pressured rock
 
 Question: What is an era?
-Alt question: era, time
+Alt questions: era, time
 
 Question: What is a period?
 Alt questions: period, time
