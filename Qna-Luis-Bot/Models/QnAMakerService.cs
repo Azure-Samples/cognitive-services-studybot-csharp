@@ -73,9 +73,10 @@ namespace LuisBot.Models
                 {
                     if (i == 0)
                     {
-                        sb.Append("Several definitions may apply: \n\n");
+                        sb.Append("Several definitions may apply: ");
                     }
-                    sb.Append((answer.answers[i]).answer.ToString() + "\n\n");
+                    sb.Append("\n\n");
+                    sb.Append((answer.answers[i]).answer.ToString());
                 }
                 return sb.ToString();
             }

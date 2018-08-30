@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="150583bd-a3ea-45e7-b06e-bfe274fb1e2c"
+    Name="17985687-a656-4898-a149-63484d16fa20"
     Publisher="CN=v-wiazur"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="150583bd-a3ea-45e7-b06e-bfe274fb1e2c" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="17985687-a656-4898-a149-63484d16fa20" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>Study Bot</DisplayName>
+    <DisplayName>StudyBot</DisplayName>
     <PublisherDisplayName>v-wiazur</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="Study_Bot.App">
+      EntryPoint="StudyBot.App">
       <uap:VisualElements
-        DisplayName="Study Bot"
+        DisplayName="StudyBot"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="Study Bot"
+        Description="StudyBot"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

@@ -1,6 +1,9 @@
 ﻿using Microsoft.Bot.Connector.DirectLine;
+using Microsoft.Azure.CognitiveServices.Language.TextAnalytics;
 using Microsoft.Rest;
 using Newtonsoft.Json;
+using StudyBot.Controls;
+using StudyBot.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -8,6 +11,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Core;
@@ -19,9 +23,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
-namespace Study_Bot
+namespace StudyBot
 {
     public sealed partial class MainPage : Page
     {
@@ -30,13 +33,30 @@ namespace Study_Bot
         ObservableCollection<Activity> _messagesFromBot;
 
         Activity newActivity;
-        string botSecretKey = "<ENTER YOUR BOT SECRET KEY HERE>";
-        string botHandle = "<ENTER YOUR BOT NAME HERE>";
+        string botSecretKey = "ADD YOUR BOT SECRET KEY HERE";
+        string botHandle = "ADD YOUR BOT NAME HERE";
         string query;
+        string subject;
 
-        // Option to create a user ID and name
+        // Your knowledge base names
+        string kbName1 = "biology";
+        string kbName2 = "geology";
+        string kbName3 = "sociology";
+
+        // Option to create a user ID and name in the bot call
         string userId = "";
         string userName = "";
+
+        // Will handle query to add to Bing Search
+        static string[] biologyQuestions = new string[]{"biology", "virus", "bug", "bacteria", "parasite", "asexual",
+                       "sexual", "sex", "reproduction", "cancer", "tumor", "blood brain barrier"};
+        static string[] geologyQuestions = new string[]{"geology", "magnitude", "magma", "lava", "rock", "metamorphic",
+                                                                "era", "period", "epoch", "time" };
+        static string[] sociologyQuestions = new string[]{"sociology", "poverty", "minority", "cultural", "pluralism",
+                                     "sterotype", "affirmative action", "apartheid", "bicultural"};
+        HashSet<string> set1 = new HashSet<string>(biologyQuestions);
+        HashSet<string> set2 = new HashSet<string>(geologyQuestions);
+        HashSet<string> set3 = new HashSet<string>(sociologyQuestions);
 
         public MainPage()
         {
@@ -57,15 +77,18 @@ namespace Study_Bot
             await InitializeBotConversation();
         }
 
+        // Send button
         private async void button_Click(object sender, RoutedEventArgs e)
         {
             await sendMessageToBot();
+
+            inputQueryToWebsites();
         }
 
         // Handle button click when user wants to send message to bot.
         async Task sendMessageToBot()
         {
-            // Activity object with name of the user and text.
+            // Activity object with (optional) name of the user and text.
             newActivity = new Activity { From = new ChannelAccount(userId, userName), Text = NewMessageTextBox.Text, Type = ActivityTypes.Message };
 
             // Post message to your bot. 
@@ -126,7 +149,23 @@ namespace Study_Bot
             }
         }
 
-        // Handles when 'Enter' pressed in keyboard, plus stashes query.
+        // Removes punctuation from query 
+        static string CleanInput(string strIn)
+        {
+            // Replace invalid characters with empty strings.
+            try
+            {
+                return Regex.Replace(strIn, @"[^\w\\'\.-]", " ", // won't remove chars in [], otherwise will with empty space
+                                     RegexOptions.None, TimeSpan.FromSeconds(1.5));
+            }
+            // If we timeout when replacing invalid characters, return Empty.
+            catch (RegexMatchTimeoutException)
+            {
+                return String.Empty;
+            }
+        }
+
+        // Handles when 'Enter' pressed after chat entry
         private async void NewMessageTextBox_KeyUp(object sender, KeyRoutedEventArgs e)
         {
             if (e.Key == Windows.System.VirtualKey.Enter)
@@ -134,16 +173,72 @@ namespace Study_Bot
                 Windows.ApplicationModel.Core.CoreApplication.GetCurrentView().CoreWindow.IsInputEnabled = true;
                 await sendMessageToBot();
 
-                // Gets query for other uses.
-                query = NewMessageTextBox.Text;
-
-                // Set query into Encyclopedia and Microsoft Academics
-                Encyclopedia.Navigate(new Uri("https://en.wikipedia.org/wiki/" + query));
-                MicrosoftAcademic.Navigate(new Uri("https://academic.microsoft.com/#/search?iq=@" + query + "@&amp;q=" + query + "&filters=&from=0&sort=0"));
-
-                // Clears text for next query.
-                NewMessageTextBox.Text = String.Empty;
+                inputQueryToWebsites();
             }
+        }
+
+        private void inputQueryToWebsites()
+        {
+            // Gets query for other uses.
+            query = NewMessageTextBox.Text;
+
+            // Strip query of punctuation
+            query = CleanInput(query);
+
+            // Get subject of query (topic of your knowledge base)
+            if (set1.Contains(query))
+            {
+                if (query == kbName1)
+                {
+                    subject = " "; // don't add a subject if query is already subject word
+                }
+                else
+                {
+                    subject = kbName1;
+                }
+            }
+            else if (set2.Contains(query))
+            {
+                if (query == kbName2)
+                {
+                    subject = " "; // don't add a subject if query is already subject word
+                }
+                else
+                {
+                    subject = kbName2;
+                }
+            }
+            else if (set3.Contains(query))
+            {
+                if (query == kbName3)
+                {
+                    subject = " "; // don't add a subject if query is already subject word
+                }
+                else
+                {
+                    subject = kbName3;
+                }
+            }
+            else // if no subject, then must be a LUIS default intent (Greeting, Cancel, Help, or None)
+            {
+                subject = "";
+                query = "";
+            }
+
+            // Set query into Encyclopedia, Microsoft Academics, and Bing Search
+            Encyclopedia.Navigate(new Uri("https://en.wikipedia.org/wiki/" + query));
+            MicrosoftAcademic.Navigate(new Uri("https://academic.microsoft.com/#/search?iq=@" + query + "@&amp;q=" + query + "&filters=&from=0&sort=0"));
+            NewsBlogs.Navigate(new Uri("https://www.bing.com/search?q=" + query + "%20" + subject + "&qs=n&form=QBRE&sp=-1&pq=" + query + "%20" + subject + "&sc=2-11&sk=&cvid=CF868D7BB92E4EF98728411FDBA79BAB"));
+
+            // Clears text for next query.
+            NewMessageTextBox.Text = String.Empty;
+        }
+
+        // Translates query for filtered Bing Search, adds 'subject'
+        private string QueryToBingSearch(string query)
+        {
+            string result = null;
+            return result;
         }
 
         // Back button for Pivot.

@@ -70,18 +70,30 @@ namespace Microsoft.Bot.Sample.LuisBot
         [LuisIntent("StudyBiology")]
         public async Task StudyBiologyIntent(IDialogContext context, LuisResult result)
         {
+#if DEBUG
+            await context.PostAsync($"Biology intent detected.");
+#endif
+
             await context.PostAsync(biologyQnAService.GetAnswer(GetCorrectQuery(result)));
         }
 
         [LuisIntent("StudySociology")]
         public async Task StudySociologyIntent(IDialogContext context, LuisResult result)
         {
+#if DEBUG
+            await context.PostAsync($"Sociology intent detected.");
+#endif
+
             await context.PostAsync(sociologyQnAService.GetAnswer(GetCorrectQuery(result)));
         }
 
         [LuisIntent("StudyGeology")]
         public async Task StudyGeologyIntent(IDialogContext context, LuisResult result)
         {
+#if DEBUG
+            await context.PostAsync($"Geology intent detected.");
+#endif
+
             await context.PostAsync(geologyQnAService.GetAnswer(GetCorrectQuery(result)));
         }
 
@@ -100,14 +112,14 @@ namespace Microsoft.Bot.Sample.LuisBot
             string sociology = "sociology";
             string geology = "geology";
 
-            if (result.Intents[0].Intent == "Greeting")
+            if (result.Intents[0].Intent.Equals("Greeting", StringComparison.InvariantCultureIgnoreCase))
             {
                 await context.PostAsync($"Hello, welcome to Study Bot! Which subject would you like to study: {biology}, {sociology}, or {geology}?");
             }
             else if (result.Intents[0].Intent == "Help")
             {
                 await context.PostAsync($"How to use Study Bot: type a topic you want to study, like {biology}, {sociology}, or {geology}. " +
-                "Or, start typing a study term. For isntance, typing 'lava' will show a definition of 'magma' from geology.");
+                "Or, start typing a study term. For instance, typing 'lava' will show a definition of 'magma' from geology.");
             }
             else if (result.Intents[0].Intent == "Cancel")
             {

@@ -1,8 +1,8 @@
 ﻿<Page
-    x:Class="Study_Bot.MainPage"
+    x:Class="StudyBot.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:Study_Bot"
+    xmlns:local="using:StudyBot"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
@@ -68,7 +68,7 @@
                     <WebView x:Name="MicrosoftAcademic" Width="1150" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" LoadCompleted="journals_LoadCompleted" />
                 </PivotItem>
                 <PivotItem Header="News / Blogs">
-                    <WebView x:Name="newsBlogs" />
+                    <WebView x:Name="NewsBlogs" Width="1150" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                 </PivotItem>
             </Pivot>
         </StackPanel>
