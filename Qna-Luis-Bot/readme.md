@@ -18,7 +18,7 @@ With this bot sample, there are three knowledge bases from QnA Maker, that you w
 
     <img src="/Assets/bing-spell-check-enabled.png">
 
-1.To get the key for Bing Spell Check create a new resource for it in the [Azure portal](https://ms.portal.azure.com), then navigate to `Keys` in the left menu. This will go into your Web.config file, when you download the zip file of the web app bot from Azure (next steps).
+1. To get the key for Bing Spell Check create a new resource for it in the [Azure portal](https://ms.portal.azure.com), then navigate to `Keys` in the left menu. This will go into your Web.config file, when you download the zip file of the web app bot from Azure (next steps).
 
 1. Add additional intents for the rest of your knowledge bases. A new intent with its own utterances list should represent each knowledge base.
 
