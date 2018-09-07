@@ -66,3 +66,7 @@ Before you test your modified local bot in Azure, it needs to be published from 
     <img src="/Assets/open-kudu-console.png">
 
 1. Once built, you can return to the Azure portal and choose "Test in Web Chat" under "Bot Management". The chat bot will open for you to start entering queries.
+
+### How to test
+
+Whether or not you test in Visual Studio with the bot emulator or in the Azure portal, the process is the same. Enter queries for the subject matter for your knowledge bases. For example, if a user wants to study geology, they could enter the key terms for it, like "epoch" and see that a definition is returned for "epoch". There are three different kinds of geologic time scales in this sample, so say a student wanted to understand more about geologic time, but could not remember the key words, they can enter "time" and several different possible definitions will be returned. Ones for "era", "epoch", and "period". This is the magic of using LUIS. You can list "time" as an utterance, and select where this query would go (to the geology knowledge base), and what definitions might be returned. All of this happens through adding utterances and doing training in LUIS.
