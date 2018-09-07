@@ -1,6 +1,6 @@
 # Study Bot Sample in C#
 
-Samples to create a Study Bot chat client using [QnA Maker](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/index), [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/), [Bing Spell Check](https://docs.microsoft.com/en-us/azure/cognitive-services/bing-spell-check/), and Bing News Analytics (coming soon). Each query into the chat bot will be accompanied by relevant search results in an Encyclopedia, Microsoft Academic, and News/Blogs sections as a study aid. Teachers are able to create their own question and answer FAQs to create a study guide as input for the chat bot that follows a preferred curriculum. However, demo FAQs are available for this sample. The focus of this app is to enable a nonbiased experience of studying, where students can study a subject with the most relevant study aids available.
+These samples create a Study Bot chat client using [QnA Maker](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/index), [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/) and [Bing Spell Check](https://docs.microsoft.com/en-us/azure/cognitive-services/bing-spell-check/). Each query into the chat bot will be accompanied by relevant search results in an encyclopedia, Microsoft Academic, and News/Blogs sections as a study aid. Teachers are able to create their own question and answer FAQs to create a study guide as input for the chat bot if they want it to follow a preferred curriculum. However, demo FAQs are available for this sample, included in the Qna-Luis-Bot/FAQs folder. The focus of this app is to enable a more relevant experience of studying, where students can study a subject with a customized chat bot along with multiple web resources.
 
 ## Features
 
@@ -8,9 +8,7 @@ Samples to create a Study Bot chat client using [QnA Maker](https://docs.microso
 
 * **Bing Spell Check**: This enables the user to make spelling mistakes for pre-defined words. For instance, from the sociology knowledge base, "Apartheid" can be recognized if the user inputs "apartide", "aparteid", "apartaid", etc.
 
-<!--* **Bing News Analytics**: This service combines [Bing News Search](https://docs.microsoft.com/en-us/azure/cognitive-services/bing-news-search/) and [Text Analytics](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/) Cognitive Services to return relevant results in the News/Blogs section. The user's query will start an internet search with the keyword(s) that returns articles with the negative sentiment filtered out. For example, if the user's query in the chat bot is "sexual reproduction", the news articles about sex crimes or difficult/abusive relationships will be filtered out. 
-* **More relevant searches**: The user query will also have the topic of study attached to each search. For instance, typing in "time" to the chat bot returns everything from watches to calendar events in the News/Blogs section. But this sample adds the knowledge base topic, such as "time + geology", to the search, which returns results only relevant to geologic time. If the user types "bacteria", the word "biology" is added to the query, which will filter out irrelevant articles about cleaning products that fight bacteria, and so on.
--->
+* The web resources will take a student query, like "virus", and return relevant information about it in an encyclopedia, Microsoft Academic, as well as a general Bing search that returns mostly news and blogs on the query.
 
 ## Prerequisites
 
