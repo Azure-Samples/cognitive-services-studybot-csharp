@@ -1,9 +1,6 @@
-﻿using Microsoft.Bot.Connector.DirectLine;
-using Microsoft.Azure.CognitiveServices.Language.TextAnalytics;
+using Microsoft.Bot.Connector.DirectLine;
 using Microsoft.Rest;
 using Newtonsoft.Json;
-using StudyBot.Controls;
-using StudyBot.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -33,17 +30,15 @@ namespace StudyBot
         ObservableCollection<Activity> _messagesFromBot;
 
         Activity newActivity;
-        string botSecretKey = "ADD YOUR BOT SECRET KEY HERE";
+        string botSecretKey = "ADD YOUR SECRET KEY HERE";
         string botHandle = "ADD YOUR BOT NAME HERE";
         string query;
         string subject;
-
-        // Your knowledge base names
         string kbName1 = "biology";
         string kbName2 = "geology";
         string kbName3 = "sociology";
 
-        // Option to create a user ID and name in the bot call
+        // Option to create a user ID and name
         string userId = "";
         string userName = "";
 
@@ -177,6 +172,7 @@ namespace StudyBot
             }
         }
 
+		// Decides how to search in websites based on query
         private void inputQueryToWebsites()
         {
             // Gets query for other uses.
@@ -222,23 +218,21 @@ namespace StudyBot
             else // if no subject, then must be a LUIS default intent (Greeting, Cancel, Help, or None)
             {
                 subject = "";
-                query = "";
-            }
+				query = "";
+
+				// Microsoft academic needs the root URL to render, rather than empty query/subject in URL
+				MicrosoftAcademic.Navigate(new Uri("https://academic.microsoft.com/"));
+			}
 
             // Set query into Encyclopedia, Microsoft Academics, and Bing Search
             Encyclopedia.Navigate(new Uri("https://en.wikipedia.org/wiki/" + query));
-            MicrosoftAcademic.Navigate(new Uri("https://academic.microsoft.com/#/search?iq=@" + query + "@&amp;q=" + query + "&filters=&from=0&sort=0"));
-            NewsBlogs.Navigate(new Uri("https://www.bing.com/search?q=" + query + "%20" + subject + "&qs=n&form=QBRE&sp=-1&pq=" + query + "%20" + subject + "&sc=2-11&sk=&cvid=CF868D7BB92E4EF98728411FDBA79BAB"));
+			NewsBlogs.Navigate(new Uri("https://www.bing.com/search?q=" + query + "%20" + subject + "&qs=n&form=QBRE&sp=-1&pq=" + query + "%20" + subject + "&sc=8-5&sk=&cvid=92D86BDF64C049B3AD2DC5444AB33E25"));
 
-            // Clears text for next query.
-            NewMessageTextBox.Text = String.Empty;
-        }
+			if (subject != "" && query != "")
+				MicrosoftAcademic.Navigate(new Uri("https://academic.microsoft.com/#/search?iq=@" + query + "@&amp;q=" + query + "&filters=&from=0&sort=0"));
 
-        // Translates query for filtered Bing Search, adds 'subject'
-        private string QueryToBingSearch(string query)
-        {
-            string result = null;
-            return result;
+			// Clears text for next query.
+			NewMessageTextBox.Text = String.Empty;
         }
 
         // Back button for Pivot.
