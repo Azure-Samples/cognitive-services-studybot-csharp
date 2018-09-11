@@ -20,7 +20,6 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-
 namespace StudyBot
 {
     public sealed partial class MainPage : Page
@@ -172,7 +171,7 @@ namespace StudyBot
             }
         }
 
-		// Decides how to search in websites based on query
+	// Decides how to search in websites based on query
         private void inputQueryToWebsites()
         {
             // Gets query for other uses.
@@ -218,21 +217,21 @@ namespace StudyBot
             else // if no subject, then must be a LUIS default intent (Greeting, Cancel, Help, or None)
             {
                 subject = "";
-				query = "";
+		query = "";
 
-				// Microsoft academic needs the root URL to render, rather than empty query/subject in URL
-				MicrosoftAcademic.Navigate(new Uri("https://academic.microsoft.com/"));
-			}
+		// Microsoft academic needs the root URL to render, rather than empty query/subject in URL
+		MicrosoftAcademic.Navigate(new Uri("https://academic.microsoft.com/"));
+	    }
 
             // Set query into Encyclopedia, Microsoft Academics, and Bing Search
             Encyclopedia.Navigate(new Uri("https://en.wikipedia.org/wiki/" + query));
-			NewsBlogs.Navigate(new Uri("https://www.bing.com/search?q=" + query + "%20" + subject + "&qs=n&form=QBRE&sp=-1&pq=" + query + "%20" + subject + "&sc=8-5&sk=&cvid=92D86BDF64C049B3AD2DC5444AB33E25"));
+	    NewsBlogs.Navigate(new Uri("https://www.bing.com/search?q=" + query + "%20" + subject + "&qs=n&form=QBRE&sp=-1&pq=" + query + "%20" + subject + "&sc=8-5&sk=&cvid=92D86BDF64C049B3AD2DC5444AB33E25"));
 
-			if (subject != "" && query != "")
-				MicrosoftAcademic.Navigate(new Uri("https://academic.microsoft.com/#/search?iq=@" + query + "@&amp;q=" + query + "&filters=&from=0&sort=0"));
+	if (subject != "" && query != "")
+		MicrosoftAcademic.Navigate(new Uri("https://academic.microsoft.com/#/search?iq=@" + query + "@&amp;q=" + query + "&filters=&from=0&sort=0"));
 
-			// Clears text for next query.
-			NewMessageTextBox.Text = String.Empty;
+	// Clears text for next query.
+	NewMessageTextBox.Text = String.Empty;
         }
 
         // Back button for Pivot.
