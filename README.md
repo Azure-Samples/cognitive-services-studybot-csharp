@@ -1,6 +1,6 @@
 ---
 services: cognitive-services, qnamaker, luis, language-understanding, bing spell check
-platforms: C#
+platforms: dotnet, C#
 author: noellelacharite
 ---
 # Study Bot Sample in C#
