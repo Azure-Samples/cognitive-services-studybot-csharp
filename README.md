@@ -3,7 +3,7 @@ services: cognitive-services, qnamaker, luis, language-understanding, bing spell
 platforms: dotnet, C#
 author: wiazur
 ---
-# Study Bot Sample in C#
+# Study Bot 
 
 These samples create a Study Bot chat client using [QnA Maker](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/index), [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/) and [Bing Spell Check](https://docs.microsoft.com/en-us/azure/cognitive-services/bing-spell-check/). Each query into the chat bot will be accompanied by relevant search results in an encyclopedia, Microsoft Academic, and News/Blogs sections as a study aid. Teachers are able to create their own question and answer FAQs to create a study guide as input for the chat bot if they want it to follow a preferred curriculum. However, demo FAQs are available for this sample, included in the Qna-Luis-Bot/FAQs folder. The focus of this app is to enable a more relevant experience of studying, where students can study a subject with a customized chat bot along with multiple web resources.
 
