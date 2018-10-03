@@ -22,7 +22,7 @@ With this bot sample, there are three knowledge bases from QnA Maker, that you w
 
 1. Add additional intents for the rest of your knowledge bases. A new intent with its own utterances list should represent each knowledge base.
 
-1. After the LUIS app intents and the QnA Maker knowledge bases are created, download the zip file of your web app bot in Azure by going to `Build` from the `Bot Management` section of your web app bot, then choose "Download zip file", the middle option on that page. This step is critical, as it creates a connection from Azure to your local copy in Visual Studio. If you only try to clone and run the Github sample with added keys, you will have problems with your bot, because the connection to Azure won't be there. However, it's still possible to go this route, see below under "Alternative routes" for more information.
+1. After the LUIS app intents and the QnA Maker knowledge bases are created, download the zip file of your web app bot in Azure by going to `Build` section of your web app bot, then choose "Download Bot source code". This step is critical, as it creates a connection from Azure to your local copy in Visual Studio. If you only try to clone and run the Github sample with added keys, you will have problems with your bot, because the connection to Azure won't be there. However, it's still possible to go this route, see below under "Alternative routes" for more information.
 
     <img src="/Assets/download-zip.png">
     
