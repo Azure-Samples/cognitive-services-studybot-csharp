@@ -34,3 +34,4 @@ These samples create a Study Bot chat client using [QnA Maker](https://docs.micr
 * [LUIS Endpoint API](https://westus.dev.cognitive.microsoft.com/docs/services/5819c76f40a6350ce09de1ac/operations/5819c77140a63516d81aee78)
 * [Bing Spell Check API Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/bing-spell-check/)
 * [Bing Spell Check API v7 reference](https://docs.microsoft.com/en-us/rest/api/cognitiveservices/bing-spell-check-api-v7-reference)
+* [General QnA Maker and LUIS bot tutorial, using bot v3](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/tutorials/integrate-qnamaker-luis)
