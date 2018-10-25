@@ -29,7 +29,8 @@ This sample is meant as a guide (not as a direct download), but instructions bel
 
     <img src="/Assets/configure-ngrok.png">
     
-## Prerequisites - Creating the Cognitive Services: LUIS and QnA Maker
+## Prerequisites - Creating the Cognitive Services: QnA Maker and LUIS
+### QnA Maker
 1. For the QnA Maker part, you will need to [Create, train, and publish](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/create-publish-knowledge-base) three knowledge bases (KBs) in [qnamaker.ai](https://www.qnamaker.ai). Refer to the text files in this sample in the `Qna-Luis-Bot/FAQs` folder named QA Biology, QA Sociology, and QA Geology for FAQs you can upload for use. Name your knowledge bases "Biology", "Sociology", and "Geology". 
 1. If you want to include Chitchat, [create a new knowledge base](https://www.qnamaker.ai/Create) but leave it empty (don't upload any files or URLs) and in Step 4, enable the Chitchat personality of your choice by selecting a radio button and choosing "Create your KB" at the bottom of the page. Once you create it, you will see it has been populated with lots of standard Chitchat questions and answers. Be sure to train and publish it in "My knowledge bases".
 1. You will want to add alternative keywords to your knowledge base questions in qnamaker.ai. These are found in the `Alt questions` folder in the `FAQs` folder. To add them to your knowledge bases, go to "My knowledge bases" in [qnamaker.ai](https://www.qnamaker.ai) and in each knowledge base click the "+" sign near each question (after your knowledge bases have been created). Type in the alternative question. This is only needed for the Biology, Geology, and Sociology KBs.
@@ -37,7 +38,8 @@ This sample is meant as a guide (not as a direct download), but instructions bel
     <img src="/Assets/alt-question-kb.png">
     
 1. Be sure to train and publish your knowledge base again after any changes are made.
-    
+
+### LUIS
 1. After you have created your web app bot (above), you will see a LUIS app has been auto-created for you in [luis.ai](https://www.luis.ai) with default intents that get created for every LUIS app: `Greeting`, `Cancel`, `Help`, and `None`. You can leave them or delete them, they are optional, but make sure you leave the `None` intent. Although, it's recommended to leave them all. 
 1. Now, [add intents](https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-how-to-add-intents) of your own according to your knowledge bases. For example, if you have a biology knowledge base, you'll want to make a "Biology" intent. This is how LUIS knows to send all user queries in the chat client to the Biology knowledge base in qnamaker.ai. The "Add Intents" how-to guide above also shows you how to add utterances, which should mirror what your QnA Maker knowledge bases' words or phrases are in the "Question" part. For example, if you have a Biology knowledge base with 'What is a virus?' as a question... the utterances in the Biology intent (and the alternative words in the "Question" part of your Biology knowledge base) would be "virus", "viral", "viruses", and/or "bug". Any of these will return the definition (answer) of "virus" in the chat client.
 
