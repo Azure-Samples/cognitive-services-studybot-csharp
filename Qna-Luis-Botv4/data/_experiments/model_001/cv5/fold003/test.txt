@@ -1,0 +1,162 @@
+Label	Weight	Text
+q_47d43e59-20d6-41fe-8a8d-652539	42.66667	Equal rights
+q_47d43e59-20d6-41fe-8a8d-652539	42.66667	South Africa
+q_47d43e59-20d6-41fe-8a8d-652539	42.66667	next up, sociology
+q_47d43e59-20d6-41fe-8a8d-652539	42.66667	What is a minority?
+q_47d43e59-20d6-41fe-8a8d-652539	42.66667	Equal rights
+q_47d43e59-20d6-41fe-8a8d-652539	42.66667	South Africa
+q_47d43e59-20d6-41fe-8a8d-652539	42.66667	next up, sociology
+q_47d43e59-20d6-41fe-8a8d-652539	42.66667	What is a minority?
+q_47d43e59-20d6-41fe-8a8d-652539	42.66667	Equal rights
+q_47d43e59-20d6-41fe-8a8d-652539	42.66667	South Africa
+q_47d43e59-20d6-41fe-8a8d-652539	42.66667	next up, sociology
+q_47d43e59-20d6-41fe-8a8d-652539	42.66667	What is a minority?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I love getting valentines.
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Who is your creator?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Give me a fist bump
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Are you available?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Hi Siri
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	What state are you in?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Hi Alexa
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Hello
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I want to be your friend.
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Hello Cortana
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I am angry
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Oops, sorry
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Give me some sugar
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Not funny.
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	You bore me
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Yes
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Do you prefer red or blue?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	When will you shut up?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Are you a robot?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Thank you
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Good evening
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	You are awesome!
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Happy Hannukah
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Accurate
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	How are you today?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Are you a man?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	You're dumb
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	What country are you from?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Be ridiculous
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Stop talking
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Are you HAL?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Ask me a question.
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I think you're swell
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Can you sneeze?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I'm so bored
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I feel so great
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Do you eat?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I don't get it
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Human or robot?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	You keep saying the same thing all the time
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	What other bots do you know?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Are you awesome?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	What do you think about Siri?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Say something funny
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Are you young?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I think you hate me.
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Later alligator
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Shut up
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	What do you do?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Do you and Cortana hang out?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	What kind of food do you like?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Hello Google
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I can drive a car
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I am going on a run
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Don't you get hungry?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Can you make me a sandwich?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Do you know my name?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	What do you mean?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I'm cracking up
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	What do you think about bots?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I just want to go to sleep
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Hello Siri
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Do you like Alexa?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Do you have brothers?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	That's not funny.
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Give me a kiss
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Later
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I want to spend the rest of my life with you
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	What's the name of your boss?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Aren't you cheerful
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Am I a fool?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Night
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Cook me something
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I want you to like me
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Do you play games?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	You don't know anything.
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Where do you live?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I'm sad today
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Yup, that's true
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I'm bored out of my mind
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I'm tired of you
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I'm into it
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	What state are you from?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I didn't mean that
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I want to lie down
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Do you know Siri?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Thnx
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Do you like computers?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Tell a joke
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	You seem really happy
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	What should I do?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	That wasn't true
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Can I have a hug?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	How's your day going?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Here I am
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	What do you eat?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	How smart are you?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	You're right.
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	That wasn't funny.
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I am a Democrat
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Do you know other chatbots?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	See you later
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Who is your father?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Kiss me
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Are you smarter than me?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I am tired
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Do you know Google?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I feel sad
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Are you hungry?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Are you female?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	How long ago were you born?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Are you really happy?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	You're a fuckup
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	There's nothing to do
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	You are so not pretty.
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Do you get hungry?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Be funny
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Where did you come from?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	What age are you?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	You're so basic
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	I hate you
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Sry
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Yes to that
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	So sorry
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Bingo
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	Do you love me?
+q_a19f881e-bf3d-4826-be6a-3b804d	4.031496	You're smart
+q_e002d05f-4e2f-46c8-8507-e3dde7	51.2	What is a parasite?
+q_e002d05f-4e2f-46c8-8507-e3dde7	51.2	What is sexual reproduction?
+q_e002d05f-4e2f-46c8-8507-e3dde7	51.2	Blood brain
+q_e002d05f-4e2f-46c8-8507-e3dde7	51.2	What is a virus?
+q_e002d05f-4e2f-46c8-8507-e3dde7	51.2	bug
+q_e002d05f-4e2f-46c8-8507-e3dde7	51.2	What is a parasite?
+q_e002d05f-4e2f-46c8-8507-e3dde7	51.2	What is sexual reproduction?
+q_e002d05f-4e2f-46c8-8507-e3dde7	51.2	Blood brain
+q_e002d05f-4e2f-46c8-8507-e3dde7	51.2	What is a virus?
+q_e002d05f-4e2f-46c8-8507-e3dde7	51.2	bug
+q_f6ac36b2-1082-42ea-8c70-3b9641	42.66666	i want to study geology
+q_f6ac36b2-1082-42ea-8c70-3b9641	42.66666	What is an era?
+q_f6ac36b2-1082-42ea-8c70-3b9641	42.66666	study geology
+q_f6ac36b2-1082-42ea-8c70-3b9641	42.66666	lava
+q_f6ac36b2-1082-42ea-8c70-3b9641	42.66666	i want to study geology
+q_f6ac36b2-1082-42ea-8c70-3b9641	42.66666	What is an era?
+q_f6ac36b2-1082-42ea-8c70-3b9641	42.66666	study geology
+q_f6ac36b2-1082-42ea-8c70-3b9641	42.66666	lava
+q_f6ac36b2-1082-42ea-8c70-3b9641	42.66666	i want to study geology
+q_f6ac36b2-1082-42ea-8c70-3b9641	42.66666	What is an era?
+q_f6ac36b2-1082-42ea-8c70-3b9641	42.66666	study geology
+q_f6ac36b2-1082-42ea-8c70-3b9641	42.66666	lava

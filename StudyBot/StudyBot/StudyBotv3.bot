@@ -1,0 +1,18 @@
+{
+    "name": "StudyBotv3",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "4079591b-364a-4249-ba67-544578faf4bc",
+            "appPassword": "f-!vM%nYAX|65lsn",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "ad2184d0-d7ce-11e8-b9ee-3912ff328ab4",
+            "name": "http://localhost:3978/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\v-wiazur\\Desktop\\cognitive-services-studybot-csharp\\StudyBot\\StudyBot\\StudyBotv3.bot"
+}

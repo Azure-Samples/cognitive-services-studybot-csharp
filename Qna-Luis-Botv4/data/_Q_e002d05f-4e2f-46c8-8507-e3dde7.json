@@ -1,0 +1,94 @@
+{
+  "qnaDocuments": [
+    {
+      "id": 1,
+      "answer": "A virus is an infective agent that typically consists of a nucleic acid molecule in a protein coat, is too small to be seen by light microscopy, and is able to multiply only within the living cells of a host.",
+      "source": "Study Biology.tsv",
+      "questions": [
+        "What is a virus?",
+        "bug",
+        "virus"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 2,
+      "answer": "Asexual reproduction is the creation of genetically identical offspring by a single parent.",
+      "source": "Study Biology.tsv",
+      "questions": [
+        "What is asexual reproduction?",
+        "Sex"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 3,
+      "answer": "Cancer is a malignant growth or tumor caused by abnormal and uncontrolled cell division.",
+      "source": "Study Biology.tsv",
+      "questions": [
+        "What is cancer?",
+        "Tumor",
+        "Bad tumor",
+        "cancer"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 4,
+      "answer": "The blood brain barrier is a filtering mechanism of the capillaries that carry blood to the brain and spinal cord tissue, blocking the passage of certain substances.",
+      "source": "Study Biology.tsv",
+      "questions": [
+        "What is the blood brain barrier?",
+        "Blood",
+        "Blood brain",
+        "Barrier"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 5,
+      "answer": "Sexual reproduction is a process by which two individuals produce offspring with genetic traits from both parents. It involves the union of gametes.",
+      "source": "Study Biology.tsv",
+      "questions": [
+        "What is sexual reproduction?",
+        "Sex"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 6,
+      "answer": "Let's study biology! Type in a biology word(s) and a definition will be returned. For example, type \"virus\".",
+      "source": "Study Biology.tsv",
+      "questions": [
+        "biology",
+        "study biology",
+        "let's study biology",
+        "time for biology",
+        "bio"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 7,
+      "answer": "Bacteria are a group  of  microorganisms that can live in soil, water, or parasites  of  plants  or  animals.",
+      "source": "Study Biology.tsv",
+      "questions": [
+        "bug",
+        "bacteria",
+        "What are bacteria?"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 8,
+      "answer": "A parasite is an organism that lives in or on an organism of another species (its host) and benefits by deriving nutrients at the other's expense.",
+      "source": "Study Biology.tsv",
+      "questions": [
+        "What is a parasite?",
+        "parasite",
+        "bug"
+      ],
+      "metadata": []
+    }
+  ]
+}

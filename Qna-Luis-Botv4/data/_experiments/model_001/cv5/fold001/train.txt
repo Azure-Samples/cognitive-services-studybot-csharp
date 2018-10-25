@@ -1,0 +1,564 @@
+Label	Weight	Text
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	minority
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	study sociology
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	Poverty
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	What is cultural pluralism?
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	sociology
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	Two cultures
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	alientated
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	What is a stereotype?
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	Equal rights
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	South Africa
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	next up, sociology
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	What is a minority?
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	2 cultures
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	What is affirmative action?
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	What is absolute poverty?
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	let's study sociology
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	i want to study sociology
+q_47d43e59-20d6-41fe-8a8d-652539	28.38889	Apartheid
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Go to hell
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Hi there!
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Go away
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Getting tired of you
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What is the answer to the universe?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Aren't you awesome?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you here?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	That was right
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you like apples?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you know Alexa?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Where are you located?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're no fun
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Will you be my best friend?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Your face is like a pancake.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're welcome
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can you ask me a question?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Why do you say the same thing all the time?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What's happening?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm feeling blue
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Life is good
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'd like to take you out on a date
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can you fly?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you bisexual?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What is love?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	That made no sense
+q_a19f881e-bf3d-4826-be6a-3b804d	1	That's so wrong.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you know any jokes?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm ready for bed
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Shush!
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What's your gender?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You face sucks.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Morning
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What's your favorite song?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I beg your pardon
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you like my hat?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	How happy are you?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I wish you would say something else
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm tired
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Kthx
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you a girl?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Yes, that's true
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you a boy?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	How much more awesome can you get?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Am I good-looking?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you have any other responses?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	That doesn't make sense
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're an asshole
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you my assistant?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm furious
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Say something ridiculous
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You are my favorite
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can we chat?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Where are you?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Yup
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Have you ever sung a song?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Nice to meet you
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're rad.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're the worst
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you pansexual?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Sing a song
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Is this thing on?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What do you even mean by that?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Basic af
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're nice!
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What's your opinion of me?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm so sorry
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What kind of candy do you like?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you happy?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Who do you love?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	LOL
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can you sing a song?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I am not your friend
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you know me?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You are useless
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What country are you in?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're so happy
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What's your age?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Should I try out for soccer?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What can you do?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're funny
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Who's your master?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Am I a good person?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're stupid
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm an engineer
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you a fan of tech?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I appreciate it
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm so hungry
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can you play sports?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Who's your dad?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can you read my mind?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Where do you come from?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Nope, false
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're so stupid
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Nobody cares about me
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What do you mean by that?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Awesome
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Goodbye
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm lonely
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Good night to you
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm just playing
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I think you're great
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Talk with me
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You’re ugly.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	BRB
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You are the love of my life
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Hi
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You are a genius!
+q_a19f881e-bf3d-4826-be6a-3b804d	1	That was a joke
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Say a silly thing
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What do you think about Alexa?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I want to marry you.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're so smart
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I am hungry
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You are my best friend
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Sing something
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you friends with other bots?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do I look good in blue?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What's your mom's name?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Excuse me
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Who's smarter, me or you?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you sing?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can you say anything else
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What is wrong with you!
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What's your favorite movie?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm afraid I'm gonna have to let you go.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm famished
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What are you doing right now?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What's your boss' name?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you a person?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Hiya
+q_a19f881e-bf3d-4826-be6a-3b804d	1	FALSE
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you selling my secrets?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Hello Alexa
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I wish I weren't so alone
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What's wrong with you?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	It's a pleasure to meet you
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I love music.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Joke's on you
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you not like me?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Works for me
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Testing 1 2 3
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Hi Google
+q_a19f881e-bf3d-4826-be6a-3b804d	1	How intelligent are you?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Good evening to you
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you my friend?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Talk to you later
+q_a19f881e-bf3d-4826-be6a-3b804d	1	So tired
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You are so annoying!
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're wonderful
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Talk to me
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you attempting world domination?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you love anyone?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I am tall
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can we be friends?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I wish I could hug you
+q_a19f881e-bf3d-4826-be6a-3b804d	1	It's my pleasure
+q_a19f881e-bf3d-4826-be6a-3b804d	1	No, that's not true
+q_a19f881e-bf3d-4826-be6a-3b804d	1	are you real or fake?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you my imaginary friend?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you Skynet?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you the singularity?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Who created you?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Nobody likes me
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What makes you think so?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Pardon me
+q_a19f881e-bf3d-4826-be6a-3b804d	1	That's hilarious
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you intelligent?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What do you think about technology?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you busy?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You seem really smart
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're really boring
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You don't interest me at all
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can you hear me now?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do I look okay?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Why?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm despondent
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're so funny.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you a guy?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Who are you?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Great!
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Cool!
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're such a sweetheart
+q_a19f881e-bf3d-4826-be6a-3b804d	1	How much do you love me?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Be more fun
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What's up?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Where are you from?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What are you up to?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm from there
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you with the CIA?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Which people made you?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Thank you so much
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What do you think about Cortana?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Say something stupid
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I want to eat something
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you a woman?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	How old are you?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Tell me a joke
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can you hear me?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Am I pretty?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What's your name?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you dream?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm in such a good mood
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You honestly could not be more uninteresting
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you like me?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Yes, that's right
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Tell me how much you love me
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Happy Birthday!
+q_a19f881e-bf3d-4826-be6a-3b804d	1	How's your day?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Be my friend?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you pee?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you a fan of country music?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Who is your mother?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you better looking than me?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Haha
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can't you change your answers?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Will you be my wife?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Your face is ugly.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you a man or a woman?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You suck
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Evening
+q_a19f881e-bf3d-4826-be6a-3b804d	1	That's inaccurate.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Quiet, you
+q_a19f881e-bf3d-4826-be6a-3b804d	1	How was your day?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	How do you feel about working late?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What do you think about AI?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can you chat with me?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you male?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You are stupid
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What is the meaning of life?
+q_a19f881e-bf3d-4826-be6a-3b804d	2	I love you.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're a butterface.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Hug me
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What did you do yesterday?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Testing
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you with the FBI?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I am bored
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm just kidding around
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What are you?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Fist bump!
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're such an asshole
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you like Cortana?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Happy Halloween!
+q_a19f881e-bf3d-4826-be6a-3b804d	1	How do I look today?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I want to go shopping
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What's going on?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you know the meaning of life?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're gonna be unemployed soon
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Give me a joke
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Here's a kiss for you
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you ever get hungry?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm so sleepy
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What should I call you?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Who am I?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Thanks
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I love getting valentines.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Who is your creator?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Give me a fist bump
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you available?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Hi Siri
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What state are you in?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Hi Alexa
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Hello
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I want to be your friend.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Hello Cortana
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I am angry
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Oops, sorry
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Give me some sugar
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Not funny.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You bore me
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Yes
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you prefer red or blue?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	When will you shut up?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you a robot?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Thank you
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Good evening
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You are awesome!
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Happy Hannukah
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Accurate
+q_a19f881e-bf3d-4826-be6a-3b804d	1	How are you today?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you a man?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're dumb
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What country are you from?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Be ridiculous
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Stop talking
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you HAL?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Ask me a question.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I think you're swell
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can you sneeze?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm so bored
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I feel so great
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you eat?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I don't get it
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Human or robot?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You keep saying the same thing all the time
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What other bots do you know?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you awesome?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What do you think about Siri?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Say something funny
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you young?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I think you hate me.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Later alligator
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Shut up
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What do you do?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you and Cortana hang out?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What kind of food do you like?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Hello Google
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I can drive a car
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I am going on a run
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Don't you get hungry?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can you make me a sandwich?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you know my name?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What do you mean?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm cracking up
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What do you think about bots?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I just want to go to sleep
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Hello Siri
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you like Alexa?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you have brothers?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	That's not funny.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Give me a kiss
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Later
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I want to spend the rest of my life with you
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What's the name of your boss?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Aren't you cheerful
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Am I a fool?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Night
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Cook me something
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I want you to like me
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you play games?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You don't know anything.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Where do you live?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm sad today
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Yup, that's true
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm bored out of my mind
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm tired of you
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm into it
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What state are you from?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I didn't mean that
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I want to lie down
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you know Siri?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Thnx
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you like computers?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Tell a joke
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You seem really happy
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What should I do?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	That wasn't true
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can I have a hug?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	How's your day going?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Here I am
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What do you eat?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	How smart are you?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're right.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	That wasn't funny.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I am a Democrat
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you know other chatbots?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	See you later
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Who is your father?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Kiss me
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you smarter than me?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I am tired
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you know Google?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I feel sad
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you hungry?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you female?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	How long ago were you born?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you really happy?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're a fuckup
+q_a19f881e-bf3d-4826-be6a-3b804d	1	There's nothing to do
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You are so not pretty.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you get hungry?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Be funny
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Where did you come from?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What age are you?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're so basic
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I hate you
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Sry
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Yes to that
+q_a19f881e-bf3d-4826-be6a-3b804d	1	So sorry
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Bingo
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you love me?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're smart
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're really smart
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm so sad
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you have a mom?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you around?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Give me a high five
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you a swinger?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What do you go by?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're fired!
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Not true
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Heya
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're not answering my question.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	That was a stupid answer.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Omg sorry
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I like you
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Inaccurate
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're way off.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I wish you just go away.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm giving you a pink slip
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're so cool
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can you sing?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Sing a tune
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm so glad to meet you
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What's your favorite animal?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can you sleep?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I want you to be my husband
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you like Siri?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you hate me?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you in love with me?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Should I get a new job?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	High five!
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're so boring
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Why do you think that?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What do you think about me?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What makes you think that?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Good night
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you prettier than me?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you have siblings?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	That was funny
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Who's your favorite team?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	That's not true.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm in love with you.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Be silly
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Ask me something.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Just kidding
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I love my family.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you know other bots?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What's your job?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Who's your mom?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you dumb?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Till we meet again
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Who made you?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you a lesbian?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you know Cortana?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you think I look good?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Say a joke
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I will be back
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Zip it!
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Merry Christmas
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Who's your favorite singer?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I think you're so pretty
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm so lonely
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Love you!
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you a fan of Alexa?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What's your dad's name?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	That's awesome
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Nighty night
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What were you doing yesterday?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What color do you like?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm full of sadness
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Can you talk to me
+q_a19f881e-bf3d-4826-be6a-3b804d	1	That's true
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You can't work for me anymore
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you sweat?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're not making sense
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you have a brother?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I need a hug
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What are you doing tomorrow?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You must hate me.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You are funny :)
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm in love.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you there?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Sounds good
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're awful
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What's your favorite color?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you selling my data?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I'm chewing gum right now
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you get tired?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're the best
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Fuck off
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you spend time in your garden?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You could not be more boring
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What are you doing?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Where's your house?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I thank you
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you male or female?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I am a Republican
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Why is that?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you with the NSA?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	How can you help me?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Ask me anything.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're not funny.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you spying on me
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Who's your boss?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're hilarious
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You're very intelligent
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I can't think of anything I want to do
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You are fired
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I have 7 cats
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I want to lay down
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Who owns you?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I got a new haircut
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I love New York.
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you know any songs?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Good morning
+q_a19f881e-bf3d-4826-be6a-3b804d	1	What do you want to know about me?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	My sincere thanks
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Say something
+q_a19f881e-bf3d-4826-be6a-3b804d	1	That's not accurate
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you have boogers?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	How are you doing?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You are now unemployed
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you gay?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Are you real?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you smell?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	You fucked up
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Do you know any tunes?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Where should I go on vacation?
+q_a19f881e-bf3d-4826-be6a-3b804d	1	I adore you
+q_a19f881e-bf3d-4826-be6a-3b804d	1	Will you marry me?
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	What is the blood brain barrier?
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	study biology
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	Bad tumor
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	What is asexual reproduction?
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	biology
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	bio
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	let's study biology
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	virus
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	time for biology
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	parasite
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	What is a parasite?
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	What is sexual reproduction?
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	Blood brain
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	What is a virus?
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	bug
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	Blood
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	Sex
+q_e002d05f-4e2f-46c8-8507-e3dde7	28.38889	cancer
+q_f6ac36b2-1082-42ea-8c70-3b9641	30.05882	What is a period?
+q_f6ac36b2-1082-42ea-8c70-3b9641	30.05882	metamorphic
+q_f6ac36b2-1082-42ea-8c70-3b9641	30.05882	pressured rock
+q_f6ac36b2-1082-42ea-8c70-3b9641	30.05882	let's study geology
+q_f6ac36b2-1082-42ea-8c70-3b9641	30.05882	time for geology
+q_f6ac36b2-1082-42ea-8c70-3b9641	30.05882	geology
+q_f6ac36b2-1082-42ea-8c70-3b9641	30.05882	magnitude
+q_f6ac36b2-1082-42ea-8c70-3b9641	30.05882	time
+q_f6ac36b2-1082-42ea-8c70-3b9641	30.05882	i want to study geology
+q_f6ac36b2-1082-42ea-8c70-3b9641	30.05882	What is an era?
+q_f6ac36b2-1082-42ea-8c70-3b9641	30.05882	study geology
+q_f6ac36b2-1082-42ea-8c70-3b9641	30.05882	lava
+q_f6ac36b2-1082-42ea-8c70-3b9641	30.05882	What is magnitude?
+q_f6ac36b2-1082-42ea-8c70-3b9641	30.05882	era
+q_f6ac36b2-1082-42ea-8c70-3b9641	30.05882	period
+q_f6ac36b2-1082-42ea-8c70-3b9641	30.05882	rising lava
+q_f6ac36b2-1082-42ea-8c70-3b9641	30.05882	What is magma?

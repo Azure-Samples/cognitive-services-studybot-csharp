@@ -1,0 +1,98 @@
+{
+  "qnaDocuments": [
+    {
+      "id": 1,
+      "answer": "Absolute poverty is the condition of having too little income to buy the necessities-- food, shelter, clothing, health care.",
+      "source": "Study Sociology.tsv",
+      "questions": [
+        "What is absolute poverty?",
+        "Poverty"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 2,
+      "answer": "Affirmative action is the requirement that employers make special efforts to recruits hire and promote qualified members of previously excluded groups including women and minorities.",
+      "source": "Study Sociology.tsv",
+      "questions": [
+        "What is affirmative action?",
+        "Equal rights"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 3,
+      "answer": "Alienation is the separation or estrangement of individuals from themselves and from others.",
+      "source": "Study Sociology.tsv",
+      "questions": [
+        "What is alienation?",
+        "alientated"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 4,
+      "answer": "Apartheid is the recent policy of racial separation in South Africa enforced by legal political and military power.",
+      "source": "Study Sociology.tsv",
+      "questions": [
+        "What is Apartheid?",
+        "South Africa",
+        "Apartheid"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 5,
+      "answer": "Bicultural is the capacity to understand and function well in more than one cultural group.",
+      "source": "Study Sociology.tsv",
+      "questions": [
+        "What is bicultural?",
+        "Two cultures",
+        "2 cultures"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 6,
+      "answer": "Let's study sociology! Type in a sociology word(s), and a definition will be returned. For example, type \"absolute poverty\".",
+      "source": "Study Sociology.tsv",
+      "questions": [
+        "sociology",
+        "let's study sociology",
+        "time for sociology",
+        "next up, sociology",
+        "study sociology",
+        "i want to study sociology"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 7,
+      "answer": "Minorities are people who possess some distinctive physical or cultural characteristics, are dominated by the majority, and are denied equal treatment.",
+      "source": "Study Sociology.tsv",
+      "questions": [
+        "What is a minority?",
+        "minority"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 8,
+      "answer": "Cultural pluralism is a pattern of assimilation where immigrants are allowed to maintain their traditional cultural ways while at the same time learning the values and norms of the host culture.",
+      "source": "Study Sociology.tsv",
+      "questions": [
+        "What is cultural pluralism?"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 9,
+      "answer": "A stereotype is an over-generalized belief about a category of people. Stereotyping is, for example, believing that \"all politicians are corrupt\".",
+      "source": "Study Sociology.tsv",
+      "questions": [
+        "What is a stereotype?"
+      ],
+      "metadata": []
+    }
+  ]
+}

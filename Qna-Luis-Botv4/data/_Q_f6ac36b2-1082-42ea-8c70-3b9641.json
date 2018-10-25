@@ -1,0 +1,83 @@
+{
+  "qnaDocuments": [
+    {
+      "id": 1,
+      "answer": "Magnitude is the strength of an earthquake.",
+      "source": "Study Geology.tsv",
+      "questions": [
+        "What is magnitude?",
+        "magnitude"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 2,
+      "answer": "Magma, also known as lava, is molten rock that triggers earthquakes and creates volcanoes as it rises within the Earth.",
+      "source": "Study Geology.tsv",
+      "questions": [
+        "What is magma?",
+        "rising lava",
+        "lava"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 3,
+      "answer": "A metamorphic rock is a rock formed when another rock is changed by extreme heat or pressure.",
+      "source": "Study Geology.tsv",
+      "questions": [
+        "What is a metamorphic rock?",
+        "pressured rock",
+        "metamorphic"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 4,
+      "answer": "An epoch is a subdivision of a period.",
+      "source": "Study Geology.tsv",
+      "questions": [
+        "What is an epoch?",
+        "time",
+        "epoch"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 5,
+      "answer": "An era is a subdivision of the geologic time scale.",
+      "source": "Study Geology.tsv",
+      "questions": [
+        "What is an era?",
+        "time",
+        "era"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 6,
+      "answer": "A period is a subdivision of an era.",
+      "source": "Study Geology.tsv",
+      "questions": [
+        "What is a period?",
+        "time",
+        "period"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 7,
+      "answer": "Let's study geology! Type in a geology word(s) and a definition will be returned. For example, type \"lava\".",
+      "source": "Study Geology.tsv",
+      "questions": [
+        "geology",
+        "let's study geology",
+        "time for geology",
+        "i want to study geology",
+        "study geology",
+        "geo"
+      ],
+      "metadata": []
+    }
+  ]
+}
