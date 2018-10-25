@@ -1,9 +1,8 @@
 # Qna-Luis-Botv4
-This bot has been created using [Microsoft Bot Framework](https://dev.botframework.com),
-- Use [LUIS](https://luis.ai) to implement core AI capabilities
+This bot has been created using the [Microsoft Bot Framework](https://dev.botframework.com), in particular, the [Dispatch](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=csharp) feature which will "dispatch" user queries in a chat client to the right Microsoft Cognitive Service. This sample uses Dispatch to direct the user to [LUIS](https://luis.ai), which then directs the user to the right QnA Maker knowledge base (FAQ) stored in [qnamaker.ai](https://www.qnamaker.ai/). The new QnA Maker feature [Chitchat](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base) is used as one of the knowledge bases and is integrated into LUIS using the CLI Dispatch tool. Chitchat gives the chat client a more natural, conversational feel when a user chats off-topic.
 
 # Prerequisite to run this bot locally
-- Download the bot code from the Build blade in the Azure Portal
+- [Create a Basic C# web app bot](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart?view=azure-bot-service-4.0) in the [Azure Portal](https://ms.portal.azure.com). If you don't have an Azure account, [create a free Azure account](https://azure.microsoft.com/en-us/free/).
 - Update the `appsettings.json` file in the root of the bot project with the botFilePath and botFileSecret 
 - You can find the botFilePath and botFileSecret in the Azure App Service application settings.
 
