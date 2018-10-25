@@ -1,4 +1,4 @@
-# Basic Bot template
+# Qna-Luis-Botv4
 This bot has been created using [Microsoft Bot Framework](https://dev.botframework.com),
 - Use [LUIS](https://luis.ai) to implement core AI capabilities
 
