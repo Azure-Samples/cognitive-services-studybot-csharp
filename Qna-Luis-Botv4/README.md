@@ -3,7 +3,7 @@ This sample bot has been created using the [Microsoft Bot Framework](https://dev
 
 The new QnA Maker feature [Chitchat](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base) is used as one of the knowledge bases and is integrated into LUIS using the CLI Dispatch tool. Chitchat gives the chat client a more natural, conversational feel when a user chats off-topic, asking questions such as "How are you?", "You're boring", or "Can we be friends?". There are three different personalities you can set Chitchat to when creating it in [qnamaker.ai](https://www.qnamaker.ai/): The Professional, The Friend, or The Comic. This sample uses The Comic setting, since the Study Bot targets high school students.
 
-This sample is meant as a guide (not as a direct download), but instructions below show you how to create your own sample with your own Cognitive Services resources to create a Study Bot chat client.
+This sample is meant as a guide (not as a direct download), but instructions below show you how to create your own sample with your own Cognitive Service resources to create a Study Bot chat client.
 
 ## Prerequisites - Azure Bot and Emulator
 1. [Create a Basic C# web app bot](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart?view=azure-bot-service-4.0) in the [Azure Portal](https://ms.portal.azure.com). If you don't have an Azure account, [create a free Azure account](https://azure.microsoft.com/en-us/free/).
@@ -13,11 +13,11 @@ This sample is meant as a guide (not as a direct download), but instructions bel
     
 1. Once your code is local, open the solution file in Visual Studio.
 1. Update the `appsettings.json` file in the root of the bot project with the botFilePath and botFileSecret. 
-1. To find the botFilePath and botFileSecret, go to your bot resource in Azure and look under the Application Settings menu. 
+   To find the botFilePath and botFileSecret, go to your bot resource in Azure and look under the Application Settings menu. 
 
     <img src="/Assets/bot-secret-location.png">
 
-1. The update should look something like this, replacing <TEXT> with your unique values: 
+   The update should look something like this, replacing <TEXT> with your unique values: 
     ```json
     {
       "botFileSecret": "<YOUR BOT SECRET>",
@@ -31,21 +31,21 @@ This sample is meant as a guide (not as a direct download), but instructions bel
     
 ## Prerequisites - Creating the Cognitive Services: QnA Maker and LUIS
 ### QnA Maker
-1. For the QnA Maker part, you will need to [Create, train, and publish](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/create-publish-knowledge-base) three knowledge bases (KBs) in [qnamaker.ai](https://www.qnamaker.ai). Refer to the text files in this sample in the `Qna-Luis-Bot/FAQs` folder named QA Biology, QA Sociology, and QA Geology for FAQs you can upload for use. Name your knowledge bases "Biology", "Sociology", and "Geology". 
+1. For the QnA Maker part, you'll need to [Create, train, and publish](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/create-publish-knowledge-base) three knowledge bases (KBs) in [qnamaker.ai](https://www.qnamaker.ai). Refer to the text files in this sample in the `Qna-Luis-Bot/FAQs` folder named QA Biology, QA Sociology, and QA Geology for FAQs you can upload into qnamaker.ai when creating a new knowledge base. Name your knowledge bases "StudyBiology", "StudySociology", and "StudyGeology". 
 1. If you want to include Chitchat, [create a new knowledge base](https://www.qnamaker.ai/Create) but leave it empty (don't upload any files or URLs) and in Step 4, enable the Chitchat personality of your choice by selecting a radio button and choosing "Create your KB" at the bottom of the page. Once you create it, you will see it has been populated with lots of standard Chitchat questions and answers. Be sure to train and publish it in "My knowledge bases".
-1. You will want to add alternative keywords to your knowledge base questions in qnamaker.ai. These are found in the `Alt questions` folder in the `FAQs` folder. To add them to your knowledge bases, go to "My knowledge bases" in [qnamaker.ai](https://www.qnamaker.ai) and in each knowledge base click the "+" sign near each question (after your knowledge bases have been created). Type in the alternative question. This is only needed for the Biology, Geology, and Sociology KBs.
+1. You will want to add alternative keywords to your knowledge base questions in qnamaker.ai. These are found in the `FAQs/Alt questions` folder. To add them to your knowledge bases, go to "My knowledge bases" in [qnamaker.ai](https://www.qnamaker.ai) and in each knowledge base click the "+" sign near each question (after your knowledge bases have been created). Type in the alternative question. This is only needed for the Biology, Geology, and Sociology KBs.
 
     <img src="/Assets/alt-question-kb.png">
     
 1. Be sure to train and publish your knowledge base again after any changes are made.
 
 ### LUIS
-After you have created your web app bot (above), you will see a LUIS app has been auto-created for you in [luis.ai](https://www.luis.ai). We won't actually use this app, we'll replace with our Dispatch app later in this tutorial. Everything we need in LUIS will be created through Dispatch.
+After you have created your web app bot (above), you will see a LUIS app has been auto-created for you in [luis.ai](https://www.luis.ai). We won't actually use this app, we'll replace it with our Dispatch app later in this tutorial. Everything we need in LUIS will be created through Dispatch commands.
 
 ## Prerequisites - Creating Dispatch
 ### Install BotBuilder Tools
 1. Ensure you have [Node.js](https://nodejs.org/) version 8.5 or higher
-1. From a command prompt/terminal navigate to your Study Bot project folder and type the command:
+1. From a command prompt/terminal navigate to your bot project folder and type the command:
     ```bash
     npm i -g msbot chatdown ludown qnamaker luis-apis botdispatch luisgen
     ```
@@ -57,26 +57,25 @@ After you have created your web app bot (above), you will see a LUIS app has bee
     ```bash
     dispatch init -n {DispatchName} --luisAuthoringKey xxxxxxxxxxxxxxxxxxxx --luisAuthoringRegion {LUISauthoringRegion} --culture en-us
     dispatch add -t qna -i {kbId1} -k {QnaKey from Azure}
-    dispatch add -t qna -i {kbId2} -k {QnaKey from Azure }
-    dispatch add -t qna -i {kbId3} -k {QnaKey from Azure }
-    dispatch add -t qna -i {chitChatKb} -k {QnaKey from Azure }
+    dispatch add -t qna -i {kbId2} -k {QnaKey from Azure}
+    dispatch add -t qna -i {kbId3} -k {QnaKey from Azure}
+    dispatch add -t qna -i {chitChatKbId} -k {QnaKey from Azure}
     dispatch create
     ```
-1. With all your services added, you can view them in the <YOUR-BOT-NAME>.dispatch file that was just created to see the services you added. Also notice the <YOUR-BOT-NAME>.json file now contains a very long list of every utterance you have from your LUIS app from all its intents.
+1. With all your services added, you can view them in the <YOUR-BOT-NAME>.dispatch file that was just created to see the services. Also notice the <YOUR-BOT-NAME>.json file now contains a very long list of every utterance you have from your LUIS Dispatch app from all its intents.
 1. This Dispatch sequence also creates a special LUIS app for the Dispatch service in luis.ai. Note: you'll use the authoring and endpoint keys from this app in your .bot file later.
-1. Go to your account in luis.ai and find the Dipatch app just created. You can see there is a `None` intent (default) and then your knowledge base intents. However, these are not named well, as they are a string of random characters. Make sure to rename them (click pencil icon near title) to match the naming in your .bot file for these QnA knowledge bases. For instance, the geology KB is named StudyGeology, in luis.ai, qnamaker.ai, and in the .bot file (name field). 
+1. Go to your account in luis.ai and find the Dipatch app just created. You can see there is a `None` intent (default) and then your knowledge base intents. However, these are not named well, as they are a string of random characters. Make sure to rename them (click pencil icon near title) to match the naming in your .bot file for these QnA knowledge bases. For instance, the geology KB is named StudyGeology, in luis.ai, qnamaker.ai, and in the .bot file (name field of each object). They all need to match.
 1. After renaming your LUIS intents, train and publish them. It might take a minute or two to see the changes reflected in your responses in the chat client (if already testing).
 
 ## Prerequisites - Syncing the code
-Now that your Dispatch structure is set in your bot, you only need to copy/paste missing code when comparing your bot with this sample.
+Now that your Dispatch structure is set in your bot and in luis.ai, you only need to copy/paste missing code when comparing your bot with this sample.
 1. Compare the BasicBot.cs and BotServices.cs files of the sample with your own and add any missing pieces to yours.
 1. Create a NlpDispatchBot.cs file in your project structure in Visual Studio and copy/paste code from the sample's file of this name. Be sure the variable names match your knowledge base names in your .bot file, including the `DispatchKey`. You can change the `Welcome Text` to be whatever you'd like.
 1. Compare/copy/paste the Startup.cs file with the one in this sample. Be sure that the `botConfig` variable reflects your .bot file name so it knows to check resources there, like this:
     ```C#
-    var botConfig = BotConfiguration.Load(botFilePath ?? @".\StudyBotCsharp.bot", secretKey);
+    var botConfig = BotConfiguration.Load(botFilePath ?? @".\<YOUR-BOTNAME>.bot", secretKey);
     ```
-1. Finally, take the StudyBotCsharp.bot file of this sample and see what is missing in your .bot file. 
-1. The beginning and end should look like this sample, but the objects in the list can vary. For example, make sure to paste these beginning/end parts over those in your bot:
+1. Finally, take the StudyBotCsharp.bot file of this sample and see what is missing in your .bot file. The beginning and end should look like this sample, but the objects in the list can vary. For example, make sure to paste these beginning/end parts over those in your bot:
    ```json
      "name": "<YOUR-BOT-NAME>",
      "description": "",
