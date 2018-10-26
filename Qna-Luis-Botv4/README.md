@@ -115,32 +115,30 @@ Now that your Dispatch structure is set in your bot, you only need to copy/paste
 
 ## Run and test your bot
 ### Connect to bot using Bot Framework Emulator
+- Build/run your bot project. You'll see a browser window open that confirms success.
 - Launch the Bot Framework Emulator
 - File -> Open bot and navigate to your bot project folder
 - Select `<YOUR-BOT-NAME>.bot` file and it opens in the emulator.
 - When you see `[19:15:57]POST 200 conversations.replyToActivity`, your bot is ready to take input.
-- Type any question in your knowledge bases (from any one) and the answer should be returned. 
+- Type any question of your knowledge bases (from any one) and the answer should be returned. 
+- Note: your project must be running in order to use the emulator.
 
-# Deploy this bot to Azure
-## Publish from Visual Studio
+## Deploy this bot to Azure
+### Publish from Visual Studio
 - Open the .PublishSettings file you find in the PostDeployScripts folder
 - Copy the userPWD value
-- Right click on the Project and click on "Publish..."
-- Paste the password you just copied and publish
+- Right-click on your Project of the Solution Explorer in Visual Studio and click the menu item "Publish".
+- Click the "Publish" button when the file opens and then paste the password you just copied into the popup.
 
-## Publish using the CLI tools
-You can use the [MSBot](https://github.com/microsoft/botbuilder-tools) Bot Builder CLI tool to clone and configure any services this sample depends on. 
-```To clone this bot, run:
-msbot clone services -f deploymentScripts/msbotClone -n <BOT-NAME> -l <AZURE-LOCATION> --subscriptionId <AZURE-SUBSCRIPTION-ID>
-```
-
-# Further reading
+## Further reading
 - [Bot Framework Documentation](https://docs.botframework.com)
 - [Bot basics](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0)
-- [Activity processing](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-activity-processing?view=azure-bot-service-4.0)
-- [LUIS](https://luis.ai)
-- [Prompt Types](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-prompts?view=azure-bot-service-4.0&tabs=javascript)
 - [Azure Bot Service Introduction](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0)
-- [Channels and Bot Connector Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-concepts?view=azure-bot-service-4.0)
+- [14.nlp-with-dispatch](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch) sample. The StudyBot sample is largely based on this sample.
+- [LUIS](https://luis.ai)
 - [QnA Maker](https://qnamaker.ai)
+- [Activity processing](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-activity-processing?view=azure-bot-service-4.0)
+- [Prompt Types](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-prompts?view=azure-bot-service-4.0&tabs=javascript)
+- [Channels and Bot Connector Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-concepts?view=azure-bot-service-4.0)
+
 
