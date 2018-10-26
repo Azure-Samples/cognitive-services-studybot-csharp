@@ -40,8 +40,7 @@ This sample is meant as a guide (not as a direct download), but instructions bel
 1. Be sure to train and publish your knowledge base again after any changes are made.
 
 ### LUIS
-1. After you have created your web app bot (above), you will see a LUIS app has been auto-created for you in [luis.ai](https://www.luis.ai) with default intents that get created for every LUIS app: `Greeting`, `Cancel`, `Help`, and `None`. You can leave them or delete them, they are optional, but make sure you leave the `None` intent. Although, it's recommended to leave them all. 
-1. Now, [add intents](https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-how-to-add-intents) of your own according to your knowledge bases. For example, if you have a biology knowledge base, you'll want to make a "Biology" intent. This is how LUIS knows to send all user queries in the chat client to the Biology knowledge base in qnamaker.ai. The "Add Intents" how-to guide above also shows you how to add utterances, which should mirror what your QnA Maker knowledge bases' words or phrases are in the "Question" part. For example, if you have a Biology knowledge base with 'What is a virus?' as a question... the utterances in the Biology intent (and the alternative words in the "Question" part of your Biology knowledge base) would be "virus", "viral", "viruses", and/or "bug". Any of these will return the definition (answer) of "virus" in the chat client.
+After you have created your web app bot (above), you will see a LUIS app has been auto-created for you in [luis.ai]. We won't actually use this app, we'll replace with our Dispatch app later in this tutorial. Everything we need in LUIS will be created through Dispatch.
 
 ## Prerequisites - Creating Dispatch
 ### Install BotBuilder Tools
@@ -65,16 +64,31 @@ This sample is meant as a guide (not as a direct download), but instructions bel
     ```
 1. With all your services added, you can view them in the <YOUR-BOT-NAME>.dispatch file that was just created to see the services you added. Also notice the <YOUR-BOT-NAME>.json file now contains a very long list of every utterance you have from your LUIS app from all its intents.
 1. This Dispatch sequence also creates a special LUIS app for the Dispatch service in luis.ai. Note: you'll use the authoring and endpoint keys from this app in your .bot file later.
+1. Go to your account in luis.ai and find the Dipatch app just created. You can see there is a `None` intent (default) and then your knowledge base intents. However, these are not named well. Make sure to rename them (click pencil icon near title) to match your naming in your .bot file for these QnA knowledge bases. For instance, the geology KB is named StudyBiology, in luis.ai, qnamaker.ai, and in the .bot file (name field).
+1. After renaming your LUIS intents, train and publish them. It might take a minute or two to see the changes reflected in your responses in the chat client (if already testing).
 
 ## Prerequisites - Syncing the code
 Now that your Dispatch structure is set in your bot, you only need to copy/paste missing code when comparing your bot with this sample.
-1. Compare the BasicBot.cs file and add any missing pieces.
-1. Create a NlpDispatchBot.cs file in your project structure in Visual Studio and copy/paste code from the sample's file of this name.
-1. Compare/copy/paste the Startup.cs and Program.cs files with those of this sample. Be sure that the `botConfig` variable in Startup.cs reflects your .bot file name so it knows to check resources there, like this:
+1. Compare the BasicBot.cs and BotServices.cs files of the sample with your own and add any missing pieces to yours.
+1. Create a NlpDispatchBot.cs file in your project structure in Visual Studio and copy/paste code from the sample's file of this name. Be sure the variable names match your knowledge base names in your .bot file, including the `DispatchKey`. You can change the `Welcome Text` to be whatever you'd like.
+1. Compare/copy/paste the Startup.cs file with the one in this sample. Be sure that the `botConfig` variable reflects your .bot file name so it knows to check resources there, like this:
     ```C#
     var botConfig = BotConfiguration.Load(botFilePath ?? @".\StudyBotCsharp.bot", secretKey);
     ```
 1. Finally, take the StudyBotCsharp.bot file of this sample and see what is missing in your .bot file. 
+1. The beginning and end should look like this sample, but the objects in the list can vary. For example, make sure to paste these beginning/end parts over those in your bot:
+   ```json
+     "name": "<YOUR-BOT-NAME>",
+     "description": "",
+     "services": [
+  
+     ...
+  
+      ],
+       "padlock": "",
+       "version": "2.0",
+       "secretKey": ""
+   ```
 1. One object that needs replacing in your .bot file is the auto-generated LUIS app. You'll see it's the only object with type "luis". That is what gets generated when you first create the web app bot in Azure, but since you created your own Dispatch app in LUIS, you want to use that one instead. So paste the code below over your default LUIS app object. the appId and authoringkey can be found in your LUIS app under the "Manage" menu, when you open your Dispatch app in luis.ai. The subscription ID is your main key in the Azure Portal. It's the same for every service you create, which can be found under the service resource's "Overview" menu item.
     ```json
     {
