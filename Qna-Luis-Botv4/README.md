@@ -18,12 +18,12 @@ This sample is meant as a guide (not as a direct download), but instructions bel
     <img src="/Assets/bot-secret-location.png">
 
 1. The update should look something like this, replacing <TEXT> with your unique values: 
-```json
-{
-  "botFileSecret": "<YOUR BOT SECRET>",
-  "botFilePath": "./<YOUR BOT NAME>.bot"
-}
-```
+    ```json
+    {
+      "botFileSecret": "<YOUR BOT SECRET>",
+      "botFilePath": "./<YOUR BOT NAME>.bot"
+    }
+    ```
 1. [Download the Bot Emulator](https://github.com/Microsoft/BotFramework-Emulator/releases) in preparation to test chat queries with Visual Studio.
 1. You'll need to [download Ngrok](https://ngrok.com/download) for the emulator. If Ngrok is not configured, you'll see a link in your emulator where you can click to configure it.
 
@@ -44,13 +44,68 @@ This sample is meant as a guide (not as a direct download), but instructions bel
 1. Now, [add intents](https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-how-to-add-intents) of your own according to your knowledge bases. For example, if you have a biology knowledge base, you'll want to make a "Biology" intent. This is how LUIS knows to send all user queries in the chat client to the Biology knowledge base in qnamaker.ai. The "Add Intents" how-to guide above also shows you how to add utterances, which should mirror what your QnA Maker knowledge bases' words or phrases are in the "Question" part. For example, if you have a Biology knowledge base with 'What is a virus?' as a question... the utterances in the Biology intent (and the alternative words in the "Question" part of your Biology knowledge base) would be "virus", "viral", "viruses", and/or "bug". Any of these will return the definition (answer) of "virus" in the chat client.
 
 ## Prerequisites - Creating Dispatch
-Dispatch is a command line tool that will create the Dispatch keys and IDs (.dispatch file), a list of all your LUIS utterances that match your QnA Maker knowledge base questions (.json file), and connect all your Cognitive Services to the Dispatch system.
+### Install BotBuilder Tools
+1. Ensure you have [Node.js](https://nodejs.org/) version 8.5 or higher
+1. From a command prompt/terminal navigate to your Study Bot project folder and type the command:
+    ```bash
+    npm i -g msbot chatdown ludown qnamaker luis-apis botdispatch luisgen
+    ```
+### Create Dispatch service    
+[Dispatch](https://github.com/Microsoft/botbuilder-tools/tree/master/packages/Dispatch) is a command line tool that will create the Dispatch keys and IDs (.dispatch file), a list of all your LUIS utterances that match your QnA Maker knowledge base questions (.json file), create a new Dispatch app in your LUIS account, and connect all your Cognitive Services to the Dispatch system.
 
+1. To connect your LUIS app and QnA Maker knowledge bases to Dispatch, enter the commands below (one line at a time) into your terminal. You can name your Dispatch service anything you'd like, Study-Bot-Dispatch would work well. Your LUIS authoring key is found in the "Settings" menu when you right click on your account name in the upper right of your luis.ai account. Example for region: westus.
+1. Your QnA Maker KB IDs can be found by going to "My knowledge bases" in qnamaker.ai and clicking the "View code" on the far right side of your knowledge base. Your KB ID is the string of numbers in the first line. The QnAKey is your QnA Maker key from your resource in Azure, found in the "Keys" section of the menu in your resource. You have two keys, use either one. This is the resource (your Azure QnA service) you used when creating your knowledge bases in qnamaker.ai. 
+    ```bash
+    dispatch init -n {DispatchName} --luisAuthoringKey xxxxxxxxxxxxxxxxxxxx --luisAuthoringRegion {LUISauthoringRegion} --culture en-us
+    dispatch add -t qna -i {kbId1} -k {QnaKey from Azure}
+    dispatch add -t qna -i {kbId2} -k {QnaKey from Azure }
+    dispatch add -t qna -i {kbId3} -k {QnaKey from Azure }
+    dispatch add -t qna -i {chitChatKb} -k {QnaKey from Azure }
+    dispatch create
+    ```
+1. With all your services added, you can view them in the <YOUR-BOT-NAME>.dispatch file that was just created to see the services you added. Also notice the <YOUR-BOT-NAME>.json file now contains a very long list of every utterance you have from your LUIS app from all its intents.
+1. This Dispatch sequence also creates a special LUIS app for the Dispatch service in luis.ai. Note: you'll use the authoring and endpoint keys from this app in your .bot file later.
 
+## Prerequisites - Syncing the code
+Now that your Dispatch structure is set in your bot, you only need to copy/paste missing code when comparing your bot with this sample.
+1. Compare the BasicBot.cs file and add any missing pieces.
+1. Create a NlpDispatchBot.cs file in your project structure in Visual Studio and copy/paste code from the sample's file of this name.
+1. Compare/copy/paste the Startup.cs and Program.cs files with those of this sample. Be sure that the `botConfig` variable in Startup.cs reflects your .bot file name so it knows to check resources there, like this:
+    ```C#
+    var botConfig = BotConfiguration.Load(botFilePath ?? @".\StudyBotCsharp.bot", secretKey);
+    ```
+1. Finally, take the StudyBotCsharp.bot file of this sample and see what is missing in your .bot file. 
+1. One object that needs replacing in your .bot file is the auto-generated LUIS app. You'll see it's the only object with type "luis". That is what gets generated when you first create the web app bot in Azure, but since you created your own Dispatch app in LUIS, you want to use that one instead. So paste the code below over your default LUIS app object. the appId and authoringkey can be found in your LUIS app under the "Manage" menu, when you open your Dispatch app in luis.ai. The subscription ID is your main key in the Azure Portal. It's the same for every service you create, which can be found under the service resource's "Overview" menu item.
+    ```json
+    {
+      "type": "dispatch",
+      "serviceIds": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "name": "Study-Bot-Dispatch",
+      "appId": "<YOUR LUIS DISPATCH APP ID>",
+      "authoringKey": "<YOUR AUTHORING KEY FOR THE APP>",
+      "subscriptionKey": "<YOUR SUBSCRIPTION ID IN AZURE PORTAL>",
+      "version": "Dispatch",
+      "region": "westus",
+      "id": "161"
+    },
+    ```
+1. For the rest of the .bot file, you will need to fill in the keys, IDs, endpoints, and hostnames for each service if applicable. Much of this file was auto-created, so only add missing items to your .bot file. 
+1. This sample uses Dispatch serviceIds 7, 8, 9, 10 (shown above) which are the IDs of the QnA objects in the .bot file. Be sure to change the Dispatch serviceIds to match your specific service IDs in your .bot file. Basically, all your knowledge base "id"s.
+
+## Run and test your bot
 ### Connect to bot using Bot Framework Emulator
 - Launch the Bot Framework Emulator
-- File -> Open bot and navigate to the bot project folder
-- Select `<your-bot-name>.bot` file
+- File -> Open bot and navigate to your bot project folder
+- Select `<YOUR-BOT-NAME>.bot` file and it opens in the emulator.
+- When you see `[19:15:57]POST 200 conversations.replyToActivity`, your bot is ready to take input.
+- Type any question in your knowledge bases (from any one) and the answer should be returned. 
 
 # Deploy this bot to Azure
 ## Publish from Visual Studio
@@ -61,13 +116,10 @@ Dispatch is a command line tool that will create the Dispatch keys and IDs (.dis
 
 ## Publish using the CLI tools
 You can use the [MSBot](https://github.com/microsoft/botbuilder-tools) Bot Builder CLI tool to clone and configure any services this sample depends on. 
-To install all Bot Builder tools - 
-```bash:
-npm i -g msbot chatdown ludown qnamaker luis-apis botdispatch luisgen
-```
 ```To clone this bot, run:
-msbot clone services -f deploymentScripts/msbotClone -n <BOT-NAME> -l <Azure-location> --subscriptionId <Azure-subscription-id>
+msbot clone services -f deploymentScripts/msbotClone -n <BOT-NAME> -l <AZURE-LOCATION> --subscriptionId <AZURE-SUBSCRIPTION-ID>
 ```
+
 # Further reading
 - [Bot Framework Documentation](https://docs.botframework.com)
 - [Bot basics](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0)
