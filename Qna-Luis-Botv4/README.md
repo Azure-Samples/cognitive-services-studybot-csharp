@@ -40,7 +40,7 @@ This sample is meant as a guide (not as a direct download), but instructions bel
 1. Be sure to train and publish your knowledge base again after any changes are made.
 
 ### LUIS
-After you have created your web app bot (above), you will see a LUIS app has been auto-created for you in [luis.ai]. We won't actually use this app, we'll replace with our Dispatch app later in this tutorial. Everything we need in LUIS will be created through Dispatch.
+After you have created your web app bot (above), you will see a LUIS app has been auto-created for you in [luis.ai](https://www.luis.ai). We won't actually use this app, we'll replace with our Dispatch app later in this tutorial. Everything we need in LUIS will be created through Dispatch.
 
 ## Prerequisites - Creating Dispatch
 ### Install BotBuilder Tools
@@ -64,7 +64,7 @@ After you have created your web app bot (above), you will see a LUIS app has bee
     ```
 1. With all your services added, you can view them in the <YOUR-BOT-NAME>.dispatch file that was just created to see the services you added. Also notice the <YOUR-BOT-NAME>.json file now contains a very long list of every utterance you have from your LUIS app from all its intents.
 1. This Dispatch sequence also creates a special LUIS app for the Dispatch service in luis.ai. Note: you'll use the authoring and endpoint keys from this app in your .bot file later.
-1. Go to your account in luis.ai and find the Dipatch app just created. You can see there is a `None` intent (default) and then your knowledge base intents. However, these are not named well. Make sure to rename them (click pencil icon near title) to match your naming in your .bot file for these QnA knowledge bases. For instance, the geology KB is named StudyBiology, in luis.ai, qnamaker.ai, and in the .bot file (name field).
+1. Go to your account in luis.ai and find the Dipatch app just created. You can see there is a `None` intent (default) and then your knowledge base intents. However, these are not named well, as they are a string of random characters. Make sure to rename them (click pencil icon near title) to match the naming in your .bot file for these QnA knowledge bases. For instance, the geology KB is named StudyGeology, in luis.ai, qnamaker.ai, and in the .bot file (name field). 
 1. After renaming your LUIS intents, train and publish them. It might take a minute or two to see the changes reflected in your responses in the chat client (if already testing).
 
 ## Prerequisites - Syncing the code
