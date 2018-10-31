@@ -27,6 +27,9 @@ namespace Microsoft.BotBuilderSamples
     /// </summary>
     public class Startup
     {
+        // ADD BINGSPELLCHECK KEY FROM YOUR RESOURCE IN THE AZURE PORTAL
+        private static string bingSpellCheckKey = "<ADD-YOUR-BING-SPELL-CHECK-KEY-HERE>"
+
         private ILoggerFactory _loggerFactory;
         private bool _isProduction = false;
 
@@ -155,6 +158,13 @@ namespace Microsoft.BotBuilderSamples
             var qnaServices = new Dictionary<string, QnAMaker>();
             var luisServices = new Dictionary<string, LuisRecognizer>();
 
+            // Create instance for Bing Spell Check
+            LuisPredictionOptions lpo = new LuisPredictionOptions
+            {
+                BingSpellCheckSubscriptionKey = bingSpellCheckKey,
+                SpellCheck = true,
+            };
+
             foreach (var service in config.Services)
             {
                 switch (service.Type)
@@ -228,10 +238,15 @@ namespace Microsoft.BotBuilderSamples
                             throw new InvalidOperationException("The Region ('region') is required to run this sample. Please update your '.bot' file.");
                         }
 
+                        if (string.IsNullOrWhiteSpace(bingSpellCheckKey))
+                        {
+                            throw new InvalidOperationException("The BingSpellCheckKey ('bingSpellCheckKey') is required to run this sample. Please update your '.bot' file.");
+                        }
+
                         var dispatchApp = new LuisApplication(dispatch.AppId, dispatch.AuthoringKey, dispatch.GetEndpoint());
 
                         // Since the Dispatch tool generates a LUIS model, we use LuisRecognizer to resolve dispatching of the incoming utterance
-                        var dispatchARecognizer = new LuisRecognizer(dispatchApp);
+                        var dispatchARecognizer = new LuisRecognizer(dispatchApp, lpo);
                         luisServices.Add(dispatch.Name.Split("_").Last(), dispatchARecognizer);
                         break;
 
