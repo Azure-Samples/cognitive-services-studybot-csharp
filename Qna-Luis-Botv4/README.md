@@ -3,6 +3,8 @@ This sample bot has been created using the [Microsoft Bot Framework](https://dev
 
 The new QnA Maker feature [Chitchat](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base) is used as one of the knowledge bases and is integrated into LUIS using the CLI Dispatch tool. Chitchat gives the chat client a more natural, conversational feel when a user chats off-topic, asking questions such as "How are you?", "You're boring", or "Can we be friends?". There are three different personalities you can set Chitchat to when creating it in [qnamaker.ai](https://www.qnamaker.ai/): The Professional, The Friend, or The Comic. This sample uses The Comic setting, since the Study Bot targets high school students.
 
+[BingSpellCheck](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-tutorial-bing-spellcheck) was enabled in the LUIS app and added to the bot.
+
 This sample is meant as a guide (not as a direct download), but instructions below show you how to create your own sample with your own Cognitive Service resources to create a Study Bot chat client.
 
 ## Prerequisites - Azure Bot and Emulator
@@ -40,7 +42,7 @@ This sample is meant as a guide (not as a direct download), but instructions bel
 1. Be sure to train and publish your knowledge base again after any changes are made.
 
 ### LUIS
-After you have created your web app bot (above), you will see a LUIS app has been auto-created for you in [luis.ai](https://www.luis.ai). We won't actually use this app, we'll replace it with our Dispatch app later in this tutorial. Everything we need in LUIS will be created through Dispatch commands.
+After you have created your web app bot (above), you will see a LUIS app has been auto-created for you in [luis.ai](https://www.luis.ai). We won't actually use this app, we'll replace it with our Dispatch app later in this tutorial. This app will be created through Dispatch commands.
 
 ## Prerequisites - Creating Dispatch
 ### Install BotBuilder Tools
@@ -66,6 +68,9 @@ After you have created your web app bot (above), you will see a LUIS app has bee
 1. This Dispatch sequence also creates a special LUIS app for the Dispatch service in luis.ai. Note: you'll use the authoring and endpoint keys from this app in your .bot file later.
 1. Go to your account in luis.ai and find the Dipatch app just created. You can see there is a `None` intent (default) and then your knowledge base intents. However, these are not named well, as they are a string of random characters. Make sure to rename them (click pencil icon near title) to match the naming in your .bot file for these QnA knowledge bases. For instance, the geology KB is named StudyGeology, in luis.ai, qnamaker.ai, and in the .bot file (name field of each object). They all need to match.
 1. After renaming your LUIS intents, train and publish them. It might take a minute or two to see the changes reflected in your responses in the chat client (if already testing).
+
+#### Enable Bing Spell Check
+1. In the Startup.cs file of your local bot project, add your Bing Spell Check Key at the top where indicated. If you do not yet have a Bing Spell Check resource in Azure, [get a free trial](https://azure.microsoft.com/en-us/try/cognitive-services/my-apis/?api=spellcheck-api), or create a new Bing Spell Check v7 resource in the Azure portal and fetch its key.
 
 ## Prerequisites - Syncing the code
 Now that your Dispatch structure is set in your bot and in luis.ai, you only need to copy/paste missing code when comparing your bot with this sample.
