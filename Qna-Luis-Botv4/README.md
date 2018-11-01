@@ -3,7 +3,7 @@ This sample bot has been created using the [Microsoft Bot Framework](https://dev
 
 The new QnA Maker feature [Chitchat](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base) is used as one of the knowledge bases and is integrated into LUIS using the CLI Dispatch tool. Chitchat gives the chat client a more natural, conversational feel when a user chats off-topic, asking questions such as "How are you?", "You're boring", or "Can we be friends?". There are three different personalities you can set Chitchat to when creating it in [qnamaker.ai](https://www.qnamaker.ai/): The Professional, The Friend, or The Comic. This sample uses The Comic setting, since the Study Bot targets high school students.
 
-[BingSpellCheck](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-tutorial-bing-spellcheck) was enabled in the LUIS app and added to the bot.
+[BingSpellCheck](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-tutorial-bing-spellcheck) was added to the bot to correct light misspellings.
 
 This sample is meant as a guide (not as a direct download), but instructions below show you how to create your own sample with your own Cognitive Service resources to create a Study Bot chat client.
 
