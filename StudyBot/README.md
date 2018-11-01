@@ -1,4 +1,6 @@
-# Study Bot
+# Study Bot v3
+
+This sample currently uses web app bot v3 only. The v4 is coming soon. However, the Qna-Luis-Botv4 is a stand-alone bot that can run independently of the StudyBot UWP app, to demostrate the bot features only.
 
 This sample is a UWP app that combines a LUIS-based web app bot (with Bing Spell Check enabled in luis.ai) with three QnA Maker knowledge bases to provide a question and answer chat client for a student. It also contains a relevant website query based on the chat queries entered by the student, for instance, if the user wants to know the definition of a "virus". The queries will then act as search terms for an encyclopedia, Microsoft Academic, and a Bing Search in their respective `WebView` in the app. 
 
