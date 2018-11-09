@@ -14,10 +14,18 @@ This sample is a UWP app that combines a LUIS-based web app bot (with Bing Spell
 
 1. Open this Study Bot solution file in Visual Studio 2017+.
 
-1. In `MainPage.xaml.cs`, add your Qna-Luis-Bot's bot's name (verbatum) and secret key to `botHandle` and `botSecretkey`, respectively. To find the key, go to your bot in the [Azure portal](https://ms.portal.azure.com) under the Channels menu item, then select `Edit` to the right of your bot. You'll see your secret key that you can show and copy, then paste into `MainPage.xaml.cs`. 
+1. In `MainPage.xaml.cs`, add your Qna-Luis-Bot's bot's name (verbatum) and secret key to `botHandle` and `botSecretkey`, respectively. To find the key, go to your bot in the [Azure portal](https://ms.portal.azure.com) under the Channels menu item, then select `Edit` to the right of your bot. You'll see your secret key (either one is fine) that you can show and copy, then paste into `MainPage.xaml.cs`. 
     
     <img src="/Assets/bot-secret-key.png">
-    
+
+1. Next, enable Direct Line in Azure. While still in the Channels menu, click on the globe icon.
+
+    <img src="/Assets/enable-directline.png">
+  
+1. A popup will reveal your secret keys and other info, click "Done" at the bottom. Then you will see Direct Line has been added next to Web Chat.
+
+    <img src="/Assets/directline-done.png">
+
 1. NuGet packages needed: 
 
     Microsoft.Bot.Connector.DirectLine (if using bot v3)
