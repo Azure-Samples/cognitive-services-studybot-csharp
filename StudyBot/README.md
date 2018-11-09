@@ -22,7 +22,7 @@ This sample is a UWP app that combines a LUIS-based web app bot (with Bing Spell
 
     <img src="/Assets/enable-directline.png">
   
-1. A popup will reveal your secret keys and other info, click "Done" at the bottom. Then you will see Direct Line has been added next to Web Chat.
+1. The secret keys popup will show again, click "Done" at the bottom. Then you will see Direct Line has been added next to Web Chat.
 
     <img src="/Assets/directline-done.png">
 
