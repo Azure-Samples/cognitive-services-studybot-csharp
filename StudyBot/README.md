@@ -10,7 +10,7 @@ This sample is a UWP app that combines a Basic, C# web app bot with Bing Spell C
 
 1. Once your Qna-Luis-Bot sample is ready, you'll need its bot name and secret key for this sample (detailed below).
 
-1. Open this Study Bot solution file in Visual Studio 2017+.
+1. After cloning the main repo, open this Study Bot solution file in Visual Studio 2017+.
 
 1. In `MainPage.xaml.cs`, add your Qna-Luis-Bot's bot's name (verbatum) to `botHandle`. 
 
