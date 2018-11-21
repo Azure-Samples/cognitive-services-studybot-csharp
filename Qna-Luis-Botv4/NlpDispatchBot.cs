@@ -26,7 +26,7 @@ namespace Microsoft.BotBuilderSamples
         /// If you have entities in your LUIS app, you will want to create a separate LUIS app for those
         /// that will act as a model for the Dispatch app. Here the Dispatch app is used directly.
         /// </summary>
-        public static readonly string DispatchKey = "Study-Bot-Dispatch";
+        public static readonly string DispatchKey = "<YOUR-LUIS-DISPATCH-APP-NAME>";
 
         /// <summary>
         /// Key in the Bot config (.bot file) for the QnaMaker instance(s).
