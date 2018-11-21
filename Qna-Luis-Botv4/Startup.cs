@@ -71,7 +71,7 @@ namespace Microsoft.BotBuilderSamples
             var botFilePath = Configuration.GetSection("botFilePath")?.Value;
 
             // Loads .bot configuration file and adds a singleton that your Bot can access through dependency injection.
-            var botConfig = BotConfiguration.Load(botFilePath ?? @".\StudyBotCsharp.bot", secretKey);
+            var botConfig = BotConfiguration.Load(botFilePath ?? botFilePath, secretKey);
             services.AddSingleton(sp => botConfig ?? throw new InvalidOperationException($"The .bot config file could not be loaded. ({botConfig})"));
 
             // Retrieve current endpoint.
@@ -256,7 +256,7 @@ namespace Microsoft.BotBuilderSamples
                             // into the IBot-derived class (NlpDispatchBot).
                             // In this case, we're creating a custom class (wrapping the original
                             // QnAMaker client) that logs the results of QnA Maker into Application
-                            // Insights for future anaysis.
+                            // Insights for future analysis.
                             if (!(service is QnAMakerService qna))
                             {
                                 throw new InvalidOperationException("The QnA service is not configured correctly in your '.bot' file.");
