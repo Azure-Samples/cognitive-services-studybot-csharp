@@ -1,7 +1,7 @@
 {
   "luis_schema_version": "3.0.0",
   "versionId": "Dispatch",
-  "name": "Study-Bot-Dispatch",
+  "name": "Qna-Luis-Bot-v4-Dispatch",
   "desc": "dispatch",
   "culture": "en-us",
   "intents": [
