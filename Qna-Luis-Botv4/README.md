@@ -71,7 +71,7 @@ After you have created your web app bot (above), you will see a LUIS app has bee
 1. After renaming your LUIS intents, train and publish them. It might take a minute or two to see the changes reflected in your responses in the chat client (if already testing).
 
 #### Enable Bing Spell Check
-1. In the Startup.cs file of your local bot project, add your Bing Spell Check Key at the top where indicated. If you do not yet have a Bing Spell Check resource in Azure, [get a free trial](https://azure.microsoft.com/en-us/try/cognitive-services/my-apis/?api=spellcheck-api), or create a new Bing Spell Check v7 resource in the Azure portal and fetch its key.
+1. In the Startup.cs file of this sample, copy the BingSpellCheckKey variable and add it to your Startup.cs file at the top. Add your Bing Spell Check Key where indicated. If you do not yet have a Bing Spell Check resource in Azure, [get a free trial](https://azure.microsoft.com/en-us/try/cognitive-services/my-apis/?api=spellcheck-api), or create a new Bing Spell Check v7 resource in the Azure portal and fetch its key.
 
 ## Prerequisites - Syncing the code
 Now that your Dispatch structure is set in your bot and in luis.ai, you only need to copy/paste missing code when comparing your bot with this sample.
