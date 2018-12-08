@@ -75,7 +75,7 @@ After you have created your web app bot (above), you will see a LUIS app has bee
 
 ## Prerequisites - Syncing the code
 Now that your Dispatch structure is set in your bot and in luis.ai, you only need to copy/paste missing code when comparing your bot with this sample.
-1. Compare the BasicBot.cs and BotServices.cs files of the sample with your own and add any missing pieces to yours.
+1. Compare BotServices.cs files of the sample with your own and add any missing pieces to yours. It might be easier to copy/paste the entire file.
 1. Create a NlpDispatchBot.cs file in your project structure in Visual Studio and copy/paste code from the sample's file of this name. Be sure the variable names match your knowledge base names in your .bot file, including the `DispatchKey`. You can change the `Welcome Text` to be whatever you'd like.
 1. Compare/copy/paste the Startup.cs file with the one in this sample. Be sure that the `botConfig` variable reflects your .bot file name so it knows to check resources there, like this:
     ```C#
