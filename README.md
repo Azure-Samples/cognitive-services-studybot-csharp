@@ -1,8 +1,10 @@
 ---
 topic: sample
-languages: dotnet, C#
+languages: 
+-csharp
 services: cognitive-services, qnamaker, luis, language-understanding, bing spell check
-products: azure
+products: 
+- azure
 author: wiazur
 ---
 # Study Bot 
