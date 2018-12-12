@@ -2,7 +2,7 @@
 topic: sample
 languages: 
   - csharp
-services: cognitive-services, qnamaker, luis, language-understanding, bing spell check
+services: cognitive-services, qnamaker, chitchat, luis, language-understanding, bing spell check
 products: 
   - azure
 author: wiazur
