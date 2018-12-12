@@ -135,6 +135,20 @@ Now that your Dispatch structure is set in your bot and in luis.ai, you only nee
 - Right-click on your Project of the Solution Explorer in Visual Studio and click the menu item "Publish".
 - Click the "Publish" button when the file opens and then paste the password you just copied into the popup.
 
+### Troubleshooting for the Azure Web Chat
+Due to the dispatch commands, it's possible after you publish your code back to Azure that testing in Web Chat won't work, even when your bot works well locally. This is likely due to the app password in your bot being encrypted. If this is the case, changing the app password should fix it. To do this:
+
+1. In Azure, go to the Resource Group of your bot. You can find this by clicking on your web app bot and finding the Resource Group in the Overview menu.
+1. After clicking on the Resource Group, click the Deployments section under Settings in your menu. You will see a list of all of those resources' apps.
+1. Find your bot in that list, it will have the language of your bot and several characters attached to the end of the title, but your bot's name should be there.
+1. Click on that bot name and a panel will open to the right, horizontal scroll to view it.
+1. A few lines down you will see `Deployment details(Download)`, click on the download link.
+1. Open that downloaded .zip and find the `deployment.json` and open it. 
+1. On about line 49, you'll see an app password. Copy that value.
+1. Go back to your local copy of your bot and open the `.bot` file.
+1. Paste the app password over the `appPassword` in your `production` endpoint object.
+1. Save and publish back to Azure, then refresh your bot and retest your bot in Web Chat. If this does not resolve the issue, put in a support request in Azure.
+
 ## Further reading
 - [Bot Framework Documentation](https://docs.botframework.com)
 - [Bot basics](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0)
