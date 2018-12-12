@@ -153,7 +153,7 @@ Due to the dispatch commands, it's possible after you publish your code back to 
 - [Bot Framework Documentation](https://docs.botframework.com)
 - [Bot basics](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0)
 - [Azure Bot Service Introduction](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0)
-- [14.nlp-with-dispatch](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch) sample. The StudyBot sample is largely based on this sample.
+- The [14.nlp-with-dispatch](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/14.nlp-with-dispatch) sample. The Qna-Luis-Botv4 sample is largely based on this sample.
 - [LUIS](https://luis.ai)
 - [QnA Maker](https://qnamaker.ai)
 - [Activity processing](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-activity-processing?view=azure-bot-service-4.0)
