@@ -1,6 +1,8 @@
 ---
+topic: sample
+languages: dotnet, C#
 services: cognitive-services, qnamaker, luis, language-understanding, bing spell check
-platforms: dotnet, C#
+products: azure
 author: wiazur
 ---
 # Study Bot 
