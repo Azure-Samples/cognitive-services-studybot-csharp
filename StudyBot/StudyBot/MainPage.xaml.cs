@@ -29,7 +29,7 @@ namespace StudyBot
         ObservableCollection<Activity> _messagesFromBot;
 
         Activity newActivity;
-        string botSecretKey = "ADD YOUR SECRET KEY HERE";
+        string botSecretKey = "ADD YOUR DIRECTLINE SECRET KEY HERE";
         string botHandle = "ADD YOUR BOT NAME HERE";
         string query;
         string subject;
