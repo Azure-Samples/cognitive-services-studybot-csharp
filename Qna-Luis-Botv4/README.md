@@ -136,7 +136,7 @@ Now that your Dispatch structure is set in your bot and in luis.ai, you only nee
 - Click the "Publish" button when the file opens and then paste the password you just copied into the popup.
 
 ### Troubleshooting for the Azure Web Chat
-Due to the dispatch commands, it's possible after you publish your code back to Azure that testing in Web Chat won't work, even when your bot works well locally. This is likely due to the app password in your bot being encrypted. If this is the case, changing the app password should fix it. To do this:
+Due to the dispatch commands, it's possible after you publish your code back to Azure that testing in Web Chat won't work, even when your bot works well locally. This is likely due to the app password in your bot being encrypted. If this is the case, changing the app password in your production endpoint should fix it. To do this:
 
 1. In Azure, go to the Resource Group of your bot. You can find this by clicking on your web app bot and finding the Resource Group in the Overview menu.
 1. After clicking on the Resource Group, click the Deployments section under Settings in your menu. You will see a list of all of those resources' apps.
