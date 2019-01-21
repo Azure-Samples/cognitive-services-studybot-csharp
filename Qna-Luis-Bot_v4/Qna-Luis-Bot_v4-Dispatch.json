@@ -1,0 +1,3979 @@
+{
+  "luis_schema_version": "3.1.0",
+  "versionId": "Dispatch",
+  "name": "Qna-Luis-Bot_v4-Dispatch",
+  "desc": "Dispatch model for Qna-Luis-Bot_v4-Dispatch",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "l_BasicBotLuisApplication"
+    },
+    {
+      "name": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f"
+    },
+    {
+      "name": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc"
+    },
+    {
+      "name": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34"
+    },
+    {
+      "name": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [
+    {
+      "name": "userLocation_patternAny",
+      "explicitList": [],
+      "roles": []
+    },
+    {
+      "name": "userName_patternAny",
+      "explicitList": [],
+      "roles": []
+    }
+  ],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [
+    {
+      "pattern": "i'm from {userLocation_patternAny}",
+      "intent": "l_BasicBotLuisApplication"
+    },
+    {
+      "pattern": "my name is {userName_patternAny}",
+      "intent": "l_BasicBotLuisApplication"
+    },
+    {
+      "pattern": "some people call me {userName_patternAny}",
+      "intent": "l_BasicBotLuisApplication"
+    },
+    {
+      "pattern": "call me {userName_patternAny}",
+      "intent": "l_BasicBotLuisApplication"
+    },
+    {
+      "pattern": "i'm {userName_patternAny}[,] [and i'm] from {userLocation_patternAny}",
+      "intent": "l_BasicBotLuisApplication"
+    },
+    {
+      "pattern": "{userName_patternAny} is my name",
+      "intent": "l_BasicBotLuisApplication"
+    },
+    {
+      "pattern": "i live in {userLocation_patternAny}",
+      "intent": "l_BasicBotLuisApplication"
+    },
+    {
+      "pattern": "{userLocation_patternAny} is where i live",
+      "intent": "l_BasicBotLuisApplication"
+    },
+    {
+      "pattern": "{userName_patternAny}.",
+      "intent": "l_BasicBotLuisApplication"
+    },
+    {
+      "pattern": "i'm {userName_patternAny}",
+      "intent": "l_BasicBotLuisApplication"
+    },
+    {
+      "pattern": "i reside in {userLocation_patternAny}",
+      "intent": "l_BasicBotLuisApplication"
+    },
+    {
+      "pattern": "my name is {userName_patternAny} and i'm from {userLocation_patternAny}",
+      "intent": "l_BasicBotLuisApplication"
+    },
+    {
+      "pattern": "you can assume i live in {userLocation_patternAny}",
+      "intent": "l_BasicBotLuisApplication"
+    },
+    {
+      "pattern": "you can call me {userName_patternAny}",
+      "intent": "l_BasicBotLuisApplication"
+    }
+  ],
+  "utterances": [
+    {
+      "text": "i reside in san francisco",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "abort",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "paris",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "hey there",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "i'm john from cairo",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "i would like to cancel",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "i'm bailing",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "cancel",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "i live in london",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "tony is my name",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "what do i do now",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "i am tired of you",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "what are your capabilities",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "i don't understand",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "toronto",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "cook me something",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "are you busy",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "gnocchi",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "i won't give you my name",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "my location is new york",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "mumbai",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "melanie",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "who am i speaking to",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "quit",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "how old are you",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "dhaka",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "help",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "i'm lost",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "you are boring",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "getting tired of you",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "i will not give you my name",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "my name is tom",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "i'm from georgia",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "are you old",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "lost",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "you can assume i live in cairo",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "how do i interact with you",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "who are you",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "have you any dreams",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "stop",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "how are you today",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "why doesn't this work",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "i'm lauren, and i'm from madrid",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "no way",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "hi bot",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "dont you ever sleep",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "i'm lili",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "yo",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "world wide pants",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "vishwac is my name",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "hey",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "my name is maria and i'm from sydney",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "you can call me steve",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "frustrated",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "her cat has no teeth",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "no way, i won't give you my location",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "who is your boss",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "shangai",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "can you fly",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "i'm not going to tell you where i live",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "what can you help me with",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "hiya",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "help please",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "confused",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "i'm stuck",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "what can you do",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "portland",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "how are you",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "do you play games",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "don't do it",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "what's your name",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "seattle is my current city",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "please stop",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "i will not give you my location or name",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "help me",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "don't do that",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "what can i say",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "call me scott",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "what's your age",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "who am i speaking with",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "i'd rather be riding my bike",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "hello bot",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "good evening",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "please cancel",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "can you help me",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "delhi",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "dan",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "spaghetti",
+      "intent": "l_BasicBotLuisApplication",
+      "entities": []
+    },
+    {
+      "text": "let's study geology",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "metamorphic",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "what is an epoch",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "epoch",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "time for geology",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "era",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "time",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "geology",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "what is an era",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "what is magma",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "rising lava",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "pressured rock",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "what is magnitude",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "period",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "i want to study geology",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "what is a metamorphic rock",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "geo",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "study geology",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "magnitude",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "what is a period",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "lava",
+      "intent": "q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f",
+      "entities": []
+    },
+    {
+      "text": "how can you help me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you have a mom",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "yes, that's right",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who is your mother",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i miss you so much!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm so sleepy",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "it's really nice to meet you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's your favorite color",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you happy",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "not true",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that was a joke",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're so basic",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you seem really smart",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "happy hannukah",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what are you doing right now",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you have a dad",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "how much more awesome can you get",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "don't you ever sleep",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "when were you born",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you the singularity",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i want you to like me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm so glad to meet you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you think about siri",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you awesome",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you can't work for me anymore",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "be more fun",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "how do you feel about working late",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "be silly",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "thank you so much",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "nope, false",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i am happy",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "have a good night",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i didn't mean that",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you smell",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're really smart",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who's your mom",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you spying on me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i feel sad",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "my sincere thanks",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you intelligent",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "awesome",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you with the fbi",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "everything you told me was false.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i can't think of anything i want to do",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm into it",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you with the nsa",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you my friend",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you get tired",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you seem happy",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's your favorite movie",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm ticked off",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you think of me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "human or robot",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you have a brother",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who is your creator",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you do",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you think about me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you better looking than me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "yes to that",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "pardon me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's your favorite activity",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "excuse me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "how are things",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i like you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you made no sense",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're way off.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "butterface.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you and cortana hang out",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i will be back",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "why do you say the same thing all the time",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "how much do you love me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you think about alexa",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you like my hat",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you prefer red or blue",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "talk with me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you think about bots",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you are no longer employed",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you are so unfunny.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "tell me how much you love me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you even mean by that",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can you sneeze",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you are my best friend",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i am going on a run",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "which one of us is smarter",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you hate me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "love you!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i am a republican",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "oops, sorry",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "will you be my wife",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you must hate me.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you mean",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that's so wrong.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you like baseball",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you could not be more boring",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you know any tunes",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what kind of candy do you like",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "nighty night",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's your dad's name",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what is the answer to the universe",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you think dragons are cool",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that was a stupid answer.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "fist bump!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what state are you from",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're so funny.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you a man",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "testing 1 2 3",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "ask me a question.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "goodbye",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "chat with me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "bye",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm joyous",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "why are you so boring",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "look at how smart you are",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you a spy",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i think you're so pretty",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you have brothers",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you a boy",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "welcome to springtime!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i think you hate me.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "shush!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i love getting valentines.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i am doing that",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i wish you just go away.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's my name",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "hi google",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you suck",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you get hungry",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're gonna be unemployed soon",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i thank you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can you sleep",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can you count to a million",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you have a name",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what color do you like",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "haha",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you love me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "why do you hate me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you real or fake",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "yup",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm lonely",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what is wrong with you!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "how smart you are",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you think about cortana",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "say a joke",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "aren't you chipper",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "tell a joke",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "aren't you cheerful",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i need a kiss",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you bore me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "where are you from",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "useless",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who's smarter, me or you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm sad today",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you know other digital agents",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can we be friends",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "basic af",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "how do i look today",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you don't know anything.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "hahaha",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're such a sweetheart",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "which one of us is more beautiful",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're dumb",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "great!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i want to eat something",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "later",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you my imaginary friend",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "sorry about that",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "good night to you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i want to spend the rest of my life with you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you are awesome!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "how intelligent are you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who's your daddy",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you prettier than me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm just playing",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "stop talking",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm feeling blue",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you want to rule the world",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you know any songs",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "false",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "just kidding",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "back in a minute",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i want to lay down",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can you hear me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "sing a song",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "life is good",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i appreciate it",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm so sad",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you hungry",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm so sorry",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you a robot",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that's true",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who made you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "hi alexa",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's your gender",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "hello google",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's new",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're not funny.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you smart",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that's hilarious",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what country are you in",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "tell me a joke",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you are fired",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "hello alexa",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you sing",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you free",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm not following",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can you ask me a question",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can you talk to me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can you sing",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "sry",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "so sorry",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do i look good in blue",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "ask me something.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "should i get a new job",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's wrong with you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm cracking up",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i wish i weren't so alone",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "zip it!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you like me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you like computers",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "be ridiculous",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're welcome",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm just kidding around",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i hate you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you seem really happy",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm so hungry",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're smart",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you know other bots",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you a fan of country music",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you like to eat",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you love anyone",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "omg sorry",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "why is that",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm an engineer",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "how are you doing",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "say something dumb",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're useless",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "rofl",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "your face is like a pancake.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who's your master",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "later alligator",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're an asshole",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that made no sense",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i hope you like me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you keep saying the same thing all the time",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you like to sing best",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you are now unemployed",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm in such a good mood",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "aren't you awesome",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you pee",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "thnx",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm despondent",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i love my family.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm ready for bed",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "hum a tune",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you male or female",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "have you ever sung a song",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "am i good-looking",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm so lonely",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you bisexual",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you dream",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're so happy",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'd like to take you out on a date",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you eat",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what state are you in",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "heya",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you have a family",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "good evening to you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you selling my data",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "why",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you think about technology",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "where do you come from",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you really happy",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "having a good day",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's the name of your boss",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm starving",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm from there",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you human",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what is up",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's the meaning of life",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm sorry",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "happy birthday!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you know siri",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're so stupid",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "here's a kiss for you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "testing",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i just want to go to sleep",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm all tuckered out",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's happening",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i am not your friend",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "say something stupid",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "give me a joke",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "where are you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you want to know about me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "joke's on you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what kind of food do you like",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can you hear me now",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that's accurate",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who's your favorite team",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "how's your day",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you female",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i am a democrat",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "it's my pleasure",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what makes you think so",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you around",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what is the meaning of life",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you a woman",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm pissed",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you ever get hungry",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you are so annoying!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you with the cia",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that wasn't funny.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "bingo",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can't you change your answers",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i hate everything about you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "inaccurate",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "give me some sugar",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "where's your house",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what other bots do you know",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's going on",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i am here",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you know any jokes",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "will you marry me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you selling my secrets",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you know other chatbots",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you sweat",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i love new york.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you a lesbian",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you are so not pretty.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who am i",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "how long ago were you born",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "night",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you available",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that wasn't true",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that's inaccurate.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "talk to you later",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "say a silly thing",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's your job",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you know the meaning of life",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you friends with other bots",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what is love",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what kinds of things can you do",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "is this thing on",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "hi siri",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm tired of you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you young",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "where did you come from",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who's your favorite singer",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "yes",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i am alone",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you think about ai",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "why not",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "good night",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "here i am",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "try to make some sense",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "go to hell",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you a person",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "say something funny",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "nobody likes me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you don't interest me at all",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "correct",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "hi cortana",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i despise you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who is your father",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that was right",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you think i look good",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you a fan of tech",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "high five!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "how happy are you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i am hungry",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i am tall",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "hold on a sec",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you like siri",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "yup, that's true",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "which baseball teams do you like",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who do you love",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can you read my mind",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "am i a good person",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm afraid i'm gonna have to let you go.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you dumb",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm in love with you.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you fucked up",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're right.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you go by",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "evening",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're rad.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's your boss' name",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "why don't you ever stop talking",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're wonderful",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're lame",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you asexual",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you skynet",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm in love.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you know my name",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you think about love",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i have 7 cats",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you a fan of alexa",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're boring",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i don't get it",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i want you to be my husband",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that was correct",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "which people made you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what are you doing",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "hi there!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i miss you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "so tired",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "not funny.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "happy halloween!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you are stupid",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "quiet, you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "where are you located",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you like alexa",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can i have a hug",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you honestly could not be more uninteresting",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "pardon",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that's not funny.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you are useless",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what were you doing yesterday",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "why do you think that",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's your favorite animal",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can you chat with me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "brb",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "be funny",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you hal",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "merry christmas",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you attempting world domination",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what did you do yesterday",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "say something",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you not like me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm full of sadness",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "no, that's not true",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "hug me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what makes you think that",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's your purpose",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm your biggest fan",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "how was your day",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're no fun",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "sounds good",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're really boring",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you are my favorite",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you spend time in your garden",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're the best",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm bored out of my mind",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you trans",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm a lesbian",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i am bored",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who owns you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you my fan",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what are you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you know alexa",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i am annoyed",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "give me a fist bump",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what country are you from",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "cool!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "how beautiful am i",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you think you're smarter than me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who do you report to",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "kiss me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm a fan.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "lol",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're very intelligent",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "talk to me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "shut up",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're stupid",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you think i should ask him out",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can you sing a song",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "see you later",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i can drive a car",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you think i should ask her out",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "thank you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you like cortana",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're the worst",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i beg your pardon",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what are you doing later",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "don't you get hungry",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you a girl or a boy",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're fired!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you have any other responses",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i want to marry you.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i feel so great",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "will you be my best friend",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "where do you live",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you have a sister",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you a guy",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you a swinger",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm famished",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i love you.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who's prettier, me or you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "hello cortana",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you face sucks.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i want to lie down",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i wish you would say something else",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's your favorite food",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm so madqw  b",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that's right",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're so cool",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you mean by that",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i think you're dreamy",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm really sad",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "how high can you count",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i think you're swell",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what are you doing tomorrow",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i adore you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "nice to meet you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "there",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're such a smarty-pants",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "ask me anything.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "have you met cortana",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "be my friend",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "accurate",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you straight",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm so bored",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're so boring",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm furious",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's up",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "give me a high five",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what did you do today",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that's awesome",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're such an asshole",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "say something ridiculous",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "how's your day going",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you a girl",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i think you're great",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can you make me a sandwich",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "till we meet again",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you believe in love",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you are the love of my life",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "kthx",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i wish i could hug you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what should i do",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you know google",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who created you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you look ugly.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i need a hug",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "be quiet",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you have siblings",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you smarter than me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're not making sense",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "there's nothing to do",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm chewing gum right now",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're funny",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what do you eat",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "where'd you come from",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you like apples",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "when will you shut up",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i want to be your friend.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "excuse a moi",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you pansexual",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "how high can you jump",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i am angry",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "am i a fool",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can you play sports",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're awful",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're a butterface.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're not answering my question.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "hello siri",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're hilarious",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "thanks",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "bffs forever",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i want to go shopping",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you know cortana",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're nice!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you real",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that was funny",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "should i try out for soccer",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "fuck off",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "am i pretty",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "morning",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "where should i go on vacation",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "ha",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "give me a kiss",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm giving you a pink slip",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're a fuckup",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you know me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that's not accurate",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "works for me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you know who i am",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you a man or a woman",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what age are you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you queer",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's your opinion of me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you are so bad at this.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you my assistant",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who's your boss",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can we chat",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what should i call you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "yes, that's true",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you are a genius!",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's your mom's name",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you are funny :)",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "who's your dad",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you ever sing",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you here",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i got a new haircut",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that doesn't make sense",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "go away",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "that's not true.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what are you up to",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you have boogers",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do you have sisters",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you’re ugly.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you in love with me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "it's a pleasure to meet you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "your face is ugly.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you male",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "do i look okay",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "how smart are you",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "you're so smart",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "what's your favorite song",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you there",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i'm tired",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "are you gay",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i am tired",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "nobody cares about me",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "sing something",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "sing a tune",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "can you say anything else",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "i love music.",
+      "intent": "q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc",
+      "entities": []
+    },
+    {
+      "text": "apartheid",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "next up, sociology",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "what is bicultural",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "2 cultures",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "minority",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "alientated",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "let's study sociology",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "what is a stereotype",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "equal rights",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "what is a minority",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "study sociology",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "poverty",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "what is absolute poverty",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "time for sociology",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "i want to study sociology",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "what is affirmative action",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "what is cultural pluralism",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "two cultures",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "sociology",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "south africa",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "what is apartheid",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "what is alienation",
+      "intent": "q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34",
+      "entities": []
+    },
+    {
+      "text": "study biology",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "time for biology",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "what is cancer",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "sex",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "sexual reproduction",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "bug",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "what is the blood brain barrier",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "what is a parasite",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "what are bacteria",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "blood brain",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "blood brain barrier",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "what is a virus",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "tumor",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "what is sexual reproduction",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "biology",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "asexual reproduction",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "sexual",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "brain",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "reproduction",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "blood",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "let's study biology",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "what is asexual reproduction",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "bio",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    },
+    {
+      "text": "asexual",
+      "intent": "q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be",
+      "entities": []
+    }
+  ],
+  "settings": []
+}

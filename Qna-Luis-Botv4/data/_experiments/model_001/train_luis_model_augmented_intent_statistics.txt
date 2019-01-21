@@ -1,5 +1,0 @@
-Intent	Utterance Count	Utterance Average Length	Utterance Maximum Length	Utterance Minimum Length	Utterance Length StdDev
-q_47d43e59-20d6-41fe-8a8d-652539	22	16.409	27	7	6.374
-q_a19f881e-bf3d-4826-be6a-3b804d	637	17.697	44	2	7.247
-q_e002d05f-4e2f-46c8-8507-e3dde7	23	12.391	32	3	8.622
-q_f6ac36b2-1082-42ea-8c70-3b9641	21	12.19	27	3	6.802

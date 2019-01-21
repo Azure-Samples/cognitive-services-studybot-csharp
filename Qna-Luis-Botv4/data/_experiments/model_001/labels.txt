@@ -1,5 +1,0 @@
-Label	LabelName	Samples
-0	q_47d43e59-20d6-41fe-8a8d-652539	22
-1	q_a19f881e-bf3d-4826-be6a-3b804d	637
-2	q_e002d05f-4e2f-46c8-8507-e3dde7	23
-3	q_f6ac36b2-1082-42ea-8c70-3b9641	21

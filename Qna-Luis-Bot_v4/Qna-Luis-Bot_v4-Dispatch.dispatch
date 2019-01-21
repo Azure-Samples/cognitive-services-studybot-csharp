@@ -1,0 +1,49 @@
+{
+  // The .dispatch file gets created with the dispatch commands, but will look something like this.
+
+  "authoringRegion": "westus",
+  "culture": "en-us",
+  "hierarchical": true,
+  "services": [
+    {
+      "kbId": "<YOUR KB ID>",
+      "subscriptionKey": "<YOUR AZURE QNA MAKER RESOURCE SUBSCRIPTION KEY>",
+      "type": "qna",
+      "name": "StudyBiology",
+      "id": "1"
+    },
+    {
+      "kbId": "<YOUR KB ID>",
+      "subscriptionKey": "<YOUR AZURE QNA MAKER RESOURCE SUBSCRIPTION KEY>",
+      "type": "qna",
+      "name": "",
+      "id": "2"
+    },
+    {
+      "kbId": "<YOUR KB ID>",
+      "subscriptionKey": "<YOUR AZURE QNA MAKER RESOURCE SUBSCRIPTION KEY>",
+      "type": "qna",
+      "name": "",
+      "id": "3"
+    },
+    {
+      "kbId": "<YOUR KB ID>",
+      "subscriptionKey": "<YOUR AZURE QNA MAKER RESOURCE SUBSCRIPTION KEY>",
+      "type": "qna",
+      "name": "Chitchat-Shell",
+      "id": "4"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "appId": "<YOUR DISPATCH LUIS APP ID>",
+  "authoringKey": "<YOUR GENERAL LUIS AUTHORING KEY>",
+  "version": "Dispatch",
+  "region": "westus",
+  "type": "dispatch",
+  "name": "Qna-Luis-Bot_v4-Dispatch"
+}

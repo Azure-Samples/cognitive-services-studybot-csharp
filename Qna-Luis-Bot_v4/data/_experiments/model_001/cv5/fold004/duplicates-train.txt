@@ -1,0 +1,14 @@
+Utterance	Intents
+hiya	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc
+what can you help me with	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc
+what can you do	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc
+how are you	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc
+good morning	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc
+who are you	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc
+how are you today	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc
+i don't understand	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc
+are you old	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc
+are you busy	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc
+do you play games	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc
+what's your name	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc
+cook me something	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc

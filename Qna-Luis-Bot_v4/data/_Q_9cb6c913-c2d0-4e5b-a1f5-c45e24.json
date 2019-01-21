@@ -1,0 +1,104 @@
+{
+  "qnaDocuments": [
+    {
+      "id": 1,
+      "answer": "Let's study biology! Type in what you want to study, and a definition will be returned. For example, type \"virus\".",
+      "source": "StudyBiology.txt",
+      "questions": [
+        "Biology",
+        "bio",
+        "time for biology",
+        "let's study biology",
+        "study biology"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": []
+    },
+    {
+      "id": 2,
+      "answer": "A virus is an infective agent that typically consists of a nucleic acid molecule in a protein coat, is too small to be seen by light microscopy, and can multiply only within the living cells of a host.",
+      "source": "StudyBiology.txt",
+      "questions": [
+        "What is a virus?",
+        "bug\n"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": []
+    },
+    {
+      "id": 3,
+      "answer": "Bacteria are a group of microorganisms that can live in soil, water, or parasites of plants or animals.",
+      "source": "StudyBiology.txt",
+      "questions": [
+        "What are bacteria?",
+        "bug"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": []
+    },
+    {
+      "id": 4,
+      "answer": "A parasite is an organism that lives in or on an organism of another species (its host) and benefits by deriving nutrients at the other's expense.",
+      "source": "StudyBiology.txt",
+      "questions": [
+        "What is a parasite?",
+        "bug"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": []
+    },
+    {
+      "id": 5,
+      "answer": "Sexual reproduction is the creation of genetically identical offspring by a single parent.",
+      "source": "StudyBiology.txt",
+      "questions": [
+        "What is asexual reproduction?",
+        "sex",
+        "asexual",
+        "asexual reproduction",
+        "reproduction"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": []
+    },
+    {
+      "id": 6,
+      "answer": "Sexual reproduction is a process by which two individuals produce offspring with genetic traits from both parents. It involves the union of gametes.",
+      "source": "StudyBiology.txt",
+      "questions": [
+        "What is sexual reproduction?",
+        "sex",
+        "sexual reproduction",
+        "sexual",
+        "reproduction"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": []
+    },
+    {
+      "id": 7,
+      "answer": "Cancer is a malignant growth or tumor caused by abnormal and uncontrolled cell division.",
+      "source": "StudyBiology.txt",
+      "questions": [
+        "What is cancer?",
+        "tumor"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": []
+    },
+    {
+      "id": 8,
+      "answer": "The blood brain barrier is a filtering mechanism of the capillaries that carry blood to the brain and spinal cord tissue, blocking the passage of certain substances.",
+      "source": "StudyBiology.txt",
+      "questions": [
+        "What is the blood brain barrier?",
+        "blood brain",
+        "blood brain barrier",
+        "blood",
+        "brain"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": []
+    }
+  ]
+}

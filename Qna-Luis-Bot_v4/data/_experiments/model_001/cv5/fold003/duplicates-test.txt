@@ -1,0 +1,4 @@
+Utterance	Intents
+hiya	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc
+what can you do	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc
+do you play games	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc

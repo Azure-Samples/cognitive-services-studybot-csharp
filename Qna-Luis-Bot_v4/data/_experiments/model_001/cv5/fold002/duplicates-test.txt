@@ -1,0 +1,3 @@
+Utterance	Intents
+who are you	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc
+how are you today	l_BasicBotLuisApplication, q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc

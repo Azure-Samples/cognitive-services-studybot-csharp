@@ -1,0 +1,638 @@
+Label	Weight	Text
+l_BasicBotLuisApplication	7	i reside in san francisco
+l_BasicBotLuisApplication	7	abort
+l_BasicBotLuisApplication	7	paris
+l_BasicBotLuisApplication	7	hey there
+l_BasicBotLuisApplication	7	i'm john from cairo
+l_BasicBotLuisApplication	7	i would like to cancel
+l_BasicBotLuisApplication	7	i'm bailing
+l_BasicBotLuisApplication	7	cancel
+l_BasicBotLuisApplication	7	i live in london
+l_BasicBotLuisApplication	7	tony is my name
+l_BasicBotLuisApplication	7	what do i do now
+l_BasicBotLuisApplication	7	i am tired of you
+l_BasicBotLuisApplication	7	what are your capabilities
+l_BasicBotLuisApplication	7	i don't understand
+l_BasicBotLuisApplication	7	toronto
+l_BasicBotLuisApplication	7	cook me something
+l_BasicBotLuisApplication	7	are you busy
+l_BasicBotLuisApplication	7	gnocchi
+l_BasicBotLuisApplication	7	i won't give you my name
+l_BasicBotLuisApplication	7	my location is new york
+l_BasicBotLuisApplication	7	mumbai
+l_BasicBotLuisApplication	7	melanie
+l_BasicBotLuisApplication	7	who am i speaking to
+l_BasicBotLuisApplication	7	quit
+l_BasicBotLuisApplication	7	how old are you
+l_BasicBotLuisApplication	7	dhaka
+l_BasicBotLuisApplication	7	help
+l_BasicBotLuisApplication	7	i'm lost
+l_BasicBotLuisApplication	7	you are boring
+l_BasicBotLuisApplication	7	getting tired of you
+l_BasicBotLuisApplication	7	i will not give you my name
+l_BasicBotLuisApplication	7	my name is tom
+l_BasicBotLuisApplication	7	i'm from georgia
+l_BasicBotLuisApplication	7	are you old
+l_BasicBotLuisApplication	7	lost
+l_BasicBotLuisApplication	7	you can assume i live in cairo
+l_BasicBotLuisApplication	7	frustrated
+l_BasicBotLuisApplication	7	her cat has no teeth
+l_BasicBotLuisApplication	7	no way, i won't give you my location
+l_BasicBotLuisApplication	7	who is your boss
+l_BasicBotLuisApplication	7	shangai
+l_BasicBotLuisApplication	7	can you fly
+l_BasicBotLuisApplication	7	i'm not going to tell you where i live
+l_BasicBotLuisApplication	7	what can you help me with
+l_BasicBotLuisApplication	7	hiya
+l_BasicBotLuisApplication	7	help please
+l_BasicBotLuisApplication	7	confused
+l_BasicBotLuisApplication	7	i'm stuck
+l_BasicBotLuisApplication	7	what can you do
+l_BasicBotLuisApplication	7	portland
+l_BasicBotLuisApplication	7	how are you
+l_BasicBotLuisApplication	7	do you play games
+l_BasicBotLuisApplication	7	don't do it
+l_BasicBotLuisApplication	7	what's your name
+l_BasicBotLuisApplication	7	seattle is my current city
+l_BasicBotLuisApplication	7	please stop
+l_BasicBotLuisApplication	7	i will not give you my location or name
+l_BasicBotLuisApplication	7	help me
+l_BasicBotLuisApplication	7	hello
+l_BasicBotLuisApplication	7	don't do that
+l_BasicBotLuisApplication	7	what can i say
+l_BasicBotLuisApplication	7	call me scott
+l_BasicBotLuisApplication	7	what's your age
+l_BasicBotLuisApplication	7	hi
+l_BasicBotLuisApplication	7	who am i speaking with
+l_BasicBotLuisApplication	7	i'd rather be riding my bike
+l_BasicBotLuisApplication	7	hello bot
+l_BasicBotLuisApplication	7	good evening
+l_BasicBotLuisApplication	7	please cancel
+l_BasicBotLuisApplication	7	can you help me
+l_BasicBotLuisApplication	7	delhi
+l_BasicBotLuisApplication	7	dan
+l_BasicBotLuisApplication	7	spaghetti
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	30.05882	let's study geology
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	30.05882	metamorphic
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	30.05882	What is an epoch
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	30.05882	epoch
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	30.05882	time for geology
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	30.05882	era
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	30.05882	time
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	30.05882	geology
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	30.05882	What is magnitude
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	30.05882	period
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	30.05882	i want to study geology
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	30.05882	What is a metamorphic rock
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	30.05882	geo
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	30.05882	study geology
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	30.05882	magnitude
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	30.05882	What is a period
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	30.05882	lava
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	How can you help me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you have a mom
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Yes, that's right
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Who is your mother
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I miss you so much!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm so sleepy
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	It's really nice to meet you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What's your favorite color
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you happy
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Not true
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	That was a joke
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're so basic
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You seem really smart
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Happy Hannukah
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What are you doing right now
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you have a dad
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	How much more awesome can you get
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Don't you ever sleep
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	When were you born
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you the singularity
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I want you to like me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm so glad to meet you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What do you think about Siri
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you awesome
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You can't work for me anymore
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Be more fun
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	How do you feel about working late
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Be silly
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Thank you so much
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Nope, false
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I am happy
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Have a good night
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What can you help me with
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I didn't mean that
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you smell
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're really smart
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Who's your mom
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you spying on me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I feel sad
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	My sincere thanks
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you intelligent
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Awesome
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you with the FBI
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Everything you told me was false.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	How are you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I can't think of anything I want to do
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm into it
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you with the NSA
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you my friend
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you get tired
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You seem happy
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What's your favorite movie
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm ticked off
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What do you think of me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Human or robot
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you have a brother
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Who is your creator
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What do you do
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What do you think about me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you better looking than me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Yes to that
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Pardon me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What's your favorite activity
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Excuse me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	How are things
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I like you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You made no sense
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're way off.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Butterface.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you and Cortana hang out
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I will be back
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Why do you say the same thing all the time
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	How much do you love me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What do you think about Alexa
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you like my hat
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you prefer red or blue
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Talk with me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What do you think about bots
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You are no longer employed
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You are so unfunny.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Tell me how much you love me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What do you even mean by that
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Can you sneeze
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You are my best friend
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I am going on a run
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Which one of us is smarter
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you hate me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Love you!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I am a Republican
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Oops, sorry
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Will you be my wife
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You must hate me.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What do you mean
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What's your age
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	That's so wrong.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you like baseball
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You could not be more boring
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you know any tunes
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What kind of candy do you like
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Nighty night
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What's your dad's name
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What is the answer to the universe
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you think dragons are cool
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	That was a stupid answer.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Fist bump!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What state are you from
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Good morning
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're so funny.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you a man
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Testing 1 2 3
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Ask me a question.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Goodbye
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Chat with me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Bye
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm joyous
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Why are you so boring
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Look at how smart you are
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Hi
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you a spy
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I think you're so pretty
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you have brothers
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you a boy
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Welcome to springtime!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I think you hate me.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Shush!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I love getting valentines.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I am doing that
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you busy
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I wish you just go away.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What's my name
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Hi Google
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You suck
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you get hungry
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're gonna be unemployed soon
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I thank you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Can you sleep
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Can you count to a million
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you have a name
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What color do you like
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Haha
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you love me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Why do you hate me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	are you real or fake
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Yup
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you old
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm lonely
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What is wrong with you!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	How smart you are
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What do you think about Cortana
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Say a joke
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Aren't you chipper
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Tell a joke
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Aren't you cheerful
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I need a kiss
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You bore me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Where are you from
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Useless
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Who's smarter, me or you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm sad today
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you know other digital agents
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Can we be friends
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Basic af
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	How do I look today
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You don't know anything.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Hahaha
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're such a sweetheart
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Which one of us is more beautiful
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're dumb
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Great!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I want to eat something
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Later
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you my imaginary friend
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Sorry about that
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Good night to you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I want to spend the rest of my life with you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You are awesome!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	How intelligent are you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Who's your daddy
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you prettier than me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm just playing
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Stop talking
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm feeling blue
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you want to rule the world
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you know any songs
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	FALSE
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Just kidding
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Back in a minute
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I want to lay down
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Can you hear me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Sing a song
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Life is good
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I appreciate it
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm so sad
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you hungry
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm so sorry
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you a robot
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	That's true
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Who made you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Hi Alexa
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What's your gender
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Hello Google
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What's new
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're not funny.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you smart
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	That's hilarious
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What country are you in
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Tell me a joke
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You are fired
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Hello Alexa
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you sing
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you free
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm not following
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Can you ask me a question
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Can you talk to me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Can you sing
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Sry
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	So sorry
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do I look good in blue
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Ask me something.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Should I get a new job
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What's wrong with you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm cracking up
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I wish I weren't so alone
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Zip it!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you like me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you like computers
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Be ridiculous
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're welcome
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm just kidding around
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I hate you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You seem really happy
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm so hungry
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're smart
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you know other bots
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you a fan of country music
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What do you like to eat
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you love anyone
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Omg sorry
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Why is that
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm an engineer
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	How are you doing
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Say something dumb
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're useless
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	ROFL
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Your face is like a pancake.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Who's your master
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Later alligator
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're an asshole
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	That made no sense
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I hope you like me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You keep saying the same thing all the time
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What do you like to sing best
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You are now unemployed
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm in such a good mood
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Hold on a sec
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you like Siri
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Yup, that's true
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Which baseball teams do you like
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Who do you love
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Can you read my mind
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Am I a good person
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm afraid I'm gonna have to let you go.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you dumb
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm in love with you.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You fucked up
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're right.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you play games
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Good evening
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What do you go by
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Evening
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're rad.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What's your boss' name
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Why don't you ever stop talking
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're wonderful
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Hello
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're lame
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you asexual
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you Skynet
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm in love.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you know my name
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What do you think about love
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I have 7 cats
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you a fan of Alexa
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're boring
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I don't get it
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I want you to be my husband
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	That was correct
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Which people made you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What are you doing
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Hi there!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I miss you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	So tired
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Not funny.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Happy Halloween!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You are stupid
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Quiet, you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Where are you located
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you like Alexa
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Can I have a hug
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You honestly could not be more uninteresting
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Pardon
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	That's not funny.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Hiya
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You are useless
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What were you doing yesterday
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Why do you think that
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What's your favorite animal
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Can you chat with me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	BRB
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Be funny
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you HAL
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Merry Christmas
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you attempting world domination
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What did you do yesterday
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Say something
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you not like me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm full of sadness
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	No, that's not true
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Hug me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What makes you think that
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What's your purpose
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm your biggest fan
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	How was your day
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're no fun
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Sounds good
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're really boring
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You are my favorite
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you spend time in your garden
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're the best
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm bored out of my mind
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you trans
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm a lesbian
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I am bored
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Who owns you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you my fan
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What are you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you know Alexa
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I am annoyed
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Give me a fist bump
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What country are you from
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Cool!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	How beautiful am i
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you think you're smarter than me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Who do you report to
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Kiss me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm a fan.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	LOL
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're very intelligent
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Talk to me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Shut up
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're stupid
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you think I should ask him out
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Can you sing a song
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	See you later
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I can drive a car
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Cook me something
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you think I should ask her out
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Thank you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you like Cortana
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're the worst
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I beg your pardon
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What are you doing later
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Don't you get hungry
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you a girl or a boy
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're fired!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you have any other responses
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What can you do
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I want to marry you.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I feel so great
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Will you be my best friend
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Where do you live
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you have a sister
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you a guy
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you a swinger
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm famished
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	2	I love you.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Who's prettier, me or you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Hello Cortana
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You face sucks.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I want to lie down
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I wish you would say something else
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What's your favorite food
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm so madqw  b
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	That's right
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're so cool
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What do you mean by that
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	How old are you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I think you're dreamy
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm really sad
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	How high can you count
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I think you're swell
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What are you doing tomorrow
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I adore you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Nice to meet you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	There
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're such a smarty-pants
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Ask me anything.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Have you met Cortana
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Be my friend
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Accurate
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you straight
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm so bored
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're so boring
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm furious
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What's up
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Give me a high five
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What did you do today
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	That's awesome
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're such an asshole
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Say something ridiculous
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	How's your day going
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you a girl
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I think you're great
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Can you make me a sandwich
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Till we meet again
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Getting tired of you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you believe in love
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You are the love of my life
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Kthx
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I wish I could hug you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Can you fly
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What should I do
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you know Google
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Who created you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You look ugly.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I need a hug
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Be quiet
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you have siblings
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you smarter than me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're not making sense
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	There's nothing to do
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm chewing gum right now
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're funny
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What do you eat
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Where'd you come from
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you like apples
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	When will you shut up
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I want to be your friend.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Excuse a moi
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you pansexual
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	How high can you jump
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I am angry
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Am I a fool
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Can you play sports
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're awful
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're a butterface.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're not answering my question.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Hello Siri
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're hilarious
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Thanks
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	BFFs forever
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I want to go shopping
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you know Cortana
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're nice!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you real
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	That was funny
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Should I try out for soccer
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Fuck off
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Am I pretty
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Morning
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Where should I go on vacation
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Ha
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Give me a kiss
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm giving you a pink slip
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're a fuckup
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you know me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	That's not accurate
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Works for me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you know who I am
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you a man or a woman
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What age are you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you queer
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What's your opinion of me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You are so bad at this.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you my assistant
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Who's your boss
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Can we chat
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What should I call you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Yes, that's true
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You are a genius!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What's your mom's name
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You are funny :)
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Who's your dad
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you ever sing
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you here
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I got a new haircut
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	That doesn't make sense
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Go away
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	That's not true.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What are you up to
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you have boogers
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do you have sisters
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You’re ugly.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you in love with me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	It's a pleasure to meet you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Your face is ugly.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you male
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Do I look okay
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	How smart are you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	You're so smart
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	What's your favorite song
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you there
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I'm tired
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Are you gay
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I am tired
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Nobody cares about me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Sing something
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Sing a tune
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	Can you say anything else
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	1	I love music.
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	Apartheid
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	next up, sociology
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	What is bicultural
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	2 cultures
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	minority
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	alientated
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	let's study sociology
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	What is a stereotype
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	What is absolute poverty
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	time for sociology
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	i want to study sociology
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	What is affirmative action
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	What is cultural pluralism
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	Two cultures
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	sociology
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	South Africa
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	What is Apartheid
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	28.38889	What is alienation
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	study biology
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	time for biology
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	What is cancer
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	sex
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	sexual reproduction
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	bug
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	What is the blood brain barrier
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	What is a parasite
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	What are bacteria
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	blood brain
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	asexual reproduction
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	sexual
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	brain
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	reproduction
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	blood
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	let's study biology
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	What is asexual reproduction
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	bio
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	25.55	asexual

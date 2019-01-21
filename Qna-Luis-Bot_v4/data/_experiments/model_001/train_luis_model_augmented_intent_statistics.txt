@@ -1,0 +1,6 @@
+Intent	Utterance Count	Utterance Average Length	Utterance Maximum Length	Utterance Minimum Length	Utterance Length StdDev
+l_BasicBotLuisApplication	91	14.451	39	2	8.631
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	21	11.905	26	3	6.557
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	617	17.373	44	2	7.083
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	22	16.045	26	7	6.059
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	24	13.458	31	3	8.262

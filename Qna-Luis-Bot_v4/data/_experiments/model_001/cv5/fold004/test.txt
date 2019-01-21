@@ -1,0 +1,180 @@
+Label	Weight	Text
+l_BasicBotLuisApplication	28.38889	seattle is my current city
+l_BasicBotLuisApplication	28.38889	please stop
+l_BasicBotLuisApplication	28.38889	i will not give you my location or name
+l_BasicBotLuisApplication	28.38889	help me
+l_BasicBotLuisApplication	28.38889	hello
+l_BasicBotLuisApplication	28.38889	don't do that
+l_BasicBotLuisApplication	28.38889	what can i say
+l_BasicBotLuisApplication	28.38889	call me scott
+l_BasicBotLuisApplication	28.38889	what's your age
+l_BasicBotLuisApplication	28.38889	hi
+l_BasicBotLuisApplication	28.38889	who am i speaking with
+l_BasicBotLuisApplication	28.38889	i'd rather be riding my bike
+l_BasicBotLuisApplication	28.38889	hello bot
+l_BasicBotLuisApplication	28.38889	good evening
+l_BasicBotLuisApplication	28.38889	please cancel
+l_BasicBotLuisApplication	28.38889	can you help me
+l_BasicBotLuisApplication	28.38889	delhi
+l_BasicBotLuisApplication	28.38889	dan
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	geo
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	study geology
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	magnitude
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	What is a period
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	geo
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	study geology
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	magnitude
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	What is a period
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	geo
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	study geology
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	magnitude
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	What is a period
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What's your favorite food
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I'm so madqw  b
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	That's right
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You're so cool
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What do you mean by that
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	How old are you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I think you're dreamy
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I'm really sad
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	How high can you count
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I think you're swell
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What are you doing tomorrow
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I adore you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Nice to meet you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	There
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You're such a smarty-pants
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Ask me anything.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Have you met Cortana
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Be my friend
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Accurate
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you straight
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I'm so bored
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You're so boring
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I'm furious
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What's up
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Give me a high five
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What did you do today
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	That's awesome
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You're such an asshole
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Say something ridiculous
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	How's your day going
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you a girl
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I think you're great
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Can you make me a sandwich
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Till we meet again
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Getting tired of you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you believe in love
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You are the love of my life
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Kthx
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I wish I could hug you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Can you fly
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What should I do
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you know Google
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Who created you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You look ugly.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I need a hug
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Be quiet
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you have siblings
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you smarter than me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You're not making sense
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	There's nothing to do
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I'm chewing gum right now
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You're funny
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What do you eat
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Where'd you come from
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you like apples
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	When will you shut up
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I want to be your friend.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Excuse a moi
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you pansexual
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	How high can you jump
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I am angry
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Am I a fool
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Can you play sports
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You're awful
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You're a butterface.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You're not answering my question.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Hello Siri
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You're hilarious
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Thanks
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	BFFs forever
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I want to go shopping
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you know Cortana
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You're nice!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you real
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	That was funny
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Should I try out for soccer
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Fuck off
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Am I pretty
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Morning
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Where should I go on vacation
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Ha
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Give me a kiss
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I'm giving you a pink slip
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You're a fuckup
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you know me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	That's not accurate
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Works for me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you know who I am
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you a man or a woman
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What age are you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you queer
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What's your opinion of me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You are so bad at this.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you my assistant
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Who's your boss
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Can we chat
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What should I call you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Yes, that's true
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You are a genius!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What's your mom's name
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You are funny :)
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Who's your dad
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you ever sing
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you here
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I got a new haircut
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	That doesn't make sense
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Go away
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	That's not true.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What are you up to
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you have boogers
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you have sisters
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You’re ugly.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you in love with me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	It's a pleasure to meet you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Your face is ugly.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you male
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do I look okay
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	How smart are you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You're so smart
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What's your favorite song
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you there
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I'm tired
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you gay
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I am tired
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Nobody cares about me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Sing something
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Sing a tune
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	What is cultural pluralism
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	Two cultures
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	sociology
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	South Africa
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	What is cultural pluralism
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	Two cultures
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	sociology
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	South Africa
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	What is cultural pluralism
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	Two cultures
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	sociology
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	South Africa
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	blood
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	let's study biology
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	What is asexual reproduction
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	bio
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	asexual
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	blood
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	let's study biology
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	What is asexual reproduction
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	bio
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	asexual

@@ -1,0 +1,180 @@
+Label	Weight	Text
+l_BasicBotLuisApplication	28.38889	how do i interact with you
+l_BasicBotLuisApplication	28.38889	who are you
+l_BasicBotLuisApplication	28.38889	have you any dreams
+l_BasicBotLuisApplication	28.38889	stop
+l_BasicBotLuisApplication	28.38889	how are you today
+l_BasicBotLuisApplication	28.38889	why doesn't this work
+l_BasicBotLuisApplication	28.38889	i'm lauren, and i'm from madrid
+l_BasicBotLuisApplication	28.38889	no way
+l_BasicBotLuisApplication	28.38889	hi bot
+l_BasicBotLuisApplication	28.38889	dont you ever sleep
+l_BasicBotLuisApplication	28.38889	i'm lili
+l_BasicBotLuisApplication	28.38889	yo
+l_BasicBotLuisApplication	28.38889	good morning
+l_BasicBotLuisApplication	28.38889	world wide pants
+l_BasicBotLuisApplication	28.38889	vishwac is my name
+l_BasicBotLuisApplication	28.38889	hey
+l_BasicBotLuisApplication	28.38889	my name is maria and i'm from sydney
+l_BasicBotLuisApplication	28.38889	you can call me steve
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	What is an era
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	What is magma
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	rising lava
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	pressured rock
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	What is an era
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	What is magma
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	rising lava
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	pressured rock
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	What is an era
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	What is magma
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	rising lava
+q_60523ee3-0c31-4fa9-a79b-71fac5b99c0f	42.58333	pressured rock
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Aren't you awesome
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you pee
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Thnx
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I'm despondent
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I love my family.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I'm ready for bed
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Hum a tune
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you male or female
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Have you ever sung a song
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Am I good-looking
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I'm so lonely
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you bisexual
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Who are you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you dream
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You're so happy
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I'd like to take you out on a date
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you eat
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What state are you in
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Heya
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you have a family
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Good evening to you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you selling my data
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Why
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What do you think about technology
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Where do you come from
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you really happy
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Having a good day
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	How are you today
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What's the name of your boss
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I'm starving
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I'm from there
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you human
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What is up
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What's the meaning of life
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I'm sorry
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Happy Birthday!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you know Siri
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You're so stupid
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Here's a kiss for you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Testing
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I just want to go to sleep
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I'm all tuckered out
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What's happening
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I am not your friend
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Say something stupid
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Give me a joke
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Where are you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What do you want to know about me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Joke's on you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What kind of food do you like
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Can you hear me now
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	That's accurate
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Who's your favorite team
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	How's your day
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you female
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I am a Democrat
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	It's my pleasure
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What makes you think so
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you around
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What is the meaning of life
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you a woman
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I'm pissed
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you ever get hungry
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You are so annoying!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you with the CIA
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	That wasn't funny.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Bingo
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Can't you change your answers
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I hate everything about you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Inaccurate
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Give me some sugar
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Where's your house
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What other bots do you know
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What's going on
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I am here
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you know any jokes
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Will you marry me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you selling my secrets
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you know other chatbots
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you sweat
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I love New York.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you a lesbian
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You are so not pretty.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Who am I
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	How long ago were you born
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Night
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you available
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	That wasn't true
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	That's inaccurate.
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Talk to you later
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Say a silly thing
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What's your name
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What's your job
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you know the meaning of life
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you friends with other bots
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What is love
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What kinds of things can you do
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Is this thing on
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Hi Siri
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I don't understand
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I'm tired of you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you young
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Where did you come from
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Who's your favorite singer
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Yes
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I am alone
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	What do you think about AI
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Why not
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Good night
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Here I am
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Try to make some sense
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Go to hell
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you a person
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Say something funny
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Nobody likes me
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	You don't interest me at all
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Correct
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Hi Cortana
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I despise you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Who is your father
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	That was right
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Do you think I look good
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	Are you a fan of tech
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	High five!
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	How happy are you
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I am hungry
+q_6971bafa-854e-4011-99d1-4ae9b7d1e4bc	4.023622	I am tall
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	Equal rights
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	What is a minority
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	study sociology
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	Poverty
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	Equal rights
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	What is a minority
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	study sociology
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	Poverty
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	Equal rights
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	What is a minority
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	study sociology
+q_9351d7aa-67c5-4ecb-a0dc-a0e3d3210d34	42.58334	Poverty
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	blood brain barrier
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	What is a virus
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	tumor
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	What is sexual reproduction
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	Biology
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	blood brain barrier
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	What is a virus
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	tumor
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	What is sexual reproduction
+q_9cb6c913-c2d0-4e5b-a1f5-c45e24d5b5be	51.1	Biology
