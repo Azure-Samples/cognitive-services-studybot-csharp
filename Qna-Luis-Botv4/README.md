@@ -79,15 +79,13 @@ After you have created your web app bot (above), you will see a LUIS app has bee
 1. After renaming your LUIS intents, train and publish them. It might take a minute or two to see the changes reflected in your responses in the chat client (if already testing).
 
 #### Enable Bing Spell Check
+
 1. In the Startup.cs file of this sample, copy the BingSpellCheckKey variable and add it to your Startup.cs file at the top. Add your Bing Spell Check Key where indicated. If you do not yet have a Bing Spell Check resource in Azure, [get a free trial](https://azure.microsoft.com/en-us/try/cognitive-services/my-apis/?api=spellcheck-api), or create a new Bing Spell Check v7 resource in the Azure portal and fetch its key.
 
 ## Prerequisites - Syncing the code
 
 Now that your Dispatch structure is set in your bot and in luis.ai, you only need to copy/paste missing code when comparing your bot with this sample.
-<<<<<<< HEAD:Qna-Luis-Bot_v4/README.md
 
-=======
->>>>>>> 1422928114b61ea7d21bf779628d43441a9ab8fa:Qna-Luis-Botv4/README.md
 1. Compare BotServices.cs files of the sample with your own and add any missing pieces to yours. It might be easier to copy/paste the entire file.
 1. Create a NlpDispatchBot.cs file in your project structure in Visual Studio and copy/paste code from the sample's file of this name. Be sure the variable names match your knowledge base names in your .bot file, including the `DispatchKey`. You can change the `Welcome Text` to be whatever you'd like.
 1. Compare/copy/paste the Startup.cs file with the one in this sample. Be sure that the `botConfig` variable reflects your .bot file name so it knows to check resources there, like this:
@@ -161,7 +159,7 @@ Due to the dispatch commands, it's possible after you publish your code back to 
 1. Find your bot in that list, it will have the language of your bot and several characters attached to the end of the title, but your bot's name should be there.
 1. Click on that bot name and a panel will open to the right, horizontal scroll to view it.
 1. A few lines down you will see `Deployment details(Download)`, click on the download link.
-1. Open that downloaded .zip and find the `deployment.json` and open it. 
+1. Open that downloaded .zip and find the `deployment.json` and open it.
 1. On about line 49, you'll see an app password. Copy that value.
 1. Go back to your local copy of your bot and open the `.bot` file.
 1. Paste the app password over the `appPassword` in your `production` endpoint object.
@@ -176,5 +174,6 @@ Due to the dispatch commands, it's possible after you publish your code back to 
 - [LUIS](https://luis.ai)
 - [QnA Maker](https://qnamaker.ai)
 - [Activity processing](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-activity-processing?view=azure-bot-service-4.0)
-- [Prompt Types](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-prompts?view=azure-bot-service-4.0&tabs=javascript)
+- [Prompt Types](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-prompts?view=azure-bot-service-4.0&
+- [Channels and Bot Connector Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-concepts?view=azure-bot-service-4.0)
 - [Channels and Bot Connector Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-concepts?view=azure-bot-service-4.0)
