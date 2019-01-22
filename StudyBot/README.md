@@ -12,7 +12,7 @@ This sample is a UWP app that combines a Basic, C# web app bot with Bing Spell C
 
 1. After cloning the main repo, open this Study Bot solution file in Visual Studio 2017+.
 
-1. In `MainPage.xaml.cs`, add your Qna-Luis-Bot's bot's name (verbatum) you chose in Azure to `botHandle`. For example, Qna-Luis-Bot-v4.
+1. In `MainPage.xaml.cs`, add your Qna-Luis-Bot's bot's name (verbatim) you chose in Azure to `botHandle`. For example, Qna-Luis-Bot-v4.
 
 1. Since the Study Bot UWP app is considered an external client that needs to access the bot in Azure, we'll need to connect it to a Channel called [Direct Line](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-directline?view=azure-bot-service-3.0). To do this go to the Channels menu in your web app bot resource in Azure and click the globe icon.
 
@@ -20,7 +20,7 @@ This sample is a UWP app that combines a Basic, C# web app bot with Bing Spell C
 
 1. This initializes the Direct Line channel. A popup appears that has your bot secret key.
 
-1.  Click show and copy (either key will work), then paste into `MainPage.xaml.cs` at the top. 
+1.  Click show and copy (either key will work), then paste into `MainPage.xaml.cs` at the top.
     
     <img src="/Assets/bot-secret-key.png">
 
@@ -28,7 +28,7 @@ This sample is a UWP app that combines a Basic, C# web app bot with Bing Spell C
 
     <img src="/Assets/directline-done.png">
 
-1. NuGet packages needed: 
+1. NuGet packages needed:
 
     Microsoft.Bot.Connector.DirectLine (if using bot v3)
     
