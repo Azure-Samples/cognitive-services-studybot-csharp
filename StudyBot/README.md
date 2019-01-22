@@ -4,7 +4,7 @@ This sample is a UWP app that combines a Basic, C# web app bot with Bing Spell C
 
 ## Prerequisites
 
-1. You will need the Qna-Luis-Bot (either v3 or v4) sample up and running before running this app. 
+1. You will need the Qna-Luis-Bot built and published back to your Azure account before running this app. 
 
 1. Follow the prerequisites for the Qna-Luis-Bot [v3](https://github.com/Azure-Samples/cognitive-services-studybot-csharp/blob/master/Qna-Luis-Bot/readme.md) or [v4](https://github.com/Azure-Samples/cognitive-services-studybot-csharp/tree/master/Qna-Luis-Botv4) that will help you create knowledge bases in qnamaker.ai with some accompanied LUIS intents/utterances in luis.ai, and a Basic C# web app bot in the Azure portal. 
 
@@ -27,14 +27,18 @@ This sample is a UWP app that combines a Basic, C# web app bot with Bing Spell C
 1. Click "Done" at the bottom. Then you will see Direct Line has been added next to Web Chat.
 
     <img src="/Assets/directline-done.png">
+    
+1. In `MainPage.xaml.cs`, add your Direct Line secret key, bot name, Speech Service subscription key, and region to the top of the file where indicated.
 
-1. NuGet packages needed:
+1. The main NuGet packages needed:
 
-    Microsoft.Bot.Connector.DirectLine (if using bot v3)
+    Microsoft.Bot.Connector.DirectLine
     
     Microsoft.NETCore.UniversalWindowsPlatform
     
     Microsoft.Rest.ClientRuntime
+    
+    Microsoft.CognitiveServices.Speech
     
     Newtonsoft.Json
     
@@ -42,12 +46,12 @@ This sample is a UWP app that combines a Basic, C# web app bot with Bing Spell C
 
 1. Run your StudyBot solution file in Visual Studio.
 
-1. In the UWP interface that appears, enter a query, such as "biology".
+1. In the UWP interface that appears, enter a query, such as "virus".
 
-1. Enter any of your QnA Maker question terms you created.
+1. Enter any of your QnA Maker question terms you created in your bot as directed above.
 
-1. The definition for these terms gets returned, or if the term does not exist in any of the knowledge bases, it will say "No good match found in Study Bot".
+1. The definition for this term gets returned, or if the term does not exist in any of the knowledge bases, it will say "No good match found in Study Bot".
 
-1. The search query also shows the term in the encyclopedia and Microsoft Academic.
+1. The search query also shows the term as an encyclopedia, Microsoft Academic, and Bing search engine search.
 
 1. Experiment by adding or removing your QnA Maker knowledge base question and answers (in qnamaker.ai) and your LUIS intents/utterances (in luis.ai) and try new queries based on these changes.
