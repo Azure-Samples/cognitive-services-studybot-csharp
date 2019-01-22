@@ -9,7 +9,7 @@ author: wiazur
 ---
 # Study Bot
 
-These samples create a Study Bot chat client using [QnA Maker](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/index) (with [Chitchat](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base)), [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/) and [Bing Spell Check](https://docs.microsoft.com/en-us/azure/cognitive-services/bing-spell-check/). Each query into the chat bot (v3 or v4) will be accompanied by relevant search results in an encyclopedia, Microsoft Academic, and a general Bing search as a study aid. Teachers are able to create their own question and answer FAQs to create a study guide as input for the chat bot if they want it to follow a preferred curriculum. However, demo FAQs are available for this sample, included in the Qna-Luis-Bot/FAQs folder. The focus of this app is to enable a more relevant experience of studying, where students can study a subject with a customized chat bot along with multiple web resources.
+These samples create a Study Bot chat client using [QnA Maker](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/index) (with [Chitchat](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base)), [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/), [Speech Service](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/), and [Bing Spell Check](https://docs.microsoft.com/en-us/azure/cognitive-services/bing-spell-check/). Each typed or spoken query into the chat bot will be accompanied by relevant search results in an encyclopedia, Microsoft Academic, and a general Bing search as a study aid. Teachers are able to create their own question and answer FAQs to create a study guide as input for the chat bot if they want it to follow a preferred curriculum. However, demo FAQs are available for this sample, included in the Qna-Luis-Bot/FAQs folder. The focus of this app is to enable a more relevant experience of studying, where students can study a subject with a customized chat bot along with multiple web resources.
 
 ## Features
 
@@ -23,7 +23,7 @@ These samples create a Study Bot chat client using [QnA Maker](https://docs.micr
 
 ## Prerequisites
 
-1. Start with the Qna-Luis-Bot (either v3 or v4) sample. Once that is up and running, then build the Study Bot sample. The Study Bot depends on the bot you build in Qna-Luis-Bot. Follow the README files in each sample.
+1. Start with the Qna-Luis-Bot (v4 is recommended) sample. Once that is up and running, then build the Study Bot sample. The Study Bot depends on the bot you build in Qna-Luis-Bot. Follow the README files in each sample.
 
 1. Visual Studio 2017+
 
