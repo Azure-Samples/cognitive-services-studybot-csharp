@@ -2,14 +2,14 @@
 topic: sample
 languages: 
   - csharp
-services: cognitive-services, qnamaker, chitchat, luis, language-understanding, bing spell check, speech service
+services: cognitive-services, qnamaker, chit-chat, luis, language-understanding, bing spell check, speech service
 products: 
   - azure
 author: wiazur
 ---
 # Study Bot
 
-These samples create a Study Bot chat client using [QnA Maker](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/index) (with [Chitchat](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base)), [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/), [Speech Service](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/), and [Bing Spell Check](https://docs.microsoft.com/en-us/azure/cognitive-services/bing-spell-check/). Each typed or spoken query into the chat bot will be accompanied by relevant search results in an encyclopedia, Microsoft Academic, and a general Bing search as a study aid. Teachers are able to create their own question and answer FAQs to create a study guide as input for the chat bot if they want it to follow a preferred curriculum. However, demo FAQs are available for this sample, included in the Qna-Luis-Bot/FAQs folder. The focus of this app is to enable a more relevant experience of studying, where students can study a subject with a customized chat bot along with multiple web resources.
+These samples create a Study Bot chat client using [QnA Maker](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/index) (with [Chit-chat](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base)), [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/), [Speech Service](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/), and [Bing Spell Check](https://docs.microsoft.com/en-us/azure/cognitive-services/bing-spell-check/). Each typed or spoken query into the chat bot will be accompanied by relevant search results in an encyclopedia, Microsoft Academic, and a general Bing search as a study aid. Teachers are able to create their own question and answer FAQs to create a study guide as input for the chat bot if they want it to follow a preferred curriculum. However, demo FAQs are available for this sample, included in the Qna-Luis-Bot/FAQs folder. The focus of this app is to enable a more relevant experience of studying, where students can study a subject with a customized chat bot along with multiple web resources.
 
 ## Features
 
@@ -35,7 +35,7 @@ These samples create a Study Bot chat client using [QnA Maker](https://docs.micr
 
 * [QnA Maker Dcoumentation](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/index)
 * [QnA Maker API V4.0](https://westus.dev.cognitive.microsoft.com/docs/services/5a93fcf85b4ccd136866eb37/operations/5ac266295b4ccd1554da75ff)
-* [Add Chitchat to a QnA Maker knowledge base](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base) - we don't use this method of enabling a knowledge base (KB) with Chitchat in this sample, because we have more than one knowledge base, so we create a stand-alone KB with Chitchat only. If you only have one KB, then it's preferred to enable it in that knowledge base. For more information on the stand-alone Chitchat KB, refer to the [Qna-Luis-Botv4 sample's README](https://github.com/Azure-Samples/cognitive-services-studybot-csharp/blob/master/Qna-Luis-Botv4/README.md).
+* [Add Chit-chat to a QnA Maker knowledge base](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base) - we don't use this method of enabling a knowledge base (KB) with Chit-chat in this sample, because we have more than one knowledge base, so we created a stand-alone KB with Chit-chat only. If you only have one KB, then it's preferred to enable it in that knowledge base. For more information on the stand-alone Chit-chat KB, refer to the [Qna-Luis-Botv4 sample's README](https://github.com/Azure-Samples/cognitive-services-studybot-csharp/blob/master/Qna-Luis-Botv4/README.md).
 * [Language Understanding (LUIS) Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/)
 * [LUIS Programmatic APIs v2.0](https://westus.dev.cognitive.microsoft.com/docs/services/5890b47c39e2bb17b84a55ff/operations/5890b47c39e2bb052c5b9c2f)
 * [LUIS Endpoint API](https://westus.dev.cognitive.microsoft.com/docs/services/5819c76f40a6350ce09de1ac/operations/5819c77140a63516d81aee78)
