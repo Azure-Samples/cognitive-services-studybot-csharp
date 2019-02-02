@@ -13,7 +13,7 @@ This sample is meant as a guide (not as a direct download), but instructions bel
 ## Prerequisites - Azure Bot and Emulator
 
 1. [Create a Basic C# web app bot](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart?view=azure-bot-service-4.0) in the [Azure Portal](https://ms.portal.azure.com). If you don't have an Azure account, [create a free Azure account](https://azure.microsoft.com/en-us/free/).
-1. Download your bot code locally, once it has been created. To do this go to the Build section of the Bot management menu.
+1. Download your bot code locally once it has been created. To do this go to the Build section of the Bot management menu.
 
     <img src="/Assets/download-bot-code.png">
 
