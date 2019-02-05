@@ -75,14 +75,14 @@ After you have created your web app bot (above), you will see a LUIS app has bee
     dispatch add -t qna -i {chitChatKbId} -k {QnaKey from Azure}
     dispatch create
     ```
-1. With all your services added, you can view them in the `<YOUR-BOT-NAME>.dispatch` file that was just created (by the Dispatch commands) to see the services. Also notice the `<YOUR-BOT-NAME>.json` file now contains a very long list of every utterance you have from your LUIS Dispatch app from all its intents.
+1. With all your services added, you can view them in the `<YOUR-BOT-NAME>.dispatch` file that was just created (by the Dispatch commands). Also notice the `<YOUR-BOT-NAME>.json` file now contains a very long list of every utterance you have from your LUIS Dispatch app from all its intents.
 1. This Dispatch sequence also creates a special LUIS app for the Dispatch service in luis.ai. Note: you'll use the authoring and endpoint keys from this app in your .bot file later.
 1. Go to your account in luis.ai and find the Dispatch app just created. You can see there is a `None` intent (default) and then your knowledge base intents. However, these are not named well, as they are a string of random characters. Make sure to rename them (click pencil icon near title) to match the naming in your .bot file for these QnA knowledge bases. For instance, the geology KB is named StudyGeology, in luis.ai, qnamaker.ai, and in the .bot file (name field of each object). They all need to match.
 1. After renaming your LUIS intents, train and publish them. It might take a minute or two to see the changes reflected in your responses in the chat client (if already testing).
 
 #### Enable Bing Spell Check
 
-1. In the Startup.cs file of this sample, copy the BingSpellCheckKey variable and add it to your Startup.cs file at the top. Add your Bing Spell Check Key where indicated. If you do not yet have a Bing Spell Check resource in Azure, [get a free trial](https://azure.microsoft.com/en-us/try/cognitive-services/my-apis/?api=spellcheck-api), or create a new Bing Spell Check v7 resource in the Azure portal and fetch its key.
+In the Startup.cs file of this sample, copy the BingSpellCheckKey variable and add it to your Startup.cs file at the top. Add your Bing Spell Check Key where indicated. If you do not yet have a Bing Spell Check resource in Azure, [get a free trial](https://azure.microsoft.com/en-us/try/cognitive-services/my-apis/?api=spellcheck-api), or create a new Bing Spell Check v7 resource in the Azure portal and fetch its key.
 
 ## Prerequisites - Syncing the code
 
@@ -94,7 +94,7 @@ Now that your Dispatch structure is set in your bot and in luis.ai, you only nee
     ```C#
     var botConfig = BotConfiguration.Load(botFilePath ?? @".\<YOUR-BOTNAME>.bot", secretKey);
     ```
-1. Finally, take the StudyBotCsharp.bot file of this sample and see what is missing in your .bot file. The beginning and end should look like this sample, but the objects in the list can vary. For example, make sure to paste these beginning/end parts over those in your bot:
+1. Finally, take the StudyBotCsharp.bot file of this sample and see what is missing in your .bot file. The beginning and end should look like this sample, but the objects in the list can vary. Make sure to paste these beginning/end parts over those in your bot:
    ```json
      "name": "<YOUR-BOT-NAME>",
      "description": "",
@@ -135,22 +135,22 @@ Now that your Dispatch structure is set in your bot and in luis.ai, you only nee
 
 ### Connect to bot using Bot Framework Emulator
 
-- Build/run your bot project. You'll see a browser window open that confirms success.
-- Launch the Bot Framework Emulator
-- File -> Open bot and navigate to your bot project folder
-- Select `<YOUR-BOT-NAME>.bot` file and it opens in the emulator.
-- When you see `[19:15:57]POST 200 conversations.replyToActivity`, your bot is ready to take input.
-- Type any question of your knowledge bases (from any one) and the answer should be returned. 
-- Note: your project must be running in order to use the emulator.
+1. Build/run your bot project. You'll see a browser window open that confirms success.
+1. Launch the Bot Framework Emulator
+1. File -> Open bot and navigate to your bot project folder
+1. Select `<YOUR-BOT-NAME>.bot` file and it opens in the emulator.
+1. When you see `[19:15:57]POST 200 conversations.replyToActivity`, your bot is ready to take input.
+1. Type any question of your knowledge bases (from any one) and the answer should be returned. 
+1. Note: your project must be running in order to use the emulator.
 
 ## Deploy this bot to Azure
 
 ### Publish from Visual Studio
 
-- Open the .PublishSettings file you find in the PostDeployScripts folder
-- Copy the userPWD value
-- Right-click on your Project of the Solution Explorer in Visual Studio and click the menu item "Publish".
-- Click the "Publish" button when the file opens and then paste the password you just copied into the popup.
+1. Open the .PublishSettings file you find in the PostDeployScripts folder
+1. Copy the userPWD value
+1. Right-click on your Project of the Solution Explorer in Visual Studio and click the menu item "Publish".
+1. Click the "Publish" button when the file opens and then paste the password you just copied into the popup.
 
 ### Troubleshooting for the Azure Web Chat
 
