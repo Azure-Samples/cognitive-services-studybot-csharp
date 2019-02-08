@@ -10,6 +10,12 @@ The new QnA Maker feature [Chitchat](https://docs.microsoft.com/en-us/azure/cogn
 
 This sample is meant as a guide (not as a direct download), but instructions below show you how to create your own sample with your own Cognitive Service resources to create a Study Bot chat client.
 
+## Nuget packages needed
+* Microsoft.Bot.Builder.AI.QnA
+* 
+
+Note: if any of the packages fail to restore, try installing a version less than the recommended one. For instance, you might see version 4.2.2 as the default to install, if that doesn't work, try 4.2.0 or lower.
+
 ## Prerequisites - Azure Bot and Emulator
 
 1. [Create a Basic C# web app bot](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart?view=azure-bot-service-4.0) in the [Azure Portal](https://ms.portal.azure.com). If you don't have an Azure account, [create a free Azure account](https://azure.microsoft.com/en-us/free/).
@@ -89,7 +95,7 @@ In the Startup.cs file of this sample, copy the BingSpellCheckKey variable and a
 Now that your Dispatch structure is set in your bot and in luis.ai, you only need to copy/paste missing code when comparing your bot with this sample.
 
 1. Compare BotServices.cs files of the sample with your own and add any missing pieces to yours. It might be easier to copy/paste the entire file.
-1. Create a NlpDispatchBot.cs file in your project structure in Visual Studio and copy/paste code from the sample's file of this name. Be sure the variable names match your knowledge base names in your .bot file, including the `DispatchKey`. There are two sets of these names, one at the top of the file, the second in the DispatchToTopIntentAsync() function. You can change the `Welcome Text` to be whatever you'd like.
+1. Create a NlpDispatchBot.cs file in your project structure in Visual Studio and copy/paste code from the sample's file of this name. Be sure the variable names match your knowledge base names in your .bot file, including the `DispatchKey`. You can change the `Welcome Text` to be whatever you'd like.
 1. Compare/copy/paste the Startup.cs file with the one in this sample. Be sure that the `botConfig` variable reflects your .bot file name so it knows to check resources there, like this:
     ```C#
     var botConfig = BotConfiguration.Load(botFilePath ?? @".\<YOUR-BOTNAME>.bot", secretKey);
