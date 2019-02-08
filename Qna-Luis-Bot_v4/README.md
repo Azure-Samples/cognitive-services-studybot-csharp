@@ -10,9 +10,9 @@ The new QnA Maker feature [Chitchat](https://docs.microsoft.com/en-us/azure/cogn
 
 This sample is meant as a guide (not as a direct download), but instructions below show you how to create your own sample with your own Cognitive Service resources to create a Study Bot chat client.
 
-## Nuget packages needed
+## Additional NuGet packages needed
 * Microsoft.Bot.Builder.AI.QnA
-* 
+* Microsoft.Bot.Builder.AI.Luis
 
 Note: if any of the packages fail to restore, try installing a version less than the recommended one. For instance, you might see version 4.2.2 as the default to install, if that doesn't work, try 4.2.0 or lower.
 
