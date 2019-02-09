@@ -94,10 +94,10 @@ In the Startup.cs file of this sample, copy the BingSpellCheckKey variable and a
 
 Now that your Dispatch structure is set in your bot and in luis.ai, you only need to copy/paste missing code when comparing your bot with this sample.
 
-1. Compare BotServices.cs files of the sample with your own and add any missing pieces to yours. It might be easier to copy/paste the entire file.
-1. Create a NlpDispatchBot.cs file in your project structure in Visual Studio and copy/paste code from the sample's file of this name. Be sure the variable names at the top match your knowledge base names in your .bot file, including the `DispatchKey`. You can change the `Welcome Text` to be whatever you'd like. Also adjust the variable names in the DispatchToTopIntentAsync() function.
-1. Compare/copy/paste the Startup.cs file with the one in this sample. Add your own Bing Spell Check key at the top.
-1. Finally, take the StudyBotCsharp.bot file of this sample and see what is missing in your .bot file. DO NOT copy/paste the entire file from this sample. Your .bot file has unique IDs to your bot. It's ok to copy/paste some of the JSON objects in the "services" array though, and fill in the missing keys/IDs. The beginning and end, however, should look like this sample, but the objects in the list can vary. Make sure to paste these beginning/end parts over those in your bot:
+1. Copy/paste the entire BotServices.cs file of the sample over your own. Include everything (libraries at top).
+1. Create a NlpDispatchBot.cs file in your project structure in Visual Studio and copy/paste the whole NlpDispatchBot.cs file of this smaple over yours. Be sure the variable names at the top match your knowledge base names in your .bot file, including the `DispatchKey`. You can change the `Welcome Text` to be whatever you'd like. Also adjust the similar knowledge base variable names in the DispatchToTopIntentAsync() function.
+1. Copy/paste the Startup.cs file in this sample over yours. Add your own Bing Spell Check key at the top, where indicated.
+1. Finally, let's fix the StudyBotCsharp.bot file. DO NOT copy/paste the entire file from this sample. Your .bot file has unique IDs to your bot. It's ok to copy/paste some of the JSON objects in the "services" array though, and fill in the missing keys/IDs. The beginning and end, however, should look like this sample, but the objects in the list can vary. Make sure to paste these beginning/end parts over those in your bot:
    ```json
      "name": "<YOUR-BOT-NAME>",
      "description": "",
@@ -110,7 +110,7 @@ Now that your Dispatch structure is set in your bot and in luis.ai, you only nee
        "version": "2.0",
        "secretKey": ""
    ```
-1. One object that needs replacing in your .bot file is the auto-generated LUIS app. You'll see it's the only object with type "luis". That is what gets generated when you first create the web app bot in Azure, but since you created your own Dispatch app in LUIS, you want to use that one instead. So paste the code below over your default LUIS app object. the appId and authoringKey can be found in your LUIS app under the "Manage" menu, when you open your Dispatch app in luis.ai. The subscription ID is your main key in the Azure Portal. It's the same for every service you create, which can be found under the service resource's "Overview" menu item.
+1. One object that needs replacing in your .bot file is the auto-generated LUIS app. You'll see it's the only object with type "luis". That is what gets generated when you first create the web app bot in Azure, but since you created your own Dispatch app in LUIS, you want to use that one instead. So paste the type dispatch and type qna objects from this sample over your default LUIS app object. The appId and authoringKey can be found in your LUIS Dispatch app under the "Manage" menu, when you open your Dispatch app in luis.ai. The subscription key is your main subscription ID in the Azure Portal. It's the same for every service you create, which can be found under the service resource's "Overview" menu item.
     ```json
     {
       "type": "dispatch",
@@ -131,8 +131,8 @@ Now that your Dispatch structure is set in your bot and in luis.ai, you only nee
       "id": "161"
     },
     ```
-1. For the rest of the .bot file, you will need to fill in the keys, IDs, endpoints, and hostnames for each service if applicable. Much of this file was auto-created, so only add missing items to your .bot file.
-1. This sample uses Dispatch serviceIds 7, 8, 9, 10 (shown above) which are the IDs of the QnA objects in the .bot file. Be sure to change the Dispatch serviceIds to match your specific service IDs in your .bot file. Basically, all your knowledge base "id"s.
+1. After your type dispatch and type qna objects have been pasted in, you will need to fill in the keys, IDs, endpoints, and hostnames for each service, if applicable. 
+1. This sample uses Dispatch serviceIds 7, 8, 9, 10 (shown above), which are the IDs of the QnA objects in the .bot file. Be sure to change the Dispatch serviceIds to match your specific IDs of your QnA Maker objects in your .bot file. They may differ. You can assign them any number you'd like, they are arbitrary, so long as the ones in the .bot file match the .dspatch ones. For instance, the StudyBiology knowledge base might have an ID of 5 in the .dispatch file, so then it should also be 5 in the .bot file.
 
 ## Run and test your bot
 
