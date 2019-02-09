@@ -97,7 +97,7 @@ Now that your Dispatch structure is set in your bot and in luis.ai, you only nee
 1. Compare BotServices.cs files of the sample with your own and add any missing pieces to yours. It might be easier to copy/paste the entire file.
 1. Create a NlpDispatchBot.cs file in your project structure in Visual Studio and copy/paste code from the sample's file of this name. Be sure the variable names at the top match your knowledge base names in your .bot file, including the `DispatchKey`. You can change the `Welcome Text` to be whatever you'd like. Also adjust the variable names in the DispatchToTopIntentAsync() function.
 1. Compare/copy/paste the Startup.cs file with the one in this sample. Add your own Bing Spell Check key at the top.
-1. Finally, take the StudyBotCsharp.bot file of this sample and see what is missing in your .bot file. The beginning and end should look like this sample, but the objects in the list can vary. Make sure to paste these beginning/end parts over those in your bot:
+1. Finally, take the StudyBotCsharp.bot file of this sample and see what is missing in your .bot file. DO NOT copy/paste from this sample. Your .bot file has unique IDs to your bot. The beginning and end, however, should look like this sample, but the objects in the list can vary. Make sure to paste these beginning/end parts over those in your bot:
    ```json
      "name": "<YOUR-BOT-NAME>",
      "description": "",
