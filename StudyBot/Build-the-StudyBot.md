@@ -4,14 +4,14 @@ To understand the process more, you may want to build this app from scratch, ins
 
 1. Open Visual Studio 2017+, go to File -> New -> Project -> Visual C# -> Windows Universal -> Blank App (Universal Windows). Name your project and press OK. In the New Universal Windows Platform Project popup, choose “Windows 10 Fall Creators Update” for Minimum version. Press OK.
 1. In the Nuget Package Manager, install these additional packages:
-* Microsoft.Bot.Connector.DirectLine
-* Microsoft.Rest.ClientRuntime
-* Microsoft.CognitiveServices.Speech
+   * Microsoft.Bot.Connector.DirectLine
+   * Microsoft.Rest.ClientRuntime
+   * Microsoft.CognitiveServices.Speech
 1. First, we’ll create the UWP interface. Open your MainPage.xaml and copy/paste all code from [this sample](https://raw.githubusercontent.com/Azure-Samples/cognitive-services-studybot-csharp/master/StudyBot/StudyBot/MainPage.xaml) in Github. 
-* Make sure your app name is in the Page attribute:
-  `<Page> x:Class=”<YOUR-APP-NAME>.MainPage” … </Page>`
-* Also, add your app’s name to the other Page attribute: 
-  `<Page> xmlns:local=”using:<YOUR-APP-NAME>” … </Page>`
+   * Make sure your app name is in the Page attribute:
+     `<Page> x:Class=”<YOUR-APP-NAME>.MainPage” … </Page>`
+   * Also, add your app’s name to the other Page attribute: 
+     `<Page> xmlns:local=”using:<YOUR-APP-NAME>” … </Page>`
 1. Notice: the bot is embedded as a `<StackPanel>` with components: a list, a text box, and the send and speech buttons. This is your custom WebChat. The tabs (`PivotItems`) below that are websites that will run the user’s query after the query is sent by the user. So, if the user types or speaks “virus” into the WebChat, the websites will search for “virus” and provide results.
 1. Next, we’ll add code to our MainPage.xaml.cs file to provide functionality for our interface. Open your MainPage.xaml.cs file and copy/paste code from [this sample](https://raw.githubusercontent.com/Azure-Samples/cognitive-services-studybot-csharp/master/StudyBot/StudyBot/MainPage.xaml.cs).
 1. In your MainPage.xaml.cs file, change your namespace name at the top to match your app’s name (gets rid of a lot of errors).
