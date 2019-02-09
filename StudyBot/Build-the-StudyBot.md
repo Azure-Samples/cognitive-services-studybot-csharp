@@ -23,5 +23,7 @@ To understand the process more, you may want to build this app from scratch, ins
    *Where to find it*: In the Azure portal, open your Speech Service subscription, look under “Keys”.<br>
    `string speechRegion = "<YOUR REGION>"; // ex: westus`<br>
 1. Build/run the application.
-
+ You will see the interface below. Type or press the microphone button to speak your queries to get started.
+ 
+ <img src="study-bot-interface.PNG">
 
