@@ -17,10 +17,10 @@ To understand the process more, you may want to build this app from scratch, ins
 1. In your MainPage.xaml.cs file, change your namespace name at the top to match your app’s name (gets rid of a lot of errors).
 1. Provide your unique values for Cognitive Services at the top: <br>
    `string botSecretKey = "<ADD YOUR DIRECTLINE SECRET KEY HERE>";`<br>
-   **Where to find it**: In the Azure portal, open your web app bot service -> go to Channels - > click the globe icon (this is for Direct Line) -> in that channel (click edit) grab one of the keys (either one works).<br>
+   *Where to find it*: In the Azure portal, open your web app bot service -> go to Channels - > click the globe icon (this is for Direct Line) -> in that channel (click edit) grab one of the keys (either one works).<br>
    `string botHandle = "<ADD YOUR BOT NAME HERE>";`<br>
    `string speechSubscription = "<YOUR AZURE SPEECH SERVICE SUBSCRIPTION KEY>";`<br>
-   **Where to find it**: In the Azure portal, open your Speech Service subscription, look under “Keys”.<br>
+   *Where to find it*: In the Azure portal, open your Speech Service subscription, look under “Keys”.<br>
    `string speechRegion = "<YOUR REGION>"; // ex: westus`<br>
 1. Build/run the application.
 
