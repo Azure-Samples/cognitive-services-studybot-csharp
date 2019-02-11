@@ -14,7 +14,7 @@ This sample is meant as a guide (not as a direct download), but instructions bel
 * Microsoft.Bot.Builder.AI.QnA
 * Microsoft.Bot.Builder.AI.Luis
 
-Note: if any of the packages fail to restore, try installing a version less than the recommended one. For instance, you might see version 4.2.2 as the default to install, if that doesn't work, try 4.2.0 or lower.
+Note: if any of the packages fail to restore, try installing a version less than the recommended one. For instance, you might see version 4.2.2 as the default to install, if that doesn't work, try 4.2.0 or lower. If none of the lower versions work, try updating these packages the next day. Sometimes dependencies on other packages are still being developed. You'd know if this is a problem because you'd get SDK/library errors when you try to run your code.
 
 ## Prerequisites - Azure Bot and Emulator
 
