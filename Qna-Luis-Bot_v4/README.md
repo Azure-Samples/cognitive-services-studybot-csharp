@@ -174,6 +174,7 @@ Due to the dispatch commands, it's possible after you publish your code back to 
 
 ## Further reading
 
+- [Dispatch Command Line tool](https://github.com/Microsoft/botbuilder-tools/tree/master/packages/Dispatch#removing-dispatch-source). There are a few different ways to use the dispatch commands to build your bot. At the link, you'll find a list of all commands for dispatch. Includes adding and removing knowledge bases, and more. NOTE: the msbot commands will add the LUIS dispatch app and QnA Maker to your `.dispatch` and `.bot` files, but be aware it also encrypts some of the keys (adds lots of random characters). For purposes of testing, you might want to replace these with your actual keys so you do not have errors in the emulator or with publishing back to Azure.
 - [Bot Framework Documentation](https://docs.botframework.com)
 - [Bot basics](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0)
 - [Azure Bot Service Introduction](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0)
