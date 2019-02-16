@@ -77,10 +77,10 @@ After you have created your web app bot (above), you will see a LUIS app has bee
 1. From your project's root folder, execute these Dispatch commands, one line at a time.
     ```bash
     dispatch init -n {DispatchName} --luisAuthoringKey xxxxxxxxxxxxxxxxxxxx --luisAuthoringRegion {LUISauthoringRegion} --culture en-us
-    dispatch add -t qna -i {kbId1} -k {QnaKey from Azure}
-    dispatch add -t qna -i {kbId2} -k {QnaKey from Azure}
-    dispatch add -t qna -i {kbId3} -k {QnaKey from Azure}
-    dispatch add -t qna -i {chitChatKbId} -k {QnaKey from Azure}
+    dispatch add -t qna -i {kbId1} -n {Knowledge base name} -k {QnaKey from Azure}
+    dispatch add -t qna -i {kbId2} -n {Knowledge base name} -k {QnaKey from Azure}
+    dispatch add -t qna -i {kbId3} -n {Knowledge base name} -k {QnaKey from Azure}
+    dispatch add -t qna -i {chitChatKbId} -n {Knowledge base name} -k {QnaKey from Azure}
     dispatch create
     ```
 1. With all your services added, you can view them in the `<YOUR-BOT-NAME>.dispatch` file that was just created (by the Dispatch commands). Also notice the `<YOUR-BOT-NAME>.json` file now contains a very long list of every utterance you have from your LUIS Dispatch app from all its intents.
