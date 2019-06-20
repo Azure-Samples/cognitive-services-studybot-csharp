@@ -27,7 +27,7 @@ These samples create a Study Bot chat client using [QnA Maker](https://docs.micr
 
 1. Visual Studio 2017+
 
-1. Qna-Luis-Bot (v3 or v4) is a C# .NET Standard app
+1. Qna-Luis-Bot_v4 is a C# .NET Standard app
 
 1. Study Bot is a C# UWP app
 
