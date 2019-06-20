@@ -6,9 +6,15 @@ The new QnA Maker feature [Chitchat](https://docs.microsoft.com/en-us/azure/cogn
 
 [BingSpellCheck](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-tutorial-bing-spellcheck) was added to the bot to correct light misspellings.
 
-[Speech Service](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/) has been added to the enclosing UWP app that this bot embeds into. To understand how Speech Service is incorporated into the UWP app, check out this [sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBottomUpList) (Scenario 2) or refer to the [Study Bot app](https://github.com/Azure-Samples/cognitive-services-studybot-csharp/tree/master/StudyBot) itself to view the Speech code. It "talks" with the embedded bot through [Direct Line](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-directline?view=azure-bot-service-4.0).
+[Speech Service](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/) has been added to the enclosing UWP app that this bot embeds into. To understand how Speech Service is incorporated into the UWP app, check out this [sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBottomUpList) (Scenario 2) or refer to the [Study Bot app](https://github.com/Azure-Samples/cognitive-services-studybot-csharp/tree/master/StudyBot) itself to view the Speech code. The UWP app "talks" with the embedded bot through [Direct Line](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-directline?view=azure-bot-service-4.0).
 
 This sample is meant as a guide (not as a direct download), but instructions below show you how to create your own sample with your own Cognitive Service resources to create a Study Bot chat client.
+
+## Additional NuGet packages needed
+* Microsoft.Bot.Builder.AI.QnA
+* Microsoft.Bot.Builder.AI.Luis
+
+Note: if any of the packages fail to restore, try installing a version less than the recommended one. For instance, you might see version 4.2.2 as the default to install, if that doesn't work, try 4.2.0 or lower. If none of the lower versions work, try updating these packages the next day. Sometimes dependencies on other packages are still being developed. You'd know if this is a problem because you'd get SDK/library errors when you try to run your code.
 
 ## Prerequisites - Azure Bot and Emulator
 
@@ -31,7 +37,7 @@ This sample is meant as a guide (not as a direct download), but instructions bel
     }
     ```
 1. [Download the Bot Emulator](https://github.com/Microsoft/BotFramework-Emulator/releases) in preparation to test chat queries with Visual Studio.
-1. You'll need to [download Ngrok](https://ngrok.com/download) for the emulator. Ngrok has a free version and you don't need to create an account, just download it. If Ngrok is not configured, you'll see a link in your emulator where you can click to configure it.
+1. You'll need to [download Ngrok](https://ngrok.com/download) for the emulator. Ngrok has a free version and you don't need to create an account, just download it. If Ngrok is not configured, you'll see a link in your emulator where you can click to configure (edit) it.
 
     <img src="/Assets/configure-ngrok.png">
     
@@ -39,9 +45,11 @@ This sample is meant as a guide (not as a direct download), but instructions bel
 
 ### QnA Maker
 
-1. For the QnA Maker part, you'll need to [Create, train, and publish](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/create-publish-knowledge-base) three knowledge bases (KBs) in [qnamaker.ai](https://www.qnamaker.ai). Refer to the text files in this sample in the `Qna-Luis-Bot/FAQs` folder named QA Biology, QA Sociology, and QA Geology for FAQs you can upload into qnamaker.ai when creating a new knowledge base. Name your knowledge bases "StudyBiology", "StudySociology", and "StudyGeology". 
+If you're using the QnA Maker Azure free account, you'll be limited to creating only three  knowledge bases. So, feel free to omit one of the four described here. I'd recommend to keep the Chit-chat KB (since it's unique) and omit one of the others, if needed. Have a minimum of two KBs since the purpose of LUIS is to "dispatch" the user query to the right knowledge base. If you only have one, there will be no need to dispatch.
+
+1. For the QnA Maker part, you'll need to [Create, train, and publish](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/create-publish-knowledge-base) three knowledge bases (KBs) in [qnamaker.ai](https://www.qnamaker.ai). Refer to the `.tsv` files in this sample in the [Qna-Luis-Bot_v4/FAQs](https://github.com/Azure-Samples/cognitive-services-studybot-csharp/tree/master/Qna-Luis-Bot_v4/FAQs) folder named `StudyBiology.tsv`, `StudySociology.tsv`, and `StudyGeology.tsv` for FAQs you can upload into qnamaker.ai when creating a new knowledge base. Choose "Create a knowledge base" in qnamaker.ai in the top menu bar, go through all the steps, and name your knowledge bases "StudyBiology", "StudySociology", and "StudyGeology". In Step 4 you will see where you can upload a file.
 1. If you want to include Chitchat, [create a new knowledge base](https://www.qnamaker.ai/Create) but leave it empty (don't upload any files or URLs) and in Step 4, enable the Chitchat personality of your choice by selecting a radio button and choosing "Create your KB" at the bottom of the page. Once you create it, you will see it has been populated with lots of standard Chitchat questions and answers. Be sure to train and publish it in "My knowledge bases".
-1. You will want to add alternative keywords to your knowledge base questions in qnamaker.ai. These are found in the `FAQs/Alt questions` folder. To add them to your knowledge bases, go to "My knowledge bases" in [qnamaker.ai](https://www.qnamaker.ai) and in each knowledge base click the "+" sign near each question (after your knowledge bases have been created). Type in the alternative question. This is only needed for the Biology, Geology, and Sociology KBs.
+1. You might want to add alternative keywords to your knowledge base questions in qnamaker.ai in addition to the ones already there. To add them to your knowledge bases, go to "My knowledge bases" in [qnamaker.ai](https://www.qnamaker.ai) and in each knowledge base click the "+" sign near each question (after your knowledge bases have been created). Type in the alternative question (term). This is only needed for the Biology, Geology, and Sociology KBs.
 
     <img src="/Assets/alt-question-kb.png">
     
@@ -69,32 +77,29 @@ After you have created your web app bot (above), you will see a LUIS app has bee
 1. From your project's root folder, execute these Dispatch commands, one line at a time.
     ```bash
     dispatch init -n {DispatchName} --luisAuthoringKey xxxxxxxxxxxxxxxxxxxx --luisAuthoringRegion {LUISauthoringRegion} --culture en-us
-    dispatch add -t qna -i {kbId1} -k {QnaKey from Azure}
-    dispatch add -t qna -i {kbId2} -k {QnaKey from Azure}
-    dispatch add -t qna -i {kbId3} -k {QnaKey from Azure}
-    dispatch add -t qna -i {chitChatKbId} -k {QnaKey from Azure}
+    dispatch add -t qna -i {kbId1} -n {Knowledge base name} -k {QnaKey from Azure}
+    dispatch add -t qna -i {kbId2} -n {Knowledge base name} -k {QnaKey from Azure}
+    dispatch add -t qna -i {kbId3} -n {Knowledge base name} -k {QnaKey from Azure}
+    dispatch add -t qna -i {chitChatKbId} -n {Knowledge base name} -k {QnaKey from Azure}
     dispatch create
     ```
-1. With all your services added, you can view them in the `<YOUR-BOT-NAME>.dispatch` file that was just created (by the Dispatch commands) to see the services. Also notice the `<YOUR-BOT-NAME>.json` file now contains a very long list of every utterance you have from your LUIS Dispatch app from all its intents.
+1. With all your services added, you can view them in the `<YOUR-BOT-NAME>.dispatch` file that was just created (by the Dispatch commands). Also notice the `<YOUR-BOT-NAME>.json` file now contains a very long list of every utterance you have from your LUIS Dispatch app from all its intents.
 1. This Dispatch sequence also creates a special LUIS app for the Dispatch service in luis.ai. Note: you'll use the authoring and endpoint keys from this app in your .bot file later.
 1. Go to your account in luis.ai and find the Dispatch app just created. You can see there is a `None` intent (default) and then your knowledge base intents. However, these are not named well, as they are a string of random characters. Make sure to rename them (click pencil icon near title) to match the naming in your .bot file for these QnA knowledge bases. For instance, the geology KB is named StudyGeology, in luis.ai, qnamaker.ai, and in the .bot file (name field of each object). They all need to match.
 1. After renaming your LUIS intents, train and publish them. It might take a minute or two to see the changes reflected in your responses in the chat client (if already testing).
 
 #### Enable Bing Spell Check
 
-1. In the Startup.cs file of this sample, copy the BingSpellCheckKey variable and add it to your Startup.cs file at the top. Add your Bing Spell Check Key where indicated. If you do not yet have a Bing Spell Check resource in Azure, [get a free trial](https://azure.microsoft.com/en-us/try/cognitive-services/my-apis/?api=spellcheck-api), or create a new Bing Spell Check v7 resource in the Azure portal and fetch its key.
+In the Startup.cs file of this sample, copy the BingSpellCheckKey variable and add it to your Startup.cs file at the top. Add your Bing Spell Check Key where indicated. If you do not yet have a Bing Spell Check resource in Azure, [get a free trial](https://azure.microsoft.com/en-us/try/cognitive-services/my-apis/?api=spellcheck-api), or create a new Bing Spell Check v7 resource in the Azure portal and fetch its key.
 
 ## Prerequisites - Syncing the code
 
 Now that your Dispatch structure is set in your bot and in luis.ai, you only need to copy/paste missing code when comparing your bot with this sample.
 
-1. Compare BotServices.cs files of the sample with your own and add any missing pieces to yours. It might be easier to copy/paste the entire file.
-1. Create a NlpDispatchBot.cs file in your project structure in Visual Studio and copy/paste code from the sample's file of this name. Be sure the variable names match your knowledge base names in your .bot file, including the `DispatchKey`. You can change the `Welcome Text` to be whatever you'd like.
-1. Compare/copy/paste the Startup.cs file with the one in this sample. Be sure that the `botConfig` variable reflects your .bot file name so it knows to check resources there, like this:
-    ```C#
-    var botConfig = BotConfiguration.Load(botFilePath ?? @".\<YOUR-BOTNAME>.bot", secretKey);
-    ```
-1. Finally, take the StudyBotCsharp.bot file of this sample and see what is missing in your .bot file. The beginning and end should look like this sample, but the objects in the list can vary. For example, make sure to paste these beginning/end parts over those in your bot:
+1. Copy/paste the entire BotServices.cs file of the sample over your own. Include everything (libraries at top).
+1. Create a NlpDispatchBot.cs file in your project structure in Visual Studio and copy/paste the whole NlpDispatchBot.cs file of this smaple over yours. Be sure the variable names at the top match your knowledge base names in your .bot file, including the `DispatchKey`. You can change the `Welcome Text` to be whatever you'd like. Also adjust the similar knowledge base variable names in the DispatchToTopIntentAsync() function.
+1. Copy/paste the Startup.cs file in this sample over yours. Add your own Bing Spell Check key at the top, where indicated.
+1. Finally, let's fix the StudyBotCsharp.bot file. DO NOT copy/paste the entire file from this sample. Your .bot file has unique IDs to your bot. It's ok to copy/paste some of the JSON objects in the "services" array though, and fill in the missing keys/IDs. The beginning and end, however, should look like this sample, but the objects in the list can vary. Make sure to paste these beginning/end parts over those in your bot:
    ```json
      "name": "<YOUR-BOT-NAME>",
      "description": "",
@@ -107,7 +112,7 @@ Now that your Dispatch structure is set in your bot and in luis.ai, you only nee
        "version": "2.0",
        "secretKey": ""
    ```
-1. One object that needs replacing in your .bot file is the auto-generated LUIS app. You'll see it's the only object with type "luis". That is what gets generated when you first create the web app bot in Azure, but since you created your own Dispatch app in LUIS, you want to use that one instead. So paste the code below over your default LUIS app object. the appId and authoringKey can be found in your LUIS app under the "Manage" menu, when you open your Dispatch app in luis.ai. The subscription ID is your main key in the Azure Portal. It's the same for every service you create, which can be found under the service resource's "Overview" menu item.
+1. One object that needs replacing in your .bot file is the auto-generated LUIS app. You'll see it's the only object with type "luis". That is what gets generated when you first create the web app bot in Azure, but since you created your own Dispatch app in LUIS, you want to use that one instead. So paste the type dispatch and type qna objects from this sample over your default LUIS app object. The appId and authoringKey can be found in your LUIS Dispatch app under the "Manage" menu, when you open your Dispatch app in luis.ai. The subscription key is your main subscription ID in the Azure Portal. It's the same for every service you create, which can be found under the service resource's "Overview" menu item.
     ```json
     {
       "type": "dispatch",
@@ -128,29 +133,29 @@ Now that your Dispatch structure is set in your bot and in luis.ai, you only nee
       "id": "161"
     },
     ```
-1. For the rest of the .bot file, you will need to fill in the keys, IDs, endpoints, and hostnames for each service if applicable. Much of this file was auto-created, so only add missing items to your .bot file.
-1. This sample uses Dispatch serviceIds 7, 8, 9, 10 (shown above) which are the IDs of the QnA objects in the .bot file. Be sure to change the Dispatch serviceIds to match your specific service IDs in your .bot file. Basically, all your knowledge base "id"s.
+1. After your type dispatch and type qna objects have been pasted in, you will need to fill in the keys, IDs, endpoints, and hostnames for each service, if applicable. 
+1. This sample uses Dispatch serviceIds 7, 8, 9, 10 (shown above), which are the IDs of the QnA objects in the .bot file. Be sure to change the Dispatch serviceIds to match your specific IDs of your QnA Maker objects in your .bot file. They may differ. You can assign them any number you'd like, they are arbitrary, so long as the ones in the .bot file match the .dspatch ones. For instance, the StudyBiology knowledge base might have an ID of 5 in the .dispatch file, so then it should also be 5 in the .bot file.
 
 ## Run and test your bot
 
 ### Connect to bot using Bot Framework Emulator
 
-- Build/run your bot project. You'll see a browser window open that confirms success.
-- Launch the Bot Framework Emulator
-- File -> Open bot and navigate to your bot project folder
-- Select `<YOUR-BOT-NAME>.bot` file and it opens in the emulator.
-- When you see `[19:15:57]POST 200 conversations.replyToActivity`, your bot is ready to take input.
-- Type any question of your knowledge bases (from any one) and the answer should be returned. 
-- Note: your project must be running in order to use the emulator.
+1. Build/run your bot project. You'll see a browser window open that confirms success.
+1. Launch the Bot Framework Emulator
+1. File -> Open bot and navigate to your bot project folder
+1. Select `<YOUR-BOT-NAME>.bot` file and it opens in the emulator.
+1. When you see `[19:15:57]POST 200 conversations.replyToActivity`, your bot is ready to take input.
+1. Type any question of your knowledge bases (from any one) and the answer should be returned. 
+1. Note: your project must be running in order to use the emulator.
 
 ## Deploy this bot to Azure
 
 ### Publish from Visual Studio
 
-- Open the .PublishSettings file you find in the PostDeployScripts folder
-- Copy the userPWD value
-- Right-click on your Project of the Solution Explorer in Visual Studio and click the menu item "Publish".
-- Click the "Publish" button when the file opens and then paste the password you just copied into the popup.
+1. Open the .PublishSettings file you find in the PostDeployScripts folder
+1. Copy the userPWD value
+1. Right-click on your Project of the Solution Explorer in Visual Studio and click the menu item "Publish".
+1. Click the "Publish" button when the file opens and then paste the password you just copied into the popup.
 
 ### Troubleshooting for the Azure Web Chat
 
@@ -169,6 +174,7 @@ Due to the dispatch commands, it's possible after you publish your code back to 
 
 ## Further reading
 
+- [Dispatch Command Line tool](https://github.com/Microsoft/botbuilder-tools/tree/master/packages/Dispatch#removing-dispatch-source). There are a few different ways to use the dispatch commands to build your bot. At the link, you'll find a list of all commands for dispatch. Includes adding and removing knowledge bases, and more. NOTE: the msbot commands will add the LUIS dispatch app and QnA Maker to your `.dispatch` and `.bot` files, but be aware it also encrypts some of the keys (adds lots of random characters). For purposes of testing, you might want to replace these with your actual keys so you do not have errors in the emulator or with publishing back to Azure.
 - [Bot Framework Documentation](https://docs.botframework.com)
 - [Bot basics](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0)
 - [Azure Bot Service Introduction](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0)
@@ -176,6 +182,5 @@ Due to the dispatch commands, it's possible after you publish your code back to 
 - [LUIS](https://luis.ai)
 - [QnA Maker](https://qnamaker.ai)
 - [Activity processing](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-activity-processing?view=azure-bot-service-4.0)
-- [Prompt Types](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-prompts?view=azure-bot-service-4.0&
-- [Channels and Bot Connector Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-concepts?view=azure-bot-service-4.0)
+- [Gather user input using a dialog prompt](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-prompts?view=azure-bot-service-4.0&)
 - [Channels and Bot Connector Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-concepts?view=azure-bot-service-4.0)
