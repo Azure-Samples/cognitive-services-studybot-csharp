@@ -7,6 +7,7 @@ products:
   - dotnet
   - azure
   - azure-cognitive-services
+urlFragment: study-bot-csharp
 ---
 
 # Study Bot (C#)
