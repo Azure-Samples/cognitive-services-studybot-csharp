@@ -1,13 +1,15 @@
 ---
 page_type: sample
+description: "These samples create a Study Bot chat client using QnA Maker with Chit-chat, LUIS and Bing Spell Check."
 languages: 
   - csharp
-products: 
+products:
+  - dotnet
   - azure
   - azure-cognitive-services
 ---
 
-# Study Bot
+# Study Bot (C#)
 
 These samples create a Study Bot chat client using [QnA Maker](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/index) (with [Chit-chat](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base)), [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/), [Speech Service](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/), and [Bing Spell Check](https://docs.microsoft.com/en-us/azure/cognitive-services/bing-spell-check/). Each typed or spoken query into the chat bot will be accompanied by relevant search results in an encyclopedia, Microsoft Academic, and a general Bing search as a study aid. Teachers are able to create their own question and answer FAQs to create a study guide as input for the chat bot if they want it to follow a preferred curriculum. However, demo FAQs are available for this sample, included in the [Qna-Luis-Bot_v4/FAQs](https://github.com/Azure-Samples/cognitive-services-studybot-csharp/tree/master/Qna-Luis-Bot_v4/FAQs) folder. The focus of this app is to enable a more relevant experience of studying, where students can study a subject with a customized chat bot along with multiple web resources.
 
