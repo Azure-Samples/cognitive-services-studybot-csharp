@@ -18,7 +18,7 @@ Note: if any of the packages fail to restore, try installing a version less than
 
 ## Prerequisites - Azure Bot and Emulator
 
-1. [Create a Basic C# web app bot](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart?view=azure-bot-service-4.0) in the [Azure Portal](https://ms.portal.azure.com). If you don't have an Azure account, [create a free Azure account](https://azure.microsoft.com/en-us/free/).
+1. [Create a Basic C# web app bot](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart?view=azure-bot-service-4.0) in the [Azure Portal](https://ms.portal.azure.com). If you don't have an Azure account, visit [the Microsoft Cognitive Services Web site](https://azure.microsoft.com/free/cognitive-services/), create a new Azure account, and try Cognitive Services for free.
 1. Download your bot code locally once it has been created. To do this go to the Build section of the Bot management menu.
 
     <img src="/Assets/download-bot-code.png">
