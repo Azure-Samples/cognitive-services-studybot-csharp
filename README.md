@@ -6,7 +6,7 @@ languages:
 products:
   - dotnet
   - azure
-  - azure-cognitive-services
+  - ai-services
 urlFragment: study-bot-csharp
 ---
 
